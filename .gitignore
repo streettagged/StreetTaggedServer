@@ -71,6 +71,6 @@ typings/
 
 # Serverless directories
 .serverless
-
+.dynamodb
 # FuseBox cache
 .fusebox/
