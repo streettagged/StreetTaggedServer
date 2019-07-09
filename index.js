@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 const express = require('express')
 const app = express()
 const AWS = require('aws-sdk');
+const uuid = require('uuid')
+const cors = require('cors')
 
 const ART_TABLE = process.env.ART_TABLE;
 const USERS_TABLE = process.env.USERS_TABLE;
@@ -20,7 +22,7 @@ if (IS_OFFLINE === 'true') {
 } else {
   dynamoDb = new AWS.DynamoDB.DocumentClient();
 };
-
+app.options('*', cors())
 app.use(bodyParser.json({ strict: false }));
 
 app.get('/', function (req, res) {
@@ -42,6 +44,7 @@ app.get('/art/:artId', function (req, res) {
       res.status(400).json({ error: 'Could not get art' });
     }
     if (result.Item) {
+      res.header("Access-Control-Allow-Origin", "*");
       console.log (result)
       res.json(result);
     } else {
@@ -52,8 +55,10 @@ app.get('/art/:artId', function (req, res) {
 
 // Create Art endpoint
 app.post('/art', function (req, res) {
+  res.header("Access-Control-Allow-Origin", "*");
+
   console.log(req.body)
-  const { artId, isActive, isFeatured, picture, name, artist, address, about, registered, coordinates, tags, category } = req.body;
+  const { isActive, isFeatured, picture, name, artist, address, about, registered, coordinates, tags, category } = req.body;
   if (typeof artId !== 'string') {
     res.status(400).json({ error: '"artId" must be a string' });
   } else if (typeof name !== 'string') {
@@ -63,7 +68,7 @@ app.post('/art', function (req, res) {
   const params = {
     TableName: ART_TABLE,
     Item: {
-      artId: artId,
+      artId: uuid.v1(),
       isActive: isActive,
       isFeatured: isFeatured,
       picture: picture,

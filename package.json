@@ -10,12 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.489.0",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "serverless-http": "^2.0.2"
+    "serverless-http": "^2.0.2",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
+    "aws-sdk": "^2.489.0",
     "serverless-domain-manager": "^3.2.6",
     "serverless-dynamodb-local": "^0.2.38",
     "serverless-offline": "^5.7.2"
