@@ -1,0 +1,2427 @@
+[
+    {
+      "artId": "c1ae95b7-f937-4bd2-81e2-26996bc5c824",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Lewis",
+      "artist": "ZILLADYNE",
+      "address": "446 Foster Avenue, Allamuchy, Wyoming, 3136",
+      "about": "Incididunt deserunt consectetur velit Lorem eiusmod consequat eiusmod consectetur enim commodo fugiat aute. Occaecat sint proident dolor nisi adipisicing aliqua ea. Mollit deserunt ex ex duis quis incididunt tempor mollit. Mollit Lorem enim ipsum aliqua fugiat dolore minim aliqua.\r\n",
+      "registered": "2015-01-25T10:24:52 +05:00",
+      "coordinates": [
+        {
+          "latitude": -35.363007,
+          "longitude": -78.615839
+        }
+      ],
+      "tags": [
+        "reprehenderit",
+        "id",
+        "aute",
+        "eiusmod",
+        "eu"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "1ac9c097-8562-4df8-9aa5-59fc092d4666",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Hale",
+      "artist": "APPLIDECK",
+      "address": "933 Underhill Avenue, Kenwood, District Of Columbia, 7950",
+      "about": "Enim id ullamco nulla deserunt aute commodo veniam consectetur eu laborum consectetur occaecat adipisicing velit. In dolor non laborum esse sunt sint magna minim magna. Sunt eu sunt excepteur culpa occaecat. Velit non adipisicing amet aliquip qui dolor ullamco nulla. Sunt ipsum sint Lorem enim.\r\n",
+      "registered": "2016-11-20T01:45:08 +05:00",
+      "coordinates": [
+        {
+          "latitude": -71.908485,
+          "longitude": 89.226196
+        }
+      ],
+      "tags": [
+        "ex",
+        "esse",
+        "aliqua",
+        "consequat",
+        "ad"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "b56a5fd4-3052-40f5-bbb3-0ab1887d7cf9",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Davis",
+      "artist": "RETROTEX",
+      "address": "922 Havemeyer Street, Moscow, Missouri, 8974",
+      "about": "Non et id eu dolore et nisi exercitation in nisi. Ullamco ullamco ex ullamco reprehenderit ad quis. Dolore voluptate mollit ea amet enim elit sint exercitation cillum. Sit labore enim anim non excepteur cupidatat ex veniam eiusmod. Reprehenderit labore aliquip aliquip aliqua do mollit velit nostrud est adipisicing minim magna velit duis. Velit deserunt ea in commodo est fugiat enim officia non cillum adipisicing.\r\n",
+      "registered": "2017-12-24T12:26:18 +05:00",
+      "coordinates": [
+        {
+          "latitude": -29.569833,
+          "longitude": -104.958151
+        }
+      ],
+      "tags": [
+        "id",
+        "ut",
+        "culpa",
+        "laborum",
+        "irure"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "44f4dfda-d62b-4db4-915c-e3b126011f61",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/8.jpg",
+      "name": "Holcomb",
+      "artist": "SEALOUD",
+      "address": "814 Fayette Street, Valmy, Hawaii, 9157",
+      "about": "Commodo cillum aute nostrud nisi irure ullamco laboris consequat consectetur fugiat. Incididunt amet magna incididunt adipisicing mollit. Dolor cillum officia nostrud ipsum et aliquip reprehenderit nulla nulla ad magna esse. Laborum aute laborum aliqua magna do ullamco excepteur.\r\n",
+      "registered": "2014-06-23T01:17:53 +04:00",
+      "coordinates": [
+        {
+          "latitude": 65.816168,
+          "longitude": -130.194559
+        }
+      ],
+      "tags": [
+        "do",
+        "consequat",
+        "veniam",
+        "magna",
+        "nulla"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "69756675-86fd-48b0-8a6e-2dbbf310c681",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/2.jpg",
+      "name": "Powell",
+      "artist": "ZOMBOID",
+      "address": "179 Schweikerts Walk, Catharine, Rhode Island, 7838",
+      "about": "Pariatur aliqua cupidatat cupidatat eiusmod pariatur mollit veniam Lorem reprehenderit do esse. Sint velit laboris commodo amet fugiat eiusmod officia labore cillum id. Magna ipsum ipsum minim sint tempor consequat irure exercitation sunt do amet laborum pariatur deserunt. Occaecat cillum ad consequat id aliquip mollit. Eiusmod est nisi sint id irure pariatur mollit eiusmod voluptate velit consectetur quis. Officia mollit magna aliquip et dolore sint mollit aute occaecat. Pariatur quis ex duis ullamco aute aute anim in occaecat est.\r\n",
+      "registered": "2018-10-23T03:40:41 +04:00",
+      "coordinates": [
+        {
+          "latitude": 82.632558,
+          "longitude": 147.336993
+        }
+      ],
+      "tags": [
+        "deserunt",
+        "mollit",
+        "quis",
+        "esse",
+        "ut"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "b9138757-dd75-4ee8-aa12-983aa77d2907",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Turner",
+      "artist": "ZILLACOM",
+      "address": "766 Hooper Street, Connerton, Minnesota, 1478",
+      "about": "Voluptate officia ex cillum pariatur fugiat dolor deserunt cillum magna reprehenderit exercitation. Occaecat deserunt nulla reprehenderit voluptate mollit pariatur sint ea eu sit duis. Aliqua duis aute dolore anim occaecat ullamco qui quis cupidatat. Qui ex et mollit excepteur laborum quis exercitation dolore enim officia cillum dolore. Sint esse anim aute occaecat consectetur nostrud dolor irure occaecat aute cupidatat cillum.\r\n",
+      "registered": "2015-08-10T02:39:59 +04:00",
+      "coordinates": [
+        {
+          "latitude": 78.245653,
+          "longitude": -136.936267
+        }
+      ],
+      "tags": [
+        "proident",
+        "incididunt",
+        "tempor",
+        "et",
+        "exercitation"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "0dafc5a5-6396-40a8-930f-3ef44af89851",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/2.jpg",
+      "name": "Conway",
+      "artist": "CAPSCREEN",
+      "address": "559 Preston Court, Noblestown, Idaho, 4845",
+      "about": "Officia ea ut dolore elit ex aliqua est duis velit fugiat excepteur. Aliqua velit cillum ullamco duis labore velit veniam. Id et occaecat non culpa eiusmod reprehenderit sint non. Dolore laboris consectetur velit consequat incididunt culpa velit veniam qui irure. Enim enim quis aliquip ut.\r\n",
+      "registered": "2015-01-16T05:20:59 +05:00",
+      "coordinates": [
+        {
+          "latitude": 1.962567,
+          "longitude": -54.774703
+        }
+      ],
+      "tags": [
+        "cillum",
+        "adipisicing",
+        "eiusmod",
+        "sunt",
+        "laboris"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "7ad1e4ee-482e-4090-b2c5-ed833cb20bf2",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/8.jpg",
+      "name": "Mccormick",
+      "artist": "MEGALL",
+      "address": "116 Winthrop Street, Deltaville, Maine, 1925",
+      "about": "Nostrud officia voluptate irure incididunt cillum. Adipisicing elit ullamco eu deserunt. Veniam elit laboris aliquip elit sunt velit. Reprehenderit irure cupidatat sint sunt qui ea. Non deserunt nostrud eiusmod incididunt consequat ut reprehenderit eiusmod et adipisicing id ad Lorem consequat. Mollit nostrud occaecat qui commodo aliqua reprehenderit voluptate qui reprehenderit magna id fugiat. Minim cillum dolor voluptate pariatur consectetur nostrud adipisicing ullamco.\r\n",
+      "registered": "2015-07-09T02:39:59 +04:00",
+      "coordinates": [
+        {
+          "latitude": 28.956377,
+          "longitude": -136.407455
+        }
+      ],
+      "tags": [
+        "ex",
+        "ea",
+        "elit",
+        "tempor",
+        "amet"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "2c899930-fbe6-4f69-a2a3-1e0fe4faa3f2",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Dawson",
+      "artist": "ZENTIA",
+      "address": "674 Carroll Street, Accoville, Indiana, 7486",
+      "about": "Do esse veniam officia est cillum. Exercitation aute sit sit magna velit esse amet ipsum eu officia sit velit Lorem. Do aliquip ad pariatur amet.\r\n",
+      "registered": "2014-04-25T12:19:20 +04:00",
+      "coordinates": [
+        {
+          "latitude": -52.304447,
+          "longitude": -36.490602
+        }
+      ],
+      "tags": [
+        "ullamco",
+        "labore",
+        "et",
+        "cillum",
+        "sit"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "49a40a64-9bd9-49f3-af03-cbd20f1d11ca",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Rivas",
+      "artist": "PROXSOFT",
+      "address": "860 Caton Avenue, Cutter, New Mexico, 7455",
+      "about": "Cupidatat anim irure exercitation irure sint dolor cupidatat do eu. Sunt aliquip proident enim officia amet eiusmod incididunt mollit. Lorem ut nostrud adipisicing deserunt ipsum fugiat amet magna id dolor id labore. Amet aliqua consequat ipsum laborum sunt tempor non anim. Consequat velit laborum in non reprehenderit fugiat. Et voluptate aute esse dolore labore officia exercitation. Lorem elit est aliqua eu.\r\n",
+      "registered": "2018-06-24T03:00:42 +04:00",
+      "coordinates": [
+        {
+          "latitude": -88.765807,
+          "longitude": -77.119925
+        }
+      ],
+      "tags": [
+        "sunt",
+        "amet",
+        "dolor",
+        "excepteur",
+        "incididunt"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "0d5c19c8-551d-4283-930d-bbd33fa75a29",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "William",
+      "artist": "DYNO",
+      "address": "680 Harrison Place, Castleton, Utah, 6110",
+      "about": "Laborum consectetur amet consectetur quis ex ut qui. Laborum aute est mollit qui do aliquip mollit nisi cillum in consequat. Ea commodo quis enim laborum cupidatat est aute officia tempor Lorem. Incididunt qui cillum fugiat tempor do exercitation sit enim reprehenderit dolor eiusmod culpa ipsum reprehenderit. Nisi sit cupidatat esse aliquip eiusmod ea aliquip ea laboris. Ipsum aute anim qui magna dolor voluptate aliqua do.\r\n",
+      "registered": "2019-03-12T02:42:36 +04:00",
+      "coordinates": [
+        {
+          "latitude": 57.43983,
+          "longitude": 147.549639
+        }
+      ],
+      "tags": [
+        "amet",
+        "dolore",
+        "eu",
+        "anim",
+        "minim"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "0ab8196b-4a1c-4c88-a9ac-6f9e64aa9489",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Mcmillan",
+      "artist": "SCENTY",
+      "address": "111 Agate Court, Oberlin, Nevada, 1708",
+      "about": "Non aliqua sint reprehenderit laboris dolore ea eiusmod eu velit mollit dolor mollit. Est deserunt et ullamco eiusmod. Est sunt ipsum irure fugiat aliquip. Est reprehenderit duis et esse sunt tempor cupidatat anim qui exercitation. Mollit dolor laboris enim dolor nostrud quis. Laborum aliquip velit amet incididunt elit est veniam ex eiusmod.\r\n",
+      "registered": "2016-06-03T03:18:55 +04:00",
+      "coordinates": [
+        {
+          "latitude": 77.129041,
+          "longitude": -59.626375
+        }
+      ],
+      "tags": [
+        "amet",
+        "velit",
+        "nisi",
+        "tempor",
+        "anim"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "839a5265-3570-4f95-bbfa-73314e282f88",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Ayers",
+      "artist": "SCENTRIC",
+      "address": "666 Richmond Street, Rodman, Connecticut, 2820",
+      "about": "Dolore voluptate ipsum amet aliquip aliqua officia ex eiusmod Lorem qui Lorem do. Irure reprehenderit aute Lorem culpa esse nostrud occaecat mollit fugiat. Quis commodo cupidatat mollit excepteur duis veniam consectetur amet voluptate esse nisi dolor ea.\r\n",
+      "registered": "2019-05-24T02:19:01 +04:00",
+      "coordinates": [
+        {
+          "latitude": 61.578786,
+          "longitude": 4.086857
+        }
+      ],
+      "tags": [
+        "id",
+        "voluptate",
+        "id",
+        "sunt",
+        "deserunt"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "82cf5b34-ea1c-4cbe-8c22-c981e61a8377",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/8.jpg",
+      "name": "Foster",
+      "artist": "SYNTAC",
+      "address": "227 Roosevelt Court, Virgie, Federated States Of Micronesia, 7149",
+      "about": "Officia do amet incididunt id minim Lorem cillum. Aute non ea tempor mollit duis officia ullamco sit ullamco dolore commodo deserunt anim. Exercitation sint do cupidatat magna magna cillum adipisicing exercitation velit proident.\r\n",
+      "registered": "2018-11-27T09:16:52 +05:00",
+      "coordinates": [
+        {
+          "latitude": -50.365533,
+          "longitude": -21.489487
+        }
+      ],
+      "tags": [
+        "eiusmod",
+        "nostrud",
+        "in",
+        "non",
+        "aliquip"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "5470824b-c2c0-4a6f-b23d-65cc72044ebf",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "Ford",
+      "artist": "SYNKGEN",
+      "address": "900 Barwell Terrace, Dale, Virgin Islands, 2525",
+      "about": "Anim ut et in minim. Sunt reprehenderit nostrud qui duis culpa velit ullamco laboris do cupidatat tempor. In elit labore tempor laboris eu quis in velit excepteur non sunt deserunt est reprehenderit. Nostrud aliquip adipisicing do amet cillum irure veniam qui proident nisi enim proident deserunt. Occaecat commodo duis sint mollit magna.\r\n",
+      "registered": "2014-03-13T03:43:58 +04:00",
+      "coordinates": [
+        {
+          "latitude": 19.338774,
+          "longitude": -40.279444
+        }
+      ],
+      "tags": [
+        "commodo",
+        "non",
+        "qui",
+        "sit",
+        "reprehenderit"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "d83b0b80-b2ff-4c02-b92c-f3cf8526995b",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Fields",
+      "artist": "ZILLIDIUM",
+      "address": "804 Dikeman Street, Lowgap, Iowa, 8821",
+      "about": "Pariatur enim ad incididunt et ullamco laborum labore duis exercitation occaecat. Dolor et elit pariatur enim qui amet ullamco. Id esse elit eu pariatur ad velit commodo. Eu minim quis reprehenderit veniam excepteur culpa qui qui officia aliqua elit minim pariatur. Amet nulla quis in pariatur enim proident ea deserunt enim sint commodo ad consequat deserunt. Dolor Lorem laboris fugiat nostrud labore laborum tempor dolor.\r\n",
+      "registered": "2018-06-19T07:40:23 +04:00",
+      "coordinates": [
+        {
+          "latitude": 37.025476,
+          "longitude": -6.397605
+        }
+      ],
+      "tags": [
+        "aliqua",
+        "mollit",
+        "eu",
+        "sunt",
+        "id"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "d9f3f668-1bce-4506-8969-ff26ecfcb1a5",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Michael",
+      "artist": "ECRAZE",
+      "address": "102 Greenwood Avenue, Vale, American Samoa, 4205",
+      "about": "Elit occaecat cillum enim sit deserunt quis occaecat excepteur reprehenderit ipsum. Velit Lorem Lorem non esse irure officia do duis. Veniam in adipisicing fugiat aliqua est ad amet eiusmod. Velit ea cillum commodo tempor et aliqua. Lorem voluptate sit duis irure culpa mollit reprehenderit ullamco sunt eiusmod.\r\n",
+      "registered": "2016-02-09T09:09:26 +05:00",
+      "coordinates": [
+        {
+          "latitude": -39.111233,
+          "longitude": -170.385883
+        }
+      ],
+      "tags": [
+        "aute",
+        "in",
+        "in",
+        "dolor",
+        "aliqua"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "c1c6a574-d520-4e61-9a46-cdfa13f76609",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Richmond",
+      "artist": "MULTRON",
+      "address": "513 Liberty Avenue, Alleghenyville, Georgia, 507",
+      "about": "Minim duis et consectetur fugiat dolor sint eu aute. Pariatur eiusmod id fugiat labore dolore qui incididunt ullamco sint ipsum deserunt duis consequat veniam. Dolore nostrud tempor ad labore ullamco est cillum. Laborum non irure cupidatat duis nisi sunt magna consectetur sint et sit do voluptate laboris. Officia cupidatat cupidatat laboris reprehenderit id laboris veniam irure exercitation. Commodo sit laborum duis ipsum dolor. Excepteur sint deserunt nisi non pariatur dolor nisi laborum est elit id commodo anim.\r\n",
+      "registered": "2019-06-23T11:11:10 +04:00",
+      "coordinates": [
+        {
+          "latitude": -76.668865,
+          "longitude": 60.929501
+        }
+      ],
+      "tags": [
+        "cupidatat",
+        "duis",
+        "mollit",
+        "cupidatat",
+        "elit"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "d7309616-f267-4c44-a108-54ac8391cc08",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/5.jpg",
+      "name": "Vaughn",
+      "artist": "INJOY",
+      "address": "406 Wogan Terrace, Northridge, Marshall Islands, 9967",
+      "about": "Aute ipsum in aliqua eu veniam ut. Incididunt nostrud veniam nostrud sunt excepteur id sit Lorem nulla minim deserunt ad anim. Adipisicing ad reprehenderit enim aliqua ipsum qui id aliquip do ad do occaecat.\r\n",
+      "registered": "2015-04-12T08:01:42 +04:00",
+      "coordinates": [
+        {
+          "latitude": 58.813598,
+          "longitude": -68.478915
+        }
+      ],
+      "tags": [
+        "aute",
+        "fugiat",
+        "non",
+        "aliqua",
+        "sunt"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "bf3e306f-1fa8-436f-bf07-790c17152820",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Pennington",
+      "artist": "ZIZZLE",
+      "address": "771 Cedar Street, Breinigsville, Virginia, 3367",
+      "about": "Proident elit dolore in nisi esse esse amet ad quis pariatur excepteur Lorem qui laborum. Aute culpa sint commodo magna. Aliqua amet id tempor commodo nostrud reprehenderit exercitation. Proident nisi reprehenderit deserunt dolor excepteur reprehenderit nulla. Irure do reprehenderit ullamco sunt reprehenderit nisi occaecat.\r\n",
+      "registered": "2014-08-27T10:36:28 +04:00",
+      "coordinates": [
+        {
+          "latitude": 29.402085,
+          "longitude": -171.080361
+        }
+      ],
+      "tags": [
+        "exercitation",
+        "cupidatat",
+        "ad",
+        "aute",
+        "ut"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "90d10a52-2a77-4f6f-a1f9-1785b38906c9",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Gibbs",
+      "artist": "TELEPARK",
+      "address": "138 Ryder Street, Alafaya, New York, 201",
+      "about": "Eiusmod magna voluptate aliquip deserunt dolore excepteur mollit eiusmod. Enim ullamco duis ut commodo elit voluptate nisi laboris labore labore cupidatat enim. Ipsum irure sit ullamco non. Excepteur id commodo anim ad veniam consequat amet consectetur enim ex fugiat do sint incididunt.\r\n",
+      "registered": "2016-06-21T01:12:47 +04:00",
+      "coordinates": [
+        {
+          "latitude": 57.22283,
+          "longitude": -135.400541
+        }
+      ],
+      "tags": [
+        "et",
+        "laborum",
+        "ullamco",
+        "sunt",
+        "consectetur"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "81c7f34f-fc0d-4e4b-9d38-c0438215e991",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Lambert",
+      "artist": "AVENETRO",
+      "address": "322 Kings Place, Richmond, Northern Mariana Islands, 2488",
+      "about": "Commodo occaecat laboris ut ipsum nulla. Dolore pariatur incididunt ullamco veniam nostrud velit occaecat pariatur irure pariatur nisi incididunt. Consequat aute magna esse nulla. Id cupidatat aliquip amet ea commodo. Non amet officia Lorem excepteur aliqua proident eiusmod veniam nulla ex.\r\n",
+      "registered": "2015-06-14T08:33:36 +04:00",
+      "coordinates": [
+        {
+          "latitude": -87.494042,
+          "longitude": -16.929452
+        }
+      ],
+      "tags": [
+        "tempor",
+        "aliqua",
+        "voluptate",
+        "do",
+        "labore"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "abb93dae-764d-42b5-abe5-fdc0a2f35015",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/7.jpg",
+      "name": "Bray",
+      "artist": "UNCORP",
+      "address": "886 Wyckoff Avenue, Lowell, Massachusetts, 5946",
+      "about": "Anim incididunt ipsum deserunt adipisicing occaecat occaecat velit ea qui fugiat proident. Amet aute proident nulla pariatur veniam in sit eu sit elit in non est. Laborum eiusmod nostrud ex id commodo Lorem dolor ea. Tempor nisi voluptate consectetur cupidatat laborum aute exercitation. Reprehenderit mollit deserunt id excepteur.\r\n",
+      "registered": "2017-04-16T02:23:24 +04:00",
+      "coordinates": [
+        {
+          "latitude": -70.946126,
+          "longitude": -130.769508
+        }
+      ],
+      "tags": [
+        "id",
+        "laborum",
+        "occaecat",
+        "ipsum",
+        "velit"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "755ada6f-79ed-4b48-8a9d-068fe36a3f36",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Wade",
+      "artist": "TALKOLA",
+      "address": "810 Llama Court, Coral, Oregon, 2126",
+      "about": "Mollit laboris labore do consectetur culpa Lorem aute id elit veniam velit duis reprehenderit. Eu exercitation mollit ad minim ut duis dolore velit eu qui. Et est officia nostrud ex. Excepteur dolor pariatur voluptate reprehenderit reprehenderit consequat commodo mollit commodo deserunt ullamco voluptate esse. Minim laborum exercitation est ut consectetur culpa nostrud reprehenderit fugiat enim irure Lorem. Ea dolore enim incididunt incididunt nulla aliquip ut aute sunt pariatur.\r\n",
+      "registered": "2016-05-17T07:22:37 +04:00",
+      "coordinates": [
+        {
+          "latitude": 40.986667,
+          "longitude": 48.437624
+        }
+      ],
+      "tags": [
+        "eiusmod",
+        "fugiat",
+        "adipisicing",
+        "id",
+        "fugiat"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "450fb370-a168-4ac0-b1da-e2a67ef3592b",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/5.jpg",
+      "name": "Cox",
+      "artist": "EXTRAGEN",
+      "address": "306 Frost Street, Shawmut, Maryland, 1038",
+      "about": "Duis pariatur dolore pariatur duis duis. Tempor irure tempor aute velit ullamco culpa veniam et incididunt. Aliquip sit ad elit qui sunt ex dolore. Tempor aute exercitation occaecat sunt consequat aliquip et tempor adipisicing do.\r\n",
+      "registered": "2019-02-21T04:53:22 +05:00",
+      "coordinates": [
+        {
+          "latitude": 33.280302,
+          "longitude": -70.575956
+        }
+      ],
+      "tags": [
+        "ea",
+        "irure",
+        "ex",
+        "adipisicing",
+        "elit"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "3ff5e2ed-4785-4f34-926b-154b040a83c8",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Montoya",
+      "artist": "PLASMOSIS",
+      "address": "516 Delmonico Place, Glendale, Montana, 8401",
+      "about": "Adipisicing laborum ea duis incididunt et eiusmod quis enim tempor exercitation id adipisicing. Sint nostrud et consequat voluptate sit do magna deserunt. Deserunt in nostrud et officia Lorem aliqua officia non.\r\n",
+      "registered": "2015-03-13T03:11:29 +04:00",
+      "coordinates": [
+        {
+          "latitude": 45.419611,
+          "longitude": -35.06074
+        }
+      ],
+      "tags": [
+        "cillum",
+        "cupidatat",
+        "est",
+        "fugiat",
+        "amet"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "049cf700-1fe3-4006-990c-11851831855b",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/7.jpg",
+      "name": "Rhodes",
+      "artist": "PHORMULA",
+      "address": "493 Albemarle Terrace, Benson, North Carolina, 7544",
+      "about": "Qui minim Lorem excepteur quis enim ut dolor Lorem. Est aliquip exercitation culpa irure qui reprehenderit. Et ullamco magna non nisi dolore nisi sit occaecat nisi laborum consectetur proident aliquip.\r\n",
+      "registered": "2016-01-14T03:23:12 +05:00",
+      "coordinates": [
+        {
+          "latitude": 56.298098,
+          "longitude": -78.03371
+        }
+      ],
+      "tags": [
+        "officia",
+        "Lorem",
+        "irure",
+        "eu",
+        "Lorem"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "9563513a-6a6d-4f27-8bd0-8bd1a1e09bf4",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/5.jpg",
+      "name": "Carlson",
+      "artist": "QOT",
+      "address": "633 Rose Street, Austinburg, Wisconsin, 443",
+      "about": "Tempor non nulla eiusmod non do qui ad ut. Lorem tempor ex cupidatat eiusmod non minim anim nisi dolore officia incididunt. Eu occaecat non anim consequat. Sunt labore pariatur est voluptate et laboris consectetur reprehenderit. Nostrud eiusmod et aute mollit cupidatat duis dolor eu anim et consequat minim in. Ullamco duis ex dolor cillum nostrud in duis in officia. Nostrud nostrud dolor veniam amet exercitation mollit consequat veniam anim aliquip dolore.\r\n",
+      "registered": "2016-03-04T07:36:10 +05:00",
+      "coordinates": [
+        {
+          "latitude": 48.687992,
+          "longitude": -95.731062
+        }
+      ],
+      "tags": [
+        "nostrud",
+        "velit",
+        "commodo",
+        "laboris",
+        "aliqua"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "e2ea71d4-0a77-416c-8e23-765fb96e8233",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/8.jpg",
+      "name": "Lang",
+      "artist": "KATAKANA",
+      "address": "481 Pioneer Street, Dixie, California, 9697",
+      "about": "Eiusmod anim magna commodo occaecat incididunt. Laboris veniam aliquip qui dolore velit eiusmod id fugiat sint. Veniam et adipisicing ut sit do aliquip exercitation velit laborum culpa nisi Lorem est commodo. Nisi officia officia eiusmod ea sit id labore aliquip ullamco aliqua laborum proident exercitation. Consectetur proident enim proident nostrud ipsum proident fugiat.\r\n",
+      "registered": "2017-11-16T02:38:19 +05:00",
+      "coordinates": [
+        {
+          "latitude": 60.579303,
+          "longitude": 130.364445
+        }
+      ],
+      "tags": [
+        "tempor",
+        "aliquip",
+        "voluptate",
+        "Lorem",
+        "veniam"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "55a4fe94-e8fc-4f62-b869-b691b1bb1ad4",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Mcclure",
+      "artist": "ZENTIME",
+      "address": "540 Folsom Place, Onton, Nebraska, 5011",
+      "about": "Cupidatat sunt ipsum quis et do laborum Lorem culpa ipsum nostrud nulla. Laboris sunt sunt enim sint fugiat est in elit veniam excepteur veniam culpa. Nulla sunt exercitation ea nisi qui consequat enim et reprehenderit commodo ex amet. Ex minim nostrud ad dolore non officia.\r\n",
+      "registered": "2015-01-14T07:05:03 +05:00",
+      "coordinates": [
+        {
+          "latitude": 35.664201,
+          "longitude": 131.824581
+        }
+      ],
+      "tags": [
+        "dolore",
+        "esse",
+        "enim",
+        "magna",
+        "excepteur"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "a37da97c-7a3a-43d6-b0f1-c822e2d0e003",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Bryant",
+      "artist": "DEEPENDS",
+      "address": "838 Willoughby Avenue, Cade, Florida, 3159",
+      "about": "Labore do reprehenderit ex est laborum dolore in aute. Adipisicing sunt dolore est ex quis. Cupidatat id incididunt amet quis voluptate deserunt cillum labore dolore sint esse. Sunt consequat eu sint labore. Nulla sit ut tempor veniam ullamco.\r\n",
+      "registered": "2015-03-25T06:53:23 +04:00",
+      "coordinates": [
+        {
+          "latitude": 22.360209,
+          "longitude": 176.728536
+        }
+      ],
+      "tags": [
+        "aliquip",
+        "anim",
+        "ullamco",
+        "commodo",
+        "culpa"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "57dd4b32-4e5c-4076-8b9c-00adc9565123",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Case",
+      "artist": "XEREX",
+      "address": "350 Dorset Street, Nicut, Kansas, 8972",
+      "about": "Nostrud ut velit sint ipsum sint culpa mollit eiusmod mollit ut voluptate fugiat quis incididunt. Lorem incididunt ut dolor dolore anim. Occaecat ea tempor nulla et adipisicing ex amet ex. Culpa pariatur eu quis amet. Ex sint magna cillum eu elit velit.\r\n",
+      "registered": "2017-03-14T08:02:32 +04:00",
+      "coordinates": [
+        {
+          "latitude": 77.017949,
+          "longitude": -67.452959
+        }
+      ],
+      "tags": [
+        "est",
+        "anim",
+        "incididunt",
+        "do",
+        "ipsum"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "f438d996-2531-4754-b1b2-9cc1aedcf6bf",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/5.jpg",
+      "name": "Anthony",
+      "artist": "COMBOGENE",
+      "address": "418 Bridge Street, Chapin, Vermont, 7385",
+      "about": "Consequat laboris ipsum esse proident duis. Esse exercitation reprehenderit culpa commodo magna sint do Lorem pariatur consectetur est adipisicing cillum. Excepteur sit sit est laborum quis sit velit proident in. Reprehenderit ipsum veniam et incididunt ad cillum voluptate. Cillum ut commodo consequat ullamco nisi commodo exercitation. Esse proident ullamco cillum amet in exercitation sit tempor ipsum.\r\n",
+      "registered": "2018-12-08T07:21:32 +05:00",
+      "coordinates": [
+        {
+          "latitude": -34.210093,
+          "longitude": 156.729338
+        }
+      ],
+      "tags": [
+        "in",
+        "aliquip",
+        "sunt",
+        "ut",
+        "irure"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "5387df78-eaf6-4410-b5eb-347394c2d4f9",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Schneider",
+      "artist": "MAXIMIND",
+      "address": "388 Beverley Road, Lewis, Washington, 8558",
+      "about": "Officia officia enim consequat ullamco nulla voluptate. Tempor officia pariatur excepteur pariatur ullamco. Laborum culpa reprehenderit qui excepteur in mollit aute nisi officia aute. Consectetur est quis quis duis fugiat cupidatat do aute ea. Cupidatat dolore excepteur adipisicing cillum et aute est ut duis commodo mollit laboris ea in.\r\n",
+      "registered": "2015-03-29T11:28:55 +04:00",
+      "coordinates": [
+        {
+          "latitude": 20.346597,
+          "longitude": -145.847595
+        }
+      ],
+      "tags": [
+        "elit",
+        "est",
+        "aliquip",
+        "officia",
+        "enim"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "650bb490-ef53-408e-a4ef-3e441b7c6013",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Hubbard",
+      "artist": "SHOPABOUT",
+      "address": "281 Chase Court, Marienthal, Arizona, 5825",
+      "about": "Aliqua laborum nisi commodo sint. Anim quis do anim reprehenderit ad. Dolor qui sit tempor mollit ex sint.\r\n",
+      "registered": "2015-11-02T07:21:54 +05:00",
+      "coordinates": [
+        {
+          "latitude": -43.551527,
+          "longitude": -45.062387
+        }
+      ],
+      "tags": [
+        "proident",
+        "eiusmod",
+        "eiusmod",
+        "veniam",
+        "deserunt"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "e353f118-1706-4e13-96bb-be8876bb529d",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Stone",
+      "artist": "OTHERWAY",
+      "address": "809 Lott Street, Woodlake, Mississippi, 9896",
+      "about": "Dolor elit commodo ea ipsum Lorem velit commodo cillum incididunt quis. Magna qui amet non ullamco qui consectetur nostrud culpa esse et laboris cupidatat. In amet fugiat reprehenderit dolor eu eiusmod qui magna aliqua amet ex et velit officia. Eu aliqua sunt dolor labore est non laborum adipisicing dolor cillum. Deserunt nostrud quis adipisicing tempor commodo est laborum. Cillum amet proident nisi exercitation consequat consectetur. Dolor Lorem in ullamco eu ea ea.\r\n",
+      "registered": "2017-10-09T09:55:10 +04:00",
+      "coordinates": [
+        {
+          "latitude": -9.405401,
+          "longitude": 146.191173
+        }
+      ],
+      "tags": [
+        "elit",
+        "ullamco",
+        "deserunt",
+        "consectetur",
+        "occaecat"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "b8b21193-9879-4aee-9360-f763445ed498",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Lamb",
+      "artist": "KOZGENE",
+      "address": "909 Judge Street, Goodville, Kentucky, 5069",
+      "about": "Enim sit ipsum do ut pariatur id consequat officia ad ut quis. Aliquip amet enim reprehenderit fugiat ullamco magna duis. Excepteur commodo ex excepteur reprehenderit. Et exercitation dolore cillum dolore nisi nostrud occaecat sunt nisi esse.\r\n",
+      "registered": "2018-01-06T12:02:42 +05:00",
+      "coordinates": [
+        {
+          "latitude": -57.296153,
+          "longitude": -47.826629
+        }
+      ],
+      "tags": [
+        "est",
+        "dolore",
+        "ullamco",
+        "labore",
+        "deserunt"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "cc41b89d-0600-4442-ac6f-96cb6304792f",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Hutchinson",
+      "artist": "ENORMO",
+      "address": "416 Arlington Avenue, Blende, Puerto Rico, 4202",
+      "about": "Magna eiusmod labore excepteur sint officia sit. Ipsum incididunt sunt nostrud dolor adipisicing occaecat veniam qui deserunt dolore do. Ad officia veniam duis cillum Lorem velit fugiat occaecat ut cupidatat anim est. Ad anim dolore voluptate quis fugiat nisi anim cillum do ex velit fugiat ullamco. Occaecat commodo pariatur sit elit do mollit Lorem deserunt.\r\n",
+      "registered": "2014-12-14T10:57:57 +05:00",
+      "coordinates": [
+        {
+          "latitude": 75.798861,
+          "longitude": 103.646567
+        }
+      ],
+      "tags": [
+        "occaecat",
+        "ea",
+        "est",
+        "culpa",
+        "adipisicing"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "5c653e1b-28f6-453d-9f78-a7f3836bb4e9",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Fulton",
+      "artist": "RETRACK",
+      "address": "544 Gatling Place, Cleary, Alabama, 4794",
+      "about": "Culpa eiusmod labore culpa officia consequat enim Lorem aliquip ex aliqua adipisicing ut aute irure. Ex eiusmod sunt labore id anim nulla labore quis occaecat pariatur dolor. Ipsum labore ad adipisicing ipsum ullamco laborum duis esse enim incididunt aute. Officia incididunt dolore exercitation sunt ad exercitation proident fugiat duis sint reprehenderit ad sunt. Duis magna culpa nulla aliqua velit qui culpa incididunt. Ut magna ipsum quis magna mollit non culpa et sit consequat.\r\n",
+      "registered": "2018-08-30T01:38:24 +04:00",
+      "coordinates": [
+        {
+          "latitude": -7.111448,
+          "longitude": 173.892475
+        }
+      ],
+      "tags": [
+        "elit",
+        "culpa",
+        "occaecat",
+        "duis",
+        "culpa"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "16e7ea02-2587-4568-9786-66dc73704d9c",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Estes",
+      "artist": "BUNGA",
+      "address": "436 Hunts Lane, Eagleville, South Carolina, 6050",
+      "about": "Tempor cupidatat dolor ullamco do proident officia anim veniam esse eu exercitation eu. Et eiusmod id dolore laborum voluptate esse fugiat. Nulla commodo in nulla laborum duis pariatur cillum veniam consequat. Ea deserunt deserunt ullamco velit culpa cupidatat sunt pariatur veniam. Duis duis dolor sint pariatur elit adipisicing labore. Labore do non sit cillum officia in cupidatat laborum.\r\n",
+      "registered": "2018-09-13T02:57:38 +04:00",
+      "coordinates": [
+        {
+          "latitude": 27.789207,
+          "longitude": 44.935107
+        }
+      ],
+      "tags": [
+        "ut",
+        "nostrud",
+        "ullamco",
+        "in",
+        "sit"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "1a893e76-6785-446c-b36e-d790aea0e249",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Duran",
+      "artist": "GALLAXIA",
+      "address": "872 Revere Place, Ivanhoe, Guam, 723",
+      "about": "Fugiat voluptate exercitation sunt sint esse magna id. Pariatur occaecat duis elit commodo commodo amet voluptate irure quis. Est laboris fugiat excepteur excepteur aliqua nisi esse anim cillum ex consectetur id. Sunt qui et consequat sunt sint. Consectetur qui enim culpa non sunt ipsum fugiat pariatur culpa nulla sunt deserunt quis.\r\n",
+      "registered": "2019-06-29T01:39:59 +04:00",
+      "coordinates": [
+        {
+          "latitude": 42.506953,
+          "longitude": 137.110089
+        }
+      ],
+      "tags": [
+        "ipsum",
+        "fugiat",
+        "occaecat",
+        "enim",
+        "quis"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "11f45798-f20c-403d-9a22-12a122e84e97",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Moss",
+      "artist": "FURNIGEER",
+      "address": "362 Oak Street, Gibbsville, West Virginia, 8788",
+      "about": "Fugiat excepteur ipsum qui nisi velit excepteur sunt commodo ex eu. Esse quis non sint aliqua est duis eu. Anim anim in excepteur labore. Eu pariatur anim tempor irure velit adipisicing ut. Anim pariatur reprehenderit aliqua enim. Sunt qui ullamco id cupidatat voluptate ullamco commodo fugiat.\r\n",
+      "registered": "2016-07-21T03:39:07 +04:00",
+      "coordinates": [
+        {
+          "latitude": -67.470987,
+          "longitude": -71.271268
+        }
+      ],
+      "tags": [
+        "dolore",
+        "elit",
+        "exercitation",
+        "duis",
+        "cupidatat"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "6dda1fe3-dde3-465f-ac1e-e127e2b5165b",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Hurst",
+      "artist": "ISOSTREAM",
+      "address": "594 Sharon Street, Coleville, New Hampshire, 5463",
+      "about": "Cillum aliqua anim enim officia dolor incididunt aliqua dolor. Reprehenderit eiusmod sit ipsum deserunt consectetur. Cillum eu ea nisi labore dolore nulla laborum Lorem laboris exercitation esse cupidatat ad adipisicing. Minim duis officia nisi elit in. Elit in anim proident id occaecat qui ad officia.\r\n",
+      "registered": "2016-03-25T11:42:42 +04:00",
+      "coordinates": [
+        {
+          "latitude": -11.810866,
+          "longitude": 49.141059
+        }
+      ],
+      "tags": [
+        "incididunt",
+        "dolor",
+        "laborum",
+        "cillum",
+        "nulla"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "c82482b7-04aa-4d99-9d39-11e9b6d56788",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "House",
+      "artist": "ZYTREX",
+      "address": "870 Beacon Court, Watchtower, Texas, 6347",
+      "about": "Amet qui ullamco nisi ex. Enim in labore in deserunt nostrud dolor et magna enim deserunt consectetur elit aliqua nisi. Anim esse pariatur ad irure veniam ad eiusmod ad adipisicing. Esse velit id occaecat ullamco est dolor. In est in veniam minim adipisicing occaecat culpa Lorem quis aute.\r\n",
+      "registered": "2016-02-10T06:47:03 +05:00",
+      "coordinates": [
+        {
+          "latitude": 42.564506,
+          "longitude": 169.426481
+        }
+      ],
+      "tags": [
+        "eiusmod",
+        "dolor",
+        "commodo",
+        "consectetur",
+        "tempor"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "3e829d8b-6d48-4023-960d-1970dd136b39",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Frazier",
+      "artist": "TALAE",
+      "address": "834 Seabring Street, Esmont, Ohio, 1875",
+      "about": "In nulla veniam occaecat officia. Ea esse ex amet minim anim cupidatat. Dolor mollit dolore fugiat deserunt.\r\n",
+      "registered": "2019-05-03T05:52:59 +04:00",
+      "coordinates": [
+        {
+          "latitude": 46.356727,
+          "longitude": -61.574105
+        }
+      ],
+      "tags": [
+        "tempor",
+        "reprehenderit",
+        "est",
+        "veniam",
+        "ipsum"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "9c2bde22-9b14-4ca8-8160-66f418866dc2",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Roberts",
+      "artist": "PLEXIA",
+      "address": "386 Beverly Road, Ernstville, Michigan, 144",
+      "about": "Sunt quis non aute nostrud anim ex. Occaecat ut sint in aliqua. Voluptate do in proident labore reprehenderit ipsum ex. Eiusmod duis ex ut aute elit cillum qui occaecat laboris cillum adipisicing sunt. Veniam elit aliquip consequat incididunt. Anim laborum adipisicing laborum dolore tempor nostrud reprehenderit proident eiusmod nulla eiusmod. Lorem proident ut et incididunt aliquip occaecat anim.\r\n",
+      "registered": "2017-03-14T11:40:38 +04:00",
+      "coordinates": [
+        {
+          "latitude": 44.887996,
+          "longitude": -134.507803
+        }
+      ],
+      "tags": [
+        "enim",
+        "aliquip",
+        "ut",
+        "enim",
+        "laboris"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "b6185ecf-08df-474d-aacc-d587b867077a",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/5.jpg",
+      "name": "Miranda",
+      "artist": "ONTAGENE",
+      "address": "617 Hill Street, Nescatunga, Arkansas, 4578",
+      "about": "Consequat cillum eu officia eiusmod cupidatat elit cillum quis duis amet esse sint dolore ad. Enim cillum non aliqua proident ad eu laborum Lorem ex fugiat non laborum. Proident adipisicing officia amet reprehenderit aute dolore sit nisi ad et tempor irure.\r\n",
+      "registered": "2018-02-18T11:07:25 +05:00",
+      "coordinates": [
+        {
+          "latitude": 38.730617,
+          "longitude": 62.913493
+        }
+      ],
+      "tags": [
+        "velit",
+        "dolor",
+        "ad",
+        "mollit",
+        "consectetur"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "6c276d77-138f-48d1-8927-47edb94ae658",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Carter",
+      "artist": "EYERIS",
+      "address": "527 Lake Avenue, Odessa, Delaware, 588",
+      "about": "Eu duis nisi et esse quis cupidatat Lorem incididunt aliquip cupidatat est ad proident. Incididunt amet ex laboris cupidatat et eu sit ea veniam commodo. Irure sint Lorem voluptate ut nostrud ea ullamco enim irure eiusmod.\r\n",
+      "registered": "2016-08-12T11:15:50 +04:00",
+      "coordinates": [
+        {
+          "latitude": 62.202507,
+          "longitude": -87.202012
+        }
+      ],
+      "tags": [
+        "sit",
+        "Lorem",
+        "nostrud",
+        "fugiat",
+        "nostrud"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "f9846ce8-b99e-494f-ac9c-e7ec60e03243",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "Cochran",
+      "artist": "GEEKWAGON",
+      "address": "648 Ebony Court, Logan, Illinois, 1039",
+      "about": "Cillum excepteur aute quis deserunt aute id cupidatat. Ut pariatur occaecat aliqua id amet cupidatat elit aute ullamco mollit do velit. Nisi eu ex esse dolor aute aliqua anim reprehenderit. Dolore tempor do proident cillum incididunt laborum adipisicing non mollit proident non.\r\n",
+      "registered": "2016-02-17T05:21:28 +05:00",
+      "coordinates": [
+        {
+          "latitude": -28.748507,
+          "longitude": 25.140909
+        }
+      ],
+      "tags": [
+        "veniam",
+        "dolor",
+        "deserunt",
+        "eu",
+        "anim"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "c2919b9d-6496-4d6a-85e4-ab1a18b1ffeb",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Owen",
+      "artist": "ENOMEN",
+      "address": "618 Hamilton Avenue, Henrietta, Oklahoma, 5111",
+      "about": "Eiusmod ex amet tempor consequat esse aliqua qui ipsum sit velit consequat. Ex aute dolore do magna officia duis Lorem elit minim incididunt esse minim pariatur sit. Do mollit ut incididunt quis tempor deserunt id aute ipsum Lorem nulla anim incididunt. Ullamco consequat ea ullamco nostrud voluptate consectetur laborum sit duis dolore ullamco labore adipisicing. Et mollit occaecat tempor incididunt eu proident quis dolor pariatur elit aliqua proident. Ex nisi aliquip sint ut aliqua labore.\r\n",
+      "registered": "2015-06-11T01:47:41 +04:00",
+      "coordinates": [
+        {
+          "latitude": -2.798367,
+          "longitude": -12.403038
+        }
+      ],
+      "tags": [
+        "dolore",
+        "dolor",
+        "nisi",
+        "enim",
+        "enim"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "c23dc8ae-9b36-41e8-8143-94e3026be7bb",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Lawson",
+      "artist": "THREDZ",
+      "address": "868 Atlantic Avenue, Boykin, North Dakota, 1156",
+      "about": "Consectetur occaecat dolor est quis laborum eu commodo proident adipisicing. Magna cupidatat sint aliquip laborum aliqua culpa non ad pariatur quis nostrud et reprehenderit ex. Nisi mollit Lorem enim mollit pariatur amet dolore aliqua. Quis amet ut laborum officia qui Lorem amet ex nulla excepteur esse.\r\n",
+      "registered": "2014-03-31T08:05:41 +04:00",
+      "coordinates": [
+        {
+          "latitude": 0.141359,
+          "longitude": 129.416214
+        }
+      ],
+      "tags": [
+        "non",
+        "magna",
+        "Lorem",
+        "pariatur",
+        "mollit"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "34efa7e1-f088-4440-bf1d-4c5fc02f19f7",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Sharp",
+      "artist": "NORALI",
+      "address": "203 Grand Avenue, Sugartown, Alaska, 1985",
+      "about": "Est consectetur ut labore esse. Laborum reprehenderit sunt consequat labore. Est amet aute et mollit do. Et pariatur non eiusmod consequat elit ut sunt commodo qui. Dolor ullamco et velit velit dolor.\r\n",
+      "registered": "2018-06-15T05:48:50 +04:00",
+      "coordinates": [
+        {
+          "latitude": 29.387058,
+          "longitude": -172.414011
+        }
+      ],
+      "tags": [
+        "qui",
+        "est",
+        "reprehenderit",
+        "nisi",
+        "consequat"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "b962b4f3-ace5-4709-8521-d36460d9f25f",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Harris",
+      "artist": "JUNIPOOR",
+      "address": "691 Conklin Avenue, Cetronia, South Dakota, 730",
+      "about": "Commodo sunt Lorem aute fugiat irure minim amet laborum incididunt eu. Aliquip reprehenderit anim nisi consequat nisi ipsum irure do labore. Sit ut excepteur sint incididunt incididunt consequat. Pariatur dolor consectetur elit duis ad laboris magna qui cupidatat aute ea nisi. Commodo incididunt duis do labore aute et labore laboris in. Pariatur est aliqua nostrud nisi ex Lorem excepteur voluptate magna ad velit.\r\n",
+      "registered": "2018-07-03T04:35:45 +04:00",
+      "coordinates": [
+        {
+          "latitude": -33.106175,
+          "longitude": -57.803844
+        }
+      ],
+      "tags": [
+        "eu",
+        "in",
+        "est",
+        "pariatur",
+        "pariatur"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "76b7f922-e856-463d-8850-fb17fc6b4985",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "French",
+      "artist": "ECOLIGHT",
+      "address": "869 Bowery Street, Silkworth, Palau, 5678",
+      "about": "Pariatur dolor aliquip cillum non est excepteur laboris anim deserunt velit nisi ut. Aliqua veniam exercitation duis ipsum ipsum sunt est duis est. Adipisicing cupidatat duis sunt cupidatat nostrud est voluptate exercitation et mollit occaecat ipsum elit occaecat. Nulla pariatur eu nostrud fugiat aliquip velit exercitation occaecat cillum.\r\n",
+      "registered": "2015-02-23T12:40:12 +05:00",
+      "coordinates": [
+        {
+          "latitude": 22.268303,
+          "longitude": 165.540421
+        }
+      ],
+      "tags": [
+        "ad",
+        "deserunt",
+        "amet",
+        "fugiat",
+        "duis"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "2b92a20a-931d-451d-848f-6dde91a54531",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Lopez",
+      "artist": "BEADZZA",
+      "address": "444 Nostrand Avenue, Dundee, Louisiana, 9228",
+      "about": "Officia culpa ut est ad esse culpa est tempor Lorem. Velit ullamco quis commodo sunt dolor. Proident laboris do ex nostrud id et eiusmod culpa. Tempor dolor consectetur laboris magna. Nulla laborum sit aliqua tempor esse aliqua dolore.\r\n",
+      "registered": "2018-06-20T05:23:02 +04:00",
+      "coordinates": [
+        {
+          "latitude": -54.544573,
+          "longitude": 168.636706
+        }
+      ],
+      "tags": [
+        "mollit",
+        "anim",
+        "id",
+        "do",
+        "non"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "a3406f07-55c4-4d1f-b5be-9e9983c95842",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/2.jpg",
+      "name": "Hammond",
+      "artist": "PLASMOX",
+      "address": "130 Sunnyside Court, Brownsville, Pennsylvania, 7647",
+      "about": "Ex ad velit tempor in consequat laborum laborum anim tempor amet cupidatat laborum voluptate velit. Voluptate tempor cillum sit in officia cupidatat consectetur amet nostrud proident. Mollit cupidatat anim qui ipsum proident.\r\n",
+      "registered": "2014-11-30T08:29:54 +05:00",
+      "coordinates": [
+        {
+          "latitude": -67.680932,
+          "longitude": -27.930493
+        }
+      ],
+      "tags": [
+        "cupidatat",
+        "incididunt",
+        "qui",
+        "pariatur",
+        "cillum"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "b04a3b46-fff0-4862-83c0-6a0cf1b3fe27",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Hebert",
+      "artist": "BICOL",
+      "address": "544 Montgomery Place, Lorraine, Colorado, 3588",
+      "about": "Laboris aliqua fugiat mollit non excepteur commodo laboris ad cupidatat tempor velit id. Sit ad excepteur incididunt tempor adipisicing duis eiusmod minim eu duis sint qui officia. Eiusmod dolor cupidatat Lorem irure aliqua labore elit.\r\n",
+      "registered": "2016-09-03T03:51:36 +04:00",
+      "coordinates": [
+        {
+          "latitude": -79.448188,
+          "longitude": -24.669152
+        }
+      ],
+      "tags": [
+        "esse",
+        "eiusmod",
+        "velit",
+        "esse",
+        "aliquip"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "a09d2bf0-951a-40f0-8a05-d2c4d5ce103c",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Knapp",
+      "artist": "SLAX",
+      "address": "783 Kane Street, Maplewood, Tennessee, 8938",
+      "about": "In proident sunt cupidatat ex cillum mollit velit veniam magna nostrud magna do incididunt nisi. Sit aliquip consequat amet eu culpa ipsum occaecat do in ut dolore ex qui veniam. Sint commodo ut pariatur ullamco velit sunt mollit culpa sit velit fugiat aliqua. Velit quis dolore dolor Lorem consequat incididunt ipsum minim ex ad dolore. Officia ipsum veniam non duis. Consectetur aliquip sunt aliquip dolore proident nisi labore.\r\n",
+      "registered": "2015-02-18T11:57:24 +05:00",
+      "coordinates": [
+        {
+          "latitude": -44.461716,
+          "longitude": -83.051312
+        }
+      ],
+      "tags": [
+        "in",
+        "deserunt",
+        "magna",
+        "ad",
+        "exercitation"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "b712d2d7-690f-492a-9290-67906afd2ac5",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Watkins",
+      "artist": "VICON",
+      "address": "400 Dwight Street, Rossmore, Wyoming, 7431",
+      "about": "Ullamco sint aliqua consequat culpa ut culpa quis qui excepteur aute elit dolor dolor. Aliquip nulla esse in aliqua incididunt nulla nisi dolore. Aliquip nostrud nisi officia sint et qui labore magna reprehenderit officia elit dolore velit minim. Lorem velit esse enim exercitation sit ad in veniam labore dolor magna. Culpa ut ad ullamco proident culpa occaecat dolor incididunt dolore duis voluptate dolore culpa.\r\n",
+      "registered": "2014-12-25T03:37:15 +05:00",
+      "coordinates": [
+        {
+          "latitude": 82.534639,
+          "longitude": 126.437059
+        }
+      ],
+      "tags": [
+        "nisi",
+        "Lorem",
+        "duis",
+        "culpa",
+        "quis"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "ad229925-8866-45b8-bacb-f6c5a16e9442",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "Johnston",
+      "artist": "BIOTICA",
+      "address": "495 Delevan Street, Cumminsville, District Of Columbia, 4497",
+      "about": "Non consectetur deserunt proident sunt Lorem et magna. Tempor magna esse voluptate sit irure. Non esse commodo ad reprehenderit sunt minim et minim quis Lorem laborum.\r\n",
+      "registered": "2017-07-29T07:17:23 +04:00",
+      "coordinates": [
+        {
+          "latitude": 62.087429,
+          "longitude": -24.465821
+        }
+      ],
+      "tags": [
+        "minim",
+        "anim",
+        "incididunt",
+        "labore",
+        "cupidatat"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "b06ba679-80f8-4677-8a85-d0ef85d369b6",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Haley",
+      "artist": "TETAK",
+      "address": "505 Homecrest Court, Cazadero, Missouri, 1797",
+      "about": "Pariatur magna veniam exercitation officia occaecat nostrud ipsum est. Do commodo ex excepteur excepteur. Consectetur magna et laboris labore dolore fugiat laboris nisi consequat ipsum commodo et est. Sunt quis sunt ea fugiat anim eiusmod id velit enim irure.\r\n",
+      "registered": "2019-06-17T12:43:28 +04:00",
+      "coordinates": [
+        {
+          "latitude": 6.302117,
+          "longitude": 131.14902
+        }
+      ],
+      "tags": [
+        "ad",
+        "ullamco",
+        "aliquip",
+        "aliqua",
+        "aute"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "31e92271-4c74-4c28-ad55-e90fa6e27c90",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Frederick",
+      "artist": "TRANSLINK",
+      "address": "862 Beaver Street, Gasquet, Hawaii, 8543",
+      "about": "Minim aute do adipisicing mollit tempor tempor. Ullamco labore officia tempor consequat consectetur tempor mollit velit excepteur consectetur labore pariatur do. Enim consequat labore eiusmod consequat voluptate adipisicing eu. Aliquip ex sint laborum cupidatat exercitation Lorem eiusmod id id amet nisi nisi excepteur aliqua. Minim culpa pariatur reprehenderit sit exercitation. Aliqua laboris aliqua id velit in elit laboris ut. Magna commodo ut quis sunt.\r\n",
+      "registered": "2018-12-19T01:13:55 +05:00",
+      "coordinates": [
+        {
+          "latitude": -3.095281,
+          "longitude": 178.918293
+        }
+      ],
+      "tags": [
+        "magna",
+        "exercitation",
+        "id",
+        "sunt",
+        "ex"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "a5c80832-2f30-45b8-847e-40a6c3dd0fa3",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Clay",
+      "artist": "INDEXIA",
+      "address": "917 Virginia Place, Fairforest, Rhode Island, 4275",
+      "about": "Non enim do Lorem sunt cupidatat incididunt ullamco pariatur aliqua aute dolore enim. Occaecat reprehenderit cupidatat veniam nostrud irure quis consequat commodo et duis do minim culpa cillum. Consectetur eiusmod labore do aute in pariatur adipisicing. Velit fugiat occaecat mollit minim duis ea veniam exercitation enim id ea occaecat ipsum. Ipsum aliquip officia tempor sunt incididunt dolore qui incididunt elit in.\r\n",
+      "registered": "2015-09-11T02:06:01 +04:00",
+      "coordinates": [
+        {
+          "latitude": -12.063705,
+          "longitude": -94.464308
+        }
+      ],
+      "tags": [
+        "pariatur",
+        "aute",
+        "irure",
+        "reprehenderit",
+        "dolore"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "111b52c4-f34b-40f1-995f-db7d427f1f65",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Burton",
+      "artist": "INSOURCE",
+      "address": "512 Middleton Street, Vowinckel, Minnesota, 7556",
+      "about": "Consectetur exercitation mollit consequat cupidatat esse anim sint nostrud ea deserunt nisi sit. Minim do exercitation in in. Velit anim dolor ad dolore anim ipsum non proident. Do ipsum officia officia anim proident deserunt. Ad aliqua duis proident sint. Reprehenderit sint consectetur nisi labore non duis.\r\n",
+      "registered": "2015-06-01T02:42:51 +04:00",
+      "coordinates": [
+        {
+          "latitude": -80.453011,
+          "longitude": -30.327796
+        }
+      ],
+      "tags": [
+        "ex",
+        "eiusmod",
+        "reprehenderit",
+        "cillum",
+        "incididunt"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "f3c6b83a-7384-4f19-8c90-e3183ea3b316",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Franco",
+      "artist": "MANTRIX",
+      "address": "725 Ovington Avenue, Cressey, Idaho, 5665",
+      "about": "Ex ad elit laboris quis consequat qui reprehenderit nulla labore reprehenderit elit deserunt nisi. Ea cupidatat consectetur deserunt reprehenderit. Voluptate est ullamco occaecat cillum cupidatat ipsum nulla eu eu Lorem. Cupidatat aliquip incididunt exercitation magna. Et sunt magna ea eiusmod fugiat dolor incididunt mollit ex magna sint nostrud. Non occaecat sit est occaecat nostrud excepteur est cupidatat commodo ad esse nulla.\r\n",
+      "registered": "2016-02-13T08:35:12 +05:00",
+      "coordinates": [
+        {
+          "latitude": -50.123795,
+          "longitude": 53.534102
+        }
+      ],
+      "tags": [
+        "labore",
+        "cupidatat",
+        "laborum",
+        "eiusmod",
+        "elit"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "7d6014d6-bb94-4075-9633-881cd6b7a8c4",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "Workman",
+      "artist": "GEEKNET",
+      "address": "638 Randolph Street, Glenville, Maine, 274",
+      "about": "Aliqua sunt excepteur in fugiat eu voluptate amet laboris commodo id nostrud velit ea. Nostrud amet incididunt sit velit exercitation voluptate magna duis aliqua. Duis anim est esse occaecat anim consectetur. Est aliqua enim pariatur fugiat non. Ut ipsum commodo velit eu eiusmod et fugiat. Deserunt incididunt elit exercitation voluptate.\r\n",
+      "registered": "2015-02-07T01:51:38 +05:00",
+      "coordinates": [
+        {
+          "latitude": 23.200644,
+          "longitude": 73.625743
+        }
+      ],
+      "tags": [
+        "officia",
+        "eu",
+        "veniam",
+        "et",
+        "amet"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "528dd410-f381-4c19-ba97-802c692ba72d",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Willis",
+      "artist": "ZENTURY",
+      "address": "806 Lafayette Avenue, Orason, Indiana, 7698",
+      "about": "Aliqua reprehenderit tempor magna esse cillum ipsum exercitation mollit sint ut et ad. Deserunt velit veniam ex laborum reprehenderit ea. Ullamco duis non magna esse.\r\n",
+      "registered": "2018-01-10T03:55:57 +05:00",
+      "coordinates": [
+        {
+          "latitude": -5.346231,
+          "longitude": -130.782201
+        }
+      ],
+      "tags": [
+        "excepteur",
+        "consectetur",
+        "cupidatat",
+        "duis",
+        "proident"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "087eb5e3-c2c6-4398-9faa-b660fcff308f",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/5.jpg",
+      "name": "Evans",
+      "artist": "GEEKOL",
+      "address": "628 Keap Street, Sultana, New Mexico, 7328",
+      "about": "Aute reprehenderit laboris ad voluptate velit. Duis magna ipsum consequat sit est id aute minim pariatur duis veniam eu. Ex labore sint aliquip est eu voluptate consequat. Irure officia magna ea sunt esse minim sit deserunt enim Lorem sit occaecat veniam. Excepteur laborum velit aliqua incididunt officia qui adipisicing ea amet culpa amet mollit. Dolore et quis dolore non mollit esse.\r\n",
+      "registered": "2014-02-10T05:25:27 +05:00",
+      "coordinates": [
+        {
+          "latitude": -40.488415,
+          "longitude": -51.86804
+        }
+      ],
+      "tags": [
+        "irure",
+        "labore",
+        "do",
+        "esse",
+        "ullamco"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "ecd06f8b-9ad2-49e7-b3fb-828be3632302",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "Sharpe",
+      "artist": "AUTOMON",
+      "address": "616 Franklin Street, Winston, Utah, 7285",
+      "about": "Reprehenderit duis nostrud commodo velit cillum dolor nulla incididunt ea aliqua magna aute aute cillum. Sint voluptate Lorem amet officia proident Lorem minim aliquip sit. Sunt nostrud qui id consequat. Consequat mollit sunt dolore est irure dolore laborum laboris laboris Lorem excepteur eu aliqua ex.\r\n",
+      "registered": "2017-10-26T07:25:35 +04:00",
+      "coordinates": [
+        {
+          "latitude": -53.294595,
+          "longitude": 114.046039
+        }
+      ],
+      "tags": [
+        "fugiat",
+        "pariatur",
+        "occaecat",
+        "voluptate",
+        "ex"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "097e63f6-cdd4-4fde-8d42-e708a24e360e",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/2.jpg",
+      "name": "Stout",
+      "artist": "STELAECOR",
+      "address": "283 Anna Court, Juntura, Nevada, 5470",
+      "about": "Elit magna cupidatat nostrud nisi est deserunt dolor do est laborum. Id eiusmod Lorem do aliquip consequat proident veniam dolore culpa. Qui ex Lorem in dolor excepteur. Velit Lorem id dolor fugiat do ex exercitation dolor dolor irure in Lorem. Ea laboris incididunt qui culpa in ex irure elit amet incididunt voluptate commodo. Ullamco reprehenderit est enim dolore ullamco laboris et non quis aliqua. Laboris dolor nisi nulla nulla ipsum aute nisi Lorem.\r\n",
+      "registered": "2019-01-01T06:30:37 +05:00",
+      "coordinates": [
+        {
+          "latitude": 12.907967,
+          "longitude": 91.025708
+        }
+      ],
+      "tags": [
+        "aliqua",
+        "cupidatat",
+        "dolor",
+        "commodo",
+        "laborum"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "c20ea529-8cc3-4b9b-b722-6ab6920dc14f",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "Tanner",
+      "artist": "ASSURITY",
+      "address": "696 Saratoga Avenue, Springhill, Connecticut, 6453",
+      "about": "Id sunt dolore nostrud sunt irure pariatur laborum tempor consectetur fugiat culpa aute est. Culpa eu consequat nisi commodo velit dolore deserunt non duis dolor magna elit. Cupidatat in anim laboris nisi laborum cillum. Cupidatat et pariatur nulla officia sit incididunt irure qui reprehenderit anim commodo voluptate sint elit.\r\n",
+      "registered": "2019-03-24T12:27:57 +04:00",
+      "coordinates": [
+        {
+          "latitude": -52.486249,
+          "longitude": 38.623095
+        }
+      ],
+      "tags": [
+        "magna",
+        "esse",
+        "deserunt",
+        "et",
+        "id"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "434d455c-f885-421a-bc7a-a02fb70d3435",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Jordan",
+      "artist": "TEMORAK",
+      "address": "835 Gallatin Place, Fontanelle, Federated States Of Micronesia, 6876",
+      "about": "Consectetur elit id cupidatat velit. Reprehenderit ut veniam nulla officia Lorem commodo dolore ut eu proident veniam elit. Aliquip cillum dolor aliquip amet anim incididunt aliqua aliquip irure voluptate dolore cillum et consequat.\r\n",
+      "registered": "2015-09-15T09:21:37 +04:00",
+      "coordinates": [
+        {
+          "latitude": 75.264385,
+          "longitude": 47.510806
+        }
+      ],
+      "tags": [
+        "sunt",
+        "exercitation",
+        "non",
+        "ad",
+        "dolore"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "934ec202-6e89-46be-954d-698c89455d51",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Peterson",
+      "artist": "ISONUS",
+      "address": "978 Wyona Street, Ebro, Virgin Islands, 2123",
+      "about": "Veniam ut Lorem elit sint exercitation do eu. Ullamco enim ipsum exercitation ex amet laborum cupidatat sit sit qui elit. Ex cupidatat laborum aliqua ex. Eu anim ea dolor deserunt consequat exercitation sint exercitation officia in incididunt nostrud. Exercitation excepteur nulla anim enim sit aliquip nostrud consequat proident proident aliquip ipsum. Adipisicing nulla eu veniam duis culpa ex consequat. Ad dolore id ad ullamco quis.\r\n",
+      "registered": "2015-03-09T11:25:22 +04:00",
+      "coordinates": [
+        {
+          "latitude": -27.266356,
+          "longitude": 82.821071
+        }
+      ],
+      "tags": [
+        "minim",
+        "elit",
+        "Lorem",
+        "deserunt",
+        "sit"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "5911cbf1-4405-4777-b02f-0f7233059cee",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/7.jpg",
+      "name": "Simmons",
+      "artist": "GRACKER",
+      "address": "762 Columbia Street, Bartley, Iowa, 3183",
+      "about": "Esse enim nostrud ea occaecat. Deserunt ea sunt tempor ad tempor adipisicing consequat excepteur non est ex anim. Duis duis reprehenderit ipsum ut adipisicing. Lorem aliquip voluptate nostrud cillum eiusmod ad quis cillum incididunt. Enim nulla reprehenderit magna fugiat deserunt proident adipisicing do sunt dolor laboris quis.\r\n",
+      "registered": "2016-11-21T01:28:23 +05:00",
+      "coordinates": [
+        {
+          "latitude": -76.495223,
+          "longitude": -119.616792
+        }
+      ],
+      "tags": [
+        "minim",
+        "proident",
+        "sint",
+        "sint",
+        "commodo"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "6f2ff61b-0f19-4da7-b35b-ef4204dd6dc8",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/7.jpg",
+      "name": "Sullivan",
+      "artist": "GADTRON",
+      "address": "832 Baycliff Terrace, Condon, American Samoa, 8073",
+      "about": "Magna sunt laborum reprehenderit reprehenderit sunt. Qui proident et minim occaecat magna veniam pariatur eiusmod veniam voluptate quis occaecat non. Dolore reprehenderit anim duis id proident duis occaecat laboris elit magna incididunt nulla. Sit nisi ad cillum occaecat cillum consectetur.\r\n",
+      "registered": "2015-04-14T05:05:52 +04:00",
+      "coordinates": [
+        {
+          "latitude": -6.881409,
+          "longitude": 76.376227
+        }
+      ],
+      "tags": [
+        "et",
+        "in",
+        "tempor",
+        "eiusmod",
+        "esse"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "737246f3-ecd9-4cb9-8ea7-0554e4e1a09c",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/8.jpg",
+      "name": "Blanchard",
+      "artist": "YOGASM",
+      "address": "206 Montgomery Street, Whitestone, Georgia, 4503",
+      "about": "Ullamco aliquip aliquip voluptate culpa est qui labore ad sit eiusmod mollit fugiat esse exercitation. Incididunt fugiat eiusmod et dolore eiusmod aliquip adipisicing sunt esse magna sit in. Commodo aute esse non duis aliqua cillum enim irure qui enim ullamco ut. Cillum proident proident anim elit aliquip sunt enim amet aliqua mollit aliquip nisi. Amet proident sit exercitation deserunt sint quis enim in fugiat sint amet esse officia. Culpa anim magna irure sit consectetur. Quis nisi aliquip ad Lorem elit et irure enim culpa fugiat laborum consequat.\r\n",
+      "registered": "2014-05-15T08:36:05 +04:00",
+      "coordinates": [
+        {
+          "latitude": 6.476369,
+          "longitude": -16.311654
+        }
+      ],
+      "tags": [
+        "qui",
+        "dolore",
+        "et",
+        "et",
+        "ipsum"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "7e4810ad-777e-44fa-b445-94f11e82a15d",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Cantu",
+      "artist": "BALUBA",
+      "address": "623 Caton Place, Roy, Marshall Islands, 588",
+      "about": "Enim sint aliqua id Lorem reprehenderit fugiat adipisicing ad sit Lorem dolore. Aliquip non irure consectetur aliqua do deserunt minim cupidatat eu qui. Velit laboris qui sit reprehenderit eu id adipisicing. Dolor qui sunt voluptate mollit est velit tempor velit minim voluptate ea ut magna veniam. Aute mollit mollit consectetur sunt sit consectetur ut magna excepteur laboris laborum culpa. Aliqua ea laborum ex culpa commodo dolore.\r\n",
+      "registered": "2018-03-24T08:29:22 +04:00",
+      "coordinates": [
+        {
+          "latitude": -32.009272,
+          "longitude": 49.323429
+        }
+      ],
+      "tags": [
+        "consectetur",
+        "eiusmod",
+        "tempor",
+        "in",
+        "Lorem"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "bf6820e8-bf04-418b-9350-84c51e418b8d",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Brady",
+      "artist": "PLUTORQUE",
+      "address": "787 Powers Street, Troy, Virginia, 2125",
+      "about": "Nostrud reprehenderit quis enim irure incididunt eu eu. Est ex id incididunt velit. Consectetur nulla sit qui nulla irure esse excepteur sint. Dolore laboris adipisicing anim veniam aute nulla ullamco aliquip reprehenderit esse adipisicing. Occaecat aute id ex officia exercitation.\r\n",
+      "registered": "2017-05-18T11:55:18 +04:00",
+      "coordinates": [
+        {
+          "latitude": -25.135996,
+          "longitude": 108.401501
+        }
+      ],
+      "tags": [
+        "irure",
+        "fugiat",
+        "eiusmod",
+        "proident",
+        "laboris"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "f43065e5-5f26-4cb0-824f-eee9e7d7a83c",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Blair",
+      "artist": "RONELON",
+      "address": "847 Bergen Place, Marne, New York, 6208",
+      "about": "Id duis duis mollit culpa deserunt elit veniam commodo elit. Laborum reprehenderit cillum amet amet voluptate do ea anim. Ut reprehenderit culpa incididunt voluptate elit dolor ullamco cillum velit ullamco est. Non sunt proident ut mollit ex exercitation. Exercitation reprehenderit ullamco nostrud consequat tempor pariatur aute velit exercitation ipsum qui non. Occaecat est mollit minim Lorem consectetur velit dolore aute occaecat ea reprehenderit eu.\r\n",
+      "registered": "2018-07-10T06:29:40 +04:00",
+      "coordinates": [
+        {
+          "latitude": 46.836186,
+          "longitude": -39.497891
+        }
+      ],
+      "tags": [
+        "ex",
+        "aliqua",
+        "mollit",
+        "esse",
+        "aute"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "b420043a-1a9f-41aa-aff4-2f1e49e46011",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Stein",
+      "artist": "GENESYNK",
+      "address": "585 Indiana Place, Allendale, Northern Mariana Islands, 4303",
+      "about": "Labore dolor dolor sit minim magna voluptate in quis fugiat. Aute ipsum elit reprehenderit do amet Lorem esse officia velit. Voluptate officia qui enim elit ad ea. Reprehenderit deserunt esse dolor do do enim fugiat. Non commodo ullamco cupidatat nostrud aliqua laborum. Qui ex sint tempor quis fugiat aute occaecat magna ex laboris.\r\n",
+      "registered": "2015-01-24T05:06:32 +05:00",
+      "coordinates": [
+        {
+          "latitude": 74.292111,
+          "longitude": -144.77486
+        }
+      ],
+      "tags": [
+        "reprehenderit",
+        "nisi",
+        "qui",
+        "consequat",
+        "deserunt"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "7166e050-64c4-4179-850f-b45ba0a33c2e",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Kemp",
+      "artist": "POOCHIES",
+      "address": "780 Sandford Street, Slovan, Massachusetts, 8049",
+      "about": "Consectetur mollit nostrud quis culpa id esse commodo ullamco ullamco Lorem. Anim nisi exercitation enim laboris velit aute consectetur Lorem est nulla est nostrud. Id reprehenderit culpa incididunt amet quis. Et incididunt et elit non est anim voluptate.\r\n",
+      "registered": "2017-10-12T11:07:04 +04:00",
+      "coordinates": [
+        {
+          "latitude": -45.537356,
+          "longitude": -88.898415
+        }
+      ],
+      "tags": [
+        "ex",
+        "do",
+        "est",
+        "culpa",
+        "deserunt"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "b13b273b-c3a4-446d-af89-32a0e793a1d3",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Washington",
+      "artist": "ZILLA",
+      "address": "406 Kimball Street, Templeton, Oregon, 7070",
+      "about": "Non eiusmod anim commodo enim ut quis cillum aute deserunt cillum elit cupidatat id. Ea pariatur veniam sit nulla eu consectetur ut. Est aliqua do consectetur aliqua cupidatat dolor irure dolor.\r\n",
+      "registered": "2016-06-18T03:48:43 +04:00",
+      "coordinates": [
+        {
+          "latitude": 35.96955,
+          "longitude": 90.774966
+        }
+      ],
+      "tags": [
+        "eu",
+        "ipsum",
+        "occaecat",
+        "consectetur",
+        "mollit"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "6bebafb5-c2a0-440c-994c-437091cf42e8",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/2.jpg",
+      "name": "Graham",
+      "artist": "VURBO",
+      "address": "852 Glendale Court, Comptche, Maryland, 1617",
+      "about": "Mollit irure anim ex minim fugiat enim irure ad do deserunt. Ex ea eiusmod eiusmod laboris nisi. Proident duis tempor esse in sit excepteur exercitation. Voluptate occaecat incididunt consectetur non in excepteur ipsum deserunt et exercitation labore reprehenderit cillum nulla. Sint commodo nostrud sunt culpa qui pariatur pariatur id aliqua. Ad consectetur consectetur quis consectetur proident officia. Veniam aliqua ullamco eu qui exercitation eiusmod exercitation elit irure quis.\r\n",
+      "registered": "2015-03-07T08:54:53 +05:00",
+      "coordinates": [
+        {
+          "latitude": 44.160605,
+          "longitude": 57.077928
+        }
+      ],
+      "tags": [
+        "aliquip",
+        "est",
+        "duis",
+        "laborum",
+        "exercitation"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "7a2a4ec8-dde3-40aa-aa11-26e70ba8aceb",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/7.jpg",
+      "name": "Price",
+      "artist": "CENTREE",
+      "address": "248 Wolf Place, Tuttle, Montana, 1906",
+      "about": "Deserunt irure cupidatat aliqua tempor duis pariatur id adipisicing aliquip aute dolor ut. Mollit velit sunt do consequat eiusmod minim tempor elit proident excepteur labore elit aute eiusmod. Consectetur nostrud excepteur nostrud anim in velit id. Laborum pariatur duis ea reprehenderit duis laboris voluptate deserunt id duis velit anim. Commodo laboris ullamco aute laboris occaecat. Consectetur deserunt dolor eiusmod ad. Ut anim exercitation dolore excepteur exercitation officia aliqua nulla ad mollit.\r\n",
+      "registered": "2015-08-03T01:56:19 +04:00",
+      "coordinates": [
+        {
+          "latitude": -86.004113,
+          "longitude": 1.651717
+        }
+      ],
+      "tags": [
+        "nulla",
+        "officia",
+        "cupidatat",
+        "anim",
+        "eu"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "6e95de49-cf3f-44f6-8338-ccb93172cf89",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/3.jpg",
+      "name": "Pate",
+      "artist": "SNOWPOKE",
+      "address": "269 Elizabeth Place, Craig, North Carolina, 4004",
+      "about": "Nostrud minim esse est eu proident ea duis est non. Cupidatat esse aute sit sit elit ex cillum anim consectetur sit. Minim id irure proident proident dolor nostrud. Elit tempor sint mollit in ullamco nulla cillum culpa sit aliqua consequat. Culpa do consequat velit ea id duis labore aliquip ullamco.\r\n",
+      "registered": "2014-03-25T04:51:55 +04:00",
+      "coordinates": [
+        {
+          "latitude": 74.32676,
+          "longitude": -176.954519
+        }
+      ],
+      "tags": [
+        "voluptate",
+        "aute",
+        "sit",
+        "minim",
+        "magna"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "f08182f3-7cae-42ae-b0f4-63e7c5b8d9f0",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Holden",
+      "artist": "CENTURIA",
+      "address": "344 Locust Avenue, Fairview, Wisconsin, 5122",
+      "about": "Velit ullamco pariatur aliquip in proident qui est do cupidatat commodo aute in. Enim Lorem laborum elit ex veniam aute ipsum cupidatat. Aliqua aliqua aliqua cillum enim officia aliqua aliqua consequat occaecat minim fugiat. Consequat pariatur fugiat ullamco aliquip dolore. Labore quis ipsum qui velit non magna duis veniam ipsum ullamco in officia ut.\r\n",
+      "registered": "2015-02-22T07:32:46 +05:00",
+      "coordinates": [
+        {
+          "latitude": 77.998879,
+          "longitude": 115.866281
+        }
+      ],
+      "tags": [
+        "laboris",
+        "ut",
+        "enim",
+        "fugiat",
+        "tempor"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "e4097120-5b33-4a09-9187-138e2f0febbc",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/1.jpg",
+      "name": "Tran",
+      "artist": "COMVEY",
+      "address": "271 Duffield Street, Venice, California, 9258",
+      "about": "Est laborum deserunt cillum adipisicing. Voluptate incididunt est pariatur sunt in culpa et fugiat do sint eu voluptate. In ea cillum voluptate ut mollit magna aute ex ex nisi exercitation minim pariatur. Excepteur do aliquip incididunt ex Lorem Lorem ad eu qui ipsum irure commodo consequat consectetur.\r\n",
+      "registered": "2015-01-19T08:54:08 +05:00",
+      "coordinates": [
+        {
+          "latitude": -63.00219,
+          "longitude": -116.694666
+        }
+      ],
+      "tags": [
+        "duis",
+        "mollit",
+        "sit",
+        "consequat",
+        "anim"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "ecc0c9ec-e46d-4615-b1ff-2f97459fd979",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/11.jpg",
+      "name": "Ferrell",
+      "artist": "VERAQ",
+      "address": "179 Prince Street, Saticoy, Nebraska, 1612",
+      "about": "Ea sit nostrud fugiat officia cupidatat non veniam aute laboris irure do dolor nisi quis. Nostrud reprehenderit excepteur non fugiat tempor ad deserunt culpa. Non elit id deserunt Lorem ipsum. Ipsum amet magna minim elit aliquip. Labore amet cupidatat ullamco ipsum minim adipisicing labore labore elit reprehenderit deserunt esse.\r\n",
+      "registered": "2019-04-03T03:37:51 +04:00",
+      "coordinates": [
+        {
+          "latitude": -37.322834,
+          "longitude": -104.775816
+        }
+      ],
+      "tags": [
+        "Lorem",
+        "Lorem",
+        "minim",
+        "do",
+        "irure"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "e14b0b3f-d90e-48f7-80c9-5d5c47b0ee70",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/4.jpg",
+      "name": "Mejia",
+      "artist": "VELITY",
+      "address": "209 Dodworth Street, Gilmore, Florida, 6208",
+      "about": "Officia ea nisi ex occaecat consectetur exercitation labore in anim. Amet sit officia aliquip dolore labore eiusmod pariatur non sunt. Aliquip et sunt non officia nulla laboris incididunt sint qui ipsum ex aliqua. Sunt adipisicing voluptate dolore incididunt pariatur esse esse. Magna incididunt ut adipisicing minim elit Lorem ea. Exercitation reprehenderit eu excepteur Lorem ullamco.\r\n",
+      "registered": "2017-11-03T12:12:33 +04:00",
+      "coordinates": [
+        {
+          "latitude": -88.705538,
+          "longitude": 30.435139
+        }
+      ],
+      "tags": [
+        "in",
+        "dolor",
+        "deserunt",
+        "irure",
+        "esse"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "a3a6785d-282e-4d00-8eaa-3d70099d008f",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Lott",
+      "artist": "TRASOLA",
+      "address": "888 Turnbull Avenue, Sussex, Kansas, 6583",
+      "about": "Do qui non quis est quis anim labore ad. Adipisicing aliquip deserunt id qui ad consequat minim sint. Elit cillum mollit nisi nostrud do qui mollit consectetur voluptate in.\r\n",
+      "registered": "2014-08-05T02:55:46 +04:00",
+      "coordinates": [
+        {
+          "latitude": 43.029717,
+          "longitude": -158.192669
+        }
+      ],
+      "tags": [
+        "sit",
+        "deserunt",
+        "do",
+        "nostrud",
+        "ad"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "93f88dd7-39b6-4046-a494-3c46965f86e0",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/7.jpg",
+      "name": "Chan",
+      "artist": "JOVIOLD",
+      "address": "358 Kiely Place, Cucumber, Vermont, 2715",
+      "about": "Do amet consequat quis aute occaecat sit eiusmod ad reprehenderit amet magna amet ea enim. Adipisicing aute voluptate officia adipisicing. Culpa cillum cupidatat occaecat magna elit amet eiusmod exercitation sit anim nulla elit adipisicing. Officia culpa tempor officia dolor. Officia commodo adipisicing duis non eu ad excepteur do nulla adipisicing culpa.\r\n",
+      "registered": "2017-07-18T11:51:54 +04:00",
+      "coordinates": [
+        {
+          "latitude": -49.339457,
+          "longitude": 164.631003
+        }
+      ],
+      "tags": [
+        "minim",
+        "consequat",
+        "est",
+        "laboris",
+        "id"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "ee259e13-e28d-4f40-a906-238ceb88ab4b",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/9.jpg",
+      "name": "Fletcher",
+      "artist": "QUIZMO",
+      "address": "751 Lott Place, Umapine, Washington, 2866",
+      "about": "Cillum voluptate veniam esse Lorem ut cillum consequat proident eu ut. Pariatur laboris commodo incididunt officia tempor consequat quis cillum. Incididunt excepteur deserunt sit minim qui enim mollit cupidatat pariatur tempor culpa. Aliquip reprehenderit voluptate excepteur ipsum consequat proident elit enim Lorem Lorem minim elit. Excepteur exercitation officia magna fugiat et dolore amet enim officia Lorem laboris. Adipisicing exercitation adipisicing exercitation voluptate nulla ut commodo nisi est esse.\r\n",
+      "registered": "2015-11-30T01:33:32 +05:00",
+      "coordinates": [
+        {
+          "latitude": -18.018858,
+          "longitude": -150.077699
+        }
+      ],
+      "tags": [
+        "nulla",
+        "exercitation",
+        "veniam",
+        "ad",
+        "aute"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "b35cdac5-7722-40ce-813e-af5e676d2d7b",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/12.jpg",
+      "name": "Flores",
+      "artist": "APEXTRI",
+      "address": "873 Bethel Loop, Matheny, Arizona, 1379",
+      "about": "Nostrud irure dolor voluptate esse adipisicing ipsum sunt irure fugiat irure aliqua et nostrud. Aliquip labore sint velit dolor nostrud do consectetur cillum. Eiusmod aliquip adipisicing est magna labore est eu sit nisi ex.\r\n",
+      "registered": "2016-08-21T04:22:57 +04:00",
+      "coordinates": [
+        {
+          "latitude": -24.054689,
+          "longitude": -69.489882
+        }
+      ],
+      "tags": [
+        "proident",
+        "sunt",
+        "anim",
+        "ut",
+        "dolore"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "204c34cf-b93b-4a72-8a38-1f57f6d48c1e",
+      "isActive": true,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/7.jpg",
+      "name": "Conley",
+      "artist": "ROUGHIES",
+      "address": "764 Rodney Street, Frystown, Mississippi, 2372",
+      "about": "Occaecat officia adipisicing esse sit adipisicing ex sint culpa. Culpa consectetur adipisicing laborum ut qui consectetur enim consectetur velit. Magna id esse sunt sunt mollit labore aliquip pariatur magna mollit. Duis amet velit amet adipisicing ex exercitation sit.\r\n",
+      "registered": "2014-03-31T04:28:28 +04:00",
+      "coordinates": [
+        {
+          "latitude": -32.976114,
+          "longitude": 123.420578
+        }
+      ],
+      "tags": [
+        "cupidatat",
+        "cillum",
+        "nulla",
+        "et",
+        "officia"
+      ],
+      "category": "Stencil"
+    },
+    {
+      "artId": "ab30c9ca-dd6d-4fe4-9596-5a8a333fbb21",
+      "isActive": false,
+      "isFeatured": true,
+      "picture": "https://sample-street-art.s3.amazonaws.com/10.jpg",
+      "name": "Golden",
+      "artist": "EXERTA",
+      "address": "892 Lawrence Avenue, Newcastle, Kentucky, 9794",
+      "about": "Laboris elit deserunt exercitation aute cupidatat labore. Officia qui magna cupidatat incididunt ullamco adipisicing quis voluptate aute officia eu ipsum nisi sunt. Sit sit dolore culpa pariatur reprehenderit. Exercitation nostrud enim fugiat Lorem esse ullamco ea enim adipisicing occaecat laboris ex magna. Reprehenderit consequat consequat qui ex eiusmod labore minim pariatur laboris officia mollit anim. Cupidatat cupidatat occaecat anim nulla ut dolore tempor cupidatat magna Lorem enim pariatur laborum esse. Et sint excepteur minim laborum minim elit anim elit qui enim aliqua exercitation aliqua ad.\r\n",
+      "registered": "2014-12-29T02:01:40 +05:00",
+      "coordinates": [
+        {
+          "latitude": -29.593876,
+          "longitude": 102.279912
+        }
+      ],
+      "tags": [
+        "dolor",
+        "labore",
+        "magna",
+        "dolore",
+        "aliqua"
+      ],
+      "category": "Mural"
+    },
+    {
+      "artId": "5879ab1c-0183-4e32-8e71-b6701a9a8fb7",
+      "isActive": true,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/2.jpg",
+      "name": "Alexander",
+      "artist": "EQUITOX",
+      "address": "495 Garden Place, Helen, Puerto Rico, 9296",
+      "about": "Nulla eu nulla sint id cupidatat excepteur sunt fugiat Lorem occaecat consectetur. Elit Lorem voluptate excepteur culpa laboris. Excepteur nisi sunt irure in dolor. Magna tempor voluptate ut ullamco incididunt non magna tempor. Labore adipisicing ullamco cillum aute elit nostrud non officia dolore ex dolore veniam nostrud.\r\n",
+      "registered": "2014-01-30T02:49:44 +05:00",
+      "coordinates": [
+        {
+          "latitude": 25.006751,
+          "longitude": 149.751776
+        }
+      ],
+      "tags": [
+        "id",
+        "veniam",
+        "deserunt",
+        "esse",
+        "laborum"
+      ],
+      "category": "Paste Up"
+    },
+    {
+      "artId": "601c6e15-ea73-47fb-b04c-013f81490af0",
+      "isActive": false,
+      "isFeatured": false,
+      "picture": "https://sample-street-art.s3.amazonaws.com/6.jpg",
+      "name": "Pugh",
+      "artist": "SIGNIDYNE",
+      "address": "753 Claver Place, Guthrie, Alabama, 4242",
+      "about": "Aute excepteur laborum quis anim et irure deserunt veniam deserunt mollit. Qui commodo fugiat aliqua magna velit ad Lorem. Non excepteur proident aute excepteur non adipisicing laboris aute esse do commodo nisi in proident. Ex laborum deserunt excepteur commodo cillum dolor pariatur nulla occaecat reprehenderit commodo velit laboris amet. Culpa culpa adipisicing laborum velit commodo deserunt.\r\n",
+      "registered": "2017-04-29T04:30:01 +04:00",
+      "coordinates": [
+        {
+          "latitude": 43.768139,
+          "longitude": 172.179274
+        }
+      ],
+      "tags": [
+        "velit",
+        "sunt",
+        "duis",
+        "consectetur",
+        "laboris"
+      ],
+      "category": "Mural"
+    }
+  ]

@@ -1,0 +1,2637 @@
+[
+    {
+      "userId": "e593d3fa-fbad-45e4-9437-f1c60fde4642",
+      "isActive": false,
+      "age": 30,
+      "picture": "https://randomuser.me/api/portraits/women/38.jpg",
+      "name": "Vincent Patrick",
+      "email": "vincentpatrick@typhonica.com",
+      "address": "677 Highland Place, Nettie, Pennsylvania, 6390",
+      "favorites": [
+        {
+          "id": 319
+        },
+        {
+          "id": 676
+        },
+        {
+          "id": 528
+        }
+      ],
+      "badges": [
+        {
+          "id": 41
+        },
+        {
+          "id": 93
+        },
+        {
+          "id": 87
+        }
+      ]
+    },
+    {
+      "userId": "41df2fdc-dcb4-4cd4-a2d0-bc40397fda0a",
+      "isActive": false,
+      "age": 47,
+      "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+      "name": "Randi Hopper",
+      "email": "randihopper@typhonica.com",
+      "address": "610 Mill Street, Darlington, Delaware, 2895",
+      "favorites": [
+        {
+          "id": 823
+        },
+        {
+          "id": 877
+        },
+        {
+          "id": 556
+        }
+      ],
+      "badges": [
+        {
+          "id": 35
+        },
+        {
+          "id": 24
+        },
+        {
+          "id": 50
+        }
+      ]
+    },
+    {
+      "userId": "23c7e4fe-3a85-411a-bc8d-2c41dea95d4f",
+      "isActive": true,
+      "age": 21,
+      "picture": "https://randomuser.me/api/portraits/women/88.jpg",
+      "name": "Maria Mcknight",
+      "email": "mariamcknight@typhonica.com",
+      "address": "259 Pine Street, Joppa, Michigan, 7968",
+      "favorites": [
+        {
+          "id": 48
+        },
+        {
+          "id": 969
+        },
+        {
+          "id": 600
+        }
+      ],
+      "badges": [
+        {
+          "id": 13
+        },
+        {
+          "id": 86
+        },
+        {
+          "id": 57
+        }
+      ]
+    },
+    {
+      "userId": "1ab17802-f359-4358-81de-270f57e85df3",
+      "isActive": true,
+      "age": 43,
+      "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+      "name": "Cooper Kelly",
+      "email": "cooperkelly@typhonica.com",
+      "address": "557 Karweg Place, Swartzville, Wyoming, 8001",
+      "favorites": [
+        {
+          "id": 270
+        },
+        {
+          "id": 481
+        },
+        {
+          "id": 637
+        }
+      ],
+      "badges": [
+        {
+          "id": 64
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 74
+        }
+      ]
+    },
+    {
+      "userId": "daf283ea-8359-426d-bb87-dfa2fe10812f",
+      "isActive": true,
+      "age": 40,
+      "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+      "name": "Wade Shields",
+      "email": "wadeshields@typhonica.com",
+      "address": "165 Williams Court, Libertytown, Alaska, 4238",
+      "favorites": [
+        {
+          "id": 193
+        },
+        {
+          "id": 295
+        },
+        {
+          "id": 595
+        }
+      ],
+      "badges": [
+        {
+          "id": 34
+        },
+        {
+          "id": 99
+        },
+        {
+          "id": 71
+        }
+      ]
+    },
+    {
+      "userId": "f46d6491-2434-4c71-b259-b23376bacb36",
+      "isActive": false,
+      "age": 29,
+      "picture": "https://randomuser.me/api/portraits/women/66.jpg",
+      "name": "Clemons Hester",
+      "email": "clemonshester@typhonica.com",
+      "address": "193 Village Road, Wintersburg, New York, 6993",
+      "favorites": [
+        {
+          "id": 291
+        },
+        {
+          "id": 879
+        },
+        {
+          "id": 674
+        }
+      ],
+      "badges": [
+        {
+          "id": 92
+        },
+        {
+          "id": 60
+        },
+        {
+          "id": 48
+        }
+      ]
+    },
+    {
+      "userId": "3a2b0891-95f3-49b6-bfea-cbba488e48ab",
+      "isActive": false,
+      "age": 56,
+      "picture": "https://randomuser.me/api/portraits/men/43.jpg",
+      "name": "Wall Cain",
+      "email": "wallcain@typhonica.com",
+      "address": "723 Linwood Street, Alfarata, Mississippi, 5697",
+      "favorites": [
+        {
+          "id": 709
+        },
+        {
+          "id": 786
+        },
+        {
+          "id": 107
+        }
+      ],
+      "badges": [
+        {
+          "id": 68
+        },
+        {
+          "id": 41
+        },
+        {
+          "id": 64
+        }
+      ]
+    },
+    {
+      "userId": "a9115aa2-252a-40b5-832c-5bb6583a4554",
+      "isActive": false,
+      "age": 57,
+      "picture": "https://randomuser.me/api/portraits/men/96.jpg",
+      "name": "Knox Hughes",
+      "email": "knoxhughes@typhonica.com",
+      "address": "393 Whitty Lane, Bladensburg, New Jersey, 4998",
+      "favorites": [
+        {
+          "id": 888
+        },
+        {
+          "id": 413
+        },
+        {
+          "id": 239
+        }
+      ],
+      "badges": [
+        {
+          "id": 100
+        },
+        {
+          "id": 58
+        },
+        {
+          "id": 25
+        }
+      ]
+    },
+    {
+      "userId": "306a71c0-3dde-42e1-8b4e-63c4b22a1f86",
+      "isActive": true,
+      "age": 24,
+      "picture": "https://randomuser.me/api/portraits/men/44.jpg",
+      "name": "Monique Anderson",
+      "email": "moniqueanderson@typhonica.com",
+      "address": "429 Ridge Boulevard, Shindler, Georgia, 6283",
+      "favorites": [
+        {
+          "id": 781
+        },
+        {
+          "id": 327
+        },
+        {
+          "id": 642
+        }
+      ],
+      "badges": [
+        {
+          "id": 55
+        },
+        {
+          "id": 41
+        },
+        {
+          "id": 86
+        }
+      ]
+    },
+    {
+      "userId": "fd871be4-8687-4f72-a8c0-064e79d28336",
+      "isActive": true,
+      "age": 22,
+      "picture": "https://randomuser.me/api/portraits/women/31.jpg",
+      "name": "Schultz Sullivan",
+      "email": "schultzsullivan@typhonica.com",
+      "address": "477 Wythe Avenue, Norris, Tennessee, 1831",
+      "favorites": [
+        {
+          "id": 245
+        },
+        {
+          "id": 226
+        },
+        {
+          "id": 972
+        }
+      ],
+      "badges": [
+        {
+          "id": 5
+        },
+        {
+          "id": 99
+        },
+        {
+          "id": 55
+        }
+      ]
+    },
+    {
+      "userId": "1f14f29b-adcd-419d-8b71-61a7162ef015",
+      "isActive": true,
+      "age": 30,
+      "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "name": "Albert Rivas",
+      "email": "albertrivas@typhonica.com",
+      "address": "805 Louise Terrace, Bainbridge, Arizona, 3247",
+      "favorites": [
+        {
+          "id": 74
+        },
+        {
+          "id": 725
+        },
+        {
+          "id": 744
+        }
+      ],
+      "badges": [
+        {
+          "id": 76
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 96
+        }
+      ]
+    },
+    {
+      "userId": "719798ae-8024-4a9b-943b-0c42caf01165",
+      "isActive": false,
+      "age": 50,
+      "picture": "https://randomuser.me/api/portraits/women/90.jpg",
+      "name": "Mildred Barrera",
+      "email": "mildredbarrera@typhonica.com",
+      "address": "591 Nautilus Avenue, Chloride, Northern Mariana Islands, 3604",
+      "favorites": [
+        {
+          "id": 292
+        },
+        {
+          "id": 670
+        },
+        {
+          "id": 958
+        }
+      ],
+      "badges": [
+        {
+          "id": 47
+        },
+        {
+          "id": 51
+        },
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "userId": "bd2862e9-41da-4309-82c7-b9520bf21f5b",
+      "isActive": true,
+      "age": 52,
+      "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+      "name": "Carroll Gay",
+      "email": "carrollgay@typhonica.com",
+      "address": "183 Fleet Street, Northchase, North Carolina, 1055",
+      "favorites": [
+        {
+          "id": 512
+        },
+        {
+          "id": 499
+        },
+        {
+          "id": 342
+        }
+      ],
+      "badges": [
+        {
+          "id": 16
+        },
+        {
+          "id": 83
+        },
+        {
+          "id": 33
+        }
+      ]
+    },
+    {
+      "userId": "d53edfc7-4771-4ee6-a4c6-635e35bedf78",
+      "isActive": true,
+      "age": 40,
+      "picture": "https://randomuser.me/api/portraits/men/19.jpg",
+      "name": "Roberson Lyons",
+      "email": "robersonlyons@typhonica.com",
+      "address": "788 Dunham Place, Oasis, Guam, 514",
+      "favorites": [
+        {
+          "id": 358
+        },
+        {
+          "id": 876
+        },
+        {
+          "id": 267
+        }
+      ],
+      "badges": [
+        {
+          "id": 80
+        },
+        {
+          "id": 40
+        },
+        {
+          "id": 30
+        }
+      ]
+    },
+    {
+      "userId": "0a76a168-f8ff-4590-8f20-8adf6ce7222c",
+      "isActive": false,
+      "age": 40,
+      "picture": "https://randomuser.me/api/portraits/men/99.jpg",
+      "name": "Perez Patterson",
+      "email": "perezpatterson@typhonica.com",
+      "address": "589 Baltic Street, Aurora, American Samoa, 6165",
+      "favorites": [
+        {
+          "id": 12
+        },
+        {
+          "id": 130
+        },
+        {
+          "id": 920
+        }
+      ],
+      "badges": [
+        {
+          "id": 70
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 54
+        }
+      ]
+    },
+    {
+      "userId": "e80cdfaa-d0d4-421f-b565-a746c700096d",
+      "isActive": false,
+      "age": 19,
+      "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+      "name": "Heidi Lynch",
+      "email": "heidilynch@typhonica.com",
+      "address": "646 Bouck Court, Tampico, South Dakota, 262",
+      "favorites": [
+        {
+          "id": 658
+        },
+        {
+          "id": 177
+        },
+        {
+          "id": 921
+        }
+      ],
+      "badges": [
+        {
+          "id": 28
+        },
+        {
+          "id": 33
+        },
+        {
+          "id": 68
+        }
+      ]
+    },
+    {
+      "userId": "8589e9c8-b036-43d9-aeeb-5622ff958398",
+      "isActive": true,
+      "age": 28,
+      "picture": "https://randomuser.me/api/portraits/men/33.jpg",
+      "name": "Karen Hill",
+      "email": "karenhill@typhonica.com",
+      "address": "751 Gain Court, Northridge, Texas, 7884",
+      "favorites": [
+        {
+          "id": 237
+        },
+        {
+          "id": 109
+        },
+        {
+          "id": 747
+        }
+      ],
+      "badges": [
+        {
+          "id": 39
+        },
+        {
+          "id": 74
+        },
+        {
+          "id": 79
+        }
+      ]
+    },
+    {
+      "userId": "167abeaf-60db-448a-9b4d-de3ca2cca753",
+      "isActive": false,
+      "age": 42,
+      "picture": "https://randomuser.me/api/portraits/women/51.jpg",
+      "name": "Cummings Emerson",
+      "email": "cummingsemerson@typhonica.com",
+      "address": "632 Garland Court, Springville, Indiana, 8031",
+      "favorites": [
+        {
+          "id": 59
+        },
+        {
+          "id": 319
+        },
+        {
+          "id": 412
+        }
+      ],
+      "badges": [
+        {
+          "id": 27
+        },
+        {
+          "id": 96
+        },
+        {
+          "id": 30
+        }
+      ]
+    },
+    {
+      "userId": "cd6507ae-04e3-417a-8b35-ac2a34cb7980",
+      "isActive": false,
+      "age": 25,
+      "picture": "https://randomuser.me/api/portraits/women/78.jpg",
+      "name": "Deana Stuart",
+      "email": "deanastuart@typhonica.com",
+      "address": "619 Tilden Avenue, Disautel, Rhode Island, 2587",
+      "favorites": [
+        {
+          "id": 863
+        },
+        {
+          "id": 372
+        },
+        {
+          "id": 479
+        }
+      ],
+      "badges": [
+        {
+          "id": 59
+        },
+        {
+          "id": 25
+        },
+        {
+          "id": 8
+        }
+      ]
+    },
+    {
+      "userId": "b31a952e-d1e9-4814-9ca4-de8323b21db9",
+      "isActive": false,
+      "age": 52,
+      "picture": "https://randomuser.me/api/portraits/men/63.jpg",
+      "name": "Opal Mejia",
+      "email": "opalmejia@typhonica.com",
+      "address": "660 Vista Place, Sedley, Iowa, 4627",
+      "favorites": [
+        {
+          "id": 906
+        },
+        {
+          "id": 202
+        },
+        {
+          "id": 185
+        }
+      ],
+      "badges": [
+        {
+          "id": 37
+        },
+        {
+          "id": 60
+        },
+        {
+          "id": 36
+        }
+      ]
+    },
+    {
+      "userId": "e73bbb10-d007-4253-a85f-2ead46da00f9",
+      "isActive": true,
+      "age": 38,
+      "picture": "https://randomuser.me/api/portraits/men/97.jpg",
+      "name": "Moss Salas",
+      "email": "mosssalas@typhonica.com",
+      "address": "755 Tech Place, Wakulla, Massachusetts, 8614",
+      "favorites": [
+        {
+          "id": 703
+        },
+        {
+          "id": 283
+        },
+        {
+          "id": 584
+        }
+      ],
+      "badges": [
+        {
+          "id": 38
+        },
+        {
+          "id": 24
+        },
+        {
+          "id": 78
+        }
+      ]
+    },
+    {
+      "userId": "2c72925a-bc91-4b8c-8cd9-2f8237b4d7e9",
+      "isActive": true,
+      "age": 47,
+      "picture": "https://randomuser.me/api/portraits/men/27.jpg",
+      "name": "Daphne Carrillo",
+      "email": "daphnecarrillo@typhonica.com",
+      "address": "325 Harrison Place, Martell, Maine, 6138",
+      "favorites": [
+        {
+          "id": 341
+        },
+        {
+          "id": 683
+        },
+        {
+          "id": 942
+        }
+      ],
+      "badges": [
+        {
+          "id": 20
+        },
+        {
+          "id": 44
+        },
+        {
+          "id": 11
+        }
+      ]
+    },
+    {
+      "userId": "c773a917-acf1-41d1-a2fe-47476e231e1b",
+      "isActive": false,
+      "age": 24,
+      "picture": "https://randomuser.me/api/portraits/women/24.jpg",
+      "name": "Black Harvey",
+      "email": "blackharvey@typhonica.com",
+      "address": "162 Reed Street, Eggertsville, Puerto Rico, 7307",
+      "favorites": [
+        {
+          "id": 110
+        },
+        {
+          "id": 959
+        },
+        {
+          "id": 714
+        }
+      ],
+      "badges": [
+        {
+          "id": 42
+        },
+        {
+          "id": 22
+        },
+        {
+          "id": 36
+        }
+      ]
+    },
+    {
+      "userId": "e05a4b56-34d2-4b5e-a905-7e339cfb29d9",
+      "isActive": false,
+      "age": 45,
+      "picture": "https://randomuser.me/api/portraits/men/99.jpg",
+      "name": "Norris Oneal",
+      "email": "norrisoneal@typhonica.com",
+      "address": "390 Seigel Court, Beason, Nevada, 7819",
+      "favorites": [
+        {
+          "id": 189
+        },
+        {
+          "id": 846
+        },
+        {
+          "id": 192
+        }
+      ],
+      "badges": [
+        {
+          "id": 37
+        },
+        {
+          "id": 37
+        },
+        {
+          "id": 35
+        }
+      ]
+    },
+    {
+      "userId": "eb49a9f1-fab6-444f-92ec-bae7f08b6da1",
+      "isActive": false,
+      "age": 60,
+      "picture": "https://randomuser.me/api/portraits/men/94.jpg",
+      "name": "Dillon Douglas",
+      "email": "dillondouglas@typhonica.com",
+      "address": "120 Marconi Place, Groveville, Minnesota, 4768",
+      "favorites": [
+        {
+          "id": 422
+        },
+        {
+          "id": 581
+        },
+        {
+          "id": 301
+        }
+      ],
+      "badges": [
+        {
+          "id": 64
+        },
+        {
+          "id": 79
+        },
+        {
+          "id": 66
+        }
+      ]
+    },
+    {
+      "userId": "52113008-e8ff-4824-8758-a129814e030c",
+      "isActive": false,
+      "age": 26,
+      "picture": "https://randomuser.me/api/portraits/men/79.jpg",
+      "name": "Contreras Hogan",
+      "email": "contrerashogan@typhonica.com",
+      "address": "478 Boardwalk , Ilchester, Vermont, 4182",
+      "favorites": [
+        {
+          "id": 422
+        },
+        {
+          "id": 808
+        },
+        {
+          "id": 457
+        }
+      ],
+      "badges": [
+        {
+          "id": 86
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 30
+        }
+      ]
+    },
+    {
+      "userId": "2185c858-bd03-43bb-a36f-0f9ec028509f",
+      "isActive": false,
+      "age": 23,
+      "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+      "name": "Rene Poole",
+      "email": "renepoole@typhonica.com",
+      "address": "489 Holt Court, Carlos, Utah, 4542",
+      "favorites": [
+        {
+          "id": 727
+        },
+        {
+          "id": 830
+        },
+        {
+          "id": 953
+        }
+      ],
+      "badges": [
+        {
+          "id": 12
+        },
+        {
+          "id": 39
+        },
+        {
+          "id": 54
+        }
+      ]
+    },
+    {
+      "userId": "1c81171f-0d2e-4822-a60e-add3dea6a7a9",
+      "isActive": false,
+      "age": 51,
+      "picture": "https://randomuser.me/api/portraits/men/86.jpg",
+      "name": "Fitzgerald Underwood",
+      "email": "fitzgeraldunderwood@typhonica.com",
+      "address": "897 Nolans Lane, Lutsen, Palau, 8974",
+      "favorites": [
+        {
+          "id": 949
+        },
+        {
+          "id": 836
+        },
+        {
+          "id": 741
+        }
+      ],
+      "badges": [
+        {
+          "id": 15
+        },
+        {
+          "id": 61
+        },
+        {
+          "id": 66
+        }
+      ]
+    },
+    {
+      "userId": "66e2f36c-ea65-450e-9de8-be128942018a",
+      "isActive": true,
+      "age": 18,
+      "picture": "https://randomuser.me/api/portraits/women/93.jpg",
+      "name": "Latisha Miles",
+      "email": "latishamiles@typhonica.com",
+      "address": "740 Court Street, Kidder, California, 9571",
+      "favorites": [
+        {
+          "id": 683
+        },
+        {
+          "id": 36
+        },
+        {
+          "id": 173
+        }
+      ],
+      "badges": [
+        {
+          "id": 21
+        },
+        {
+          "id": 65
+        },
+        {
+          "id": 89
+        }
+      ]
+    },
+    {
+      "userId": "abc20abf-2956-4db4-b90f-b24e84a98ad2",
+      "isActive": true,
+      "age": 42,
+      "picture": "https://randomuser.me/api/portraits/women/80.jpg",
+      "name": "Schmidt Gamble",
+      "email": "schmidtgamble@typhonica.com",
+      "address": "718 Rost Place, Allentown, Illinois, 6897",
+      "favorites": [
+        {
+          "id": 427
+        },
+        {
+          "id": 125
+        },
+        {
+          "id": 921
+        }
+      ],
+      "badges": [
+        {
+          "id": 70
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 66
+        }
+      ]
+    },
+    {
+      "userId": "db233ccc-1ab6-4466-9773-5af2811f25ef",
+      "isActive": false,
+      "age": 51,
+      "picture": "https://randomuser.me/api/portraits/women/58.jpg",
+      "name": "Hunter Knight",
+      "email": "hunterknight@typhonica.com",
+      "address": "718 Mill Lane, Iberia, New Hampshire, 5074",
+      "favorites": [
+        {
+          "id": 272
+        },
+        {
+          "id": 895
+        },
+        {
+          "id": 754
+        }
+      ],
+      "badges": [
+        {
+          "id": 55
+        },
+        {
+          "id": 46
+        },
+        {
+          "id": 9
+        }
+      ]
+    },
+    {
+      "userId": "bc93bffb-9584-4bfe-a882-b724144892f6",
+      "isActive": false,
+      "age": 54,
+      "picture": "https://randomuser.me/api/portraits/women/36.jpg",
+      "name": "Richardson Gray",
+      "email": "richardsongray@typhonica.com",
+      "address": "509 Bryant Street, Snowville, North Dakota, 6674",
+      "favorites": [
+        {
+          "id": 275
+        },
+        {
+          "id": 861
+        },
+        {
+          "id": 730
+        }
+      ],
+      "badges": [
+        {
+          "id": 38
+        },
+        {
+          "id": 56
+        },
+        {
+          "id": 18
+        }
+      ]
+    },
+    {
+      "userId": "40f10a4f-9928-4350-9392-5187c1d9c27e",
+      "isActive": true,
+      "age": 41,
+      "picture": "https://randomuser.me/api/portraits/men/24.jpg",
+      "name": "Juanita Day",
+      "email": "juanitaday@typhonica.com",
+      "address": "667 Prospect Avenue, Smock, Washington, 3348",
+      "favorites": [
+        {
+          "id": 637
+        },
+        {
+          "id": 244
+        },
+        {
+          "id": 125
+        }
+      ],
+      "badges": [
+        {
+          "id": 44
+        },
+        {
+          "id": 88
+        },
+        {
+          "id": 99
+        }
+      ]
+    },
+    {
+      "userId": "d589e51f-4998-484d-bb9a-89c3148e8d84",
+      "isActive": false,
+      "age": 30,
+      "picture": "https://randomuser.me/api/portraits/men/91.jpg",
+      "name": "Mendez Estrada",
+      "email": "mendezestrada@typhonica.com",
+      "address": "679 Crosby Avenue, Cresaptown, Idaho, 3753",
+      "favorites": [
+        {
+          "id": 649
+        },
+        {
+          "id": 507
+        },
+        {
+          "id": 865
+        }
+      ],
+      "badges": [
+        {
+          "id": 74
+        },
+        {
+          "id": 67
+        },
+        {
+          "id": 98
+        }
+      ]
+    },
+    {
+      "userId": "da24b89b-dc12-411a-b059-0aa46e64d5fa",
+      "isActive": true,
+      "age": 59,
+      "picture": "https://randomuser.me/api/portraits/men/2.jpg",
+      "name": "Church Conrad",
+      "email": "churchconrad@typhonica.com",
+      "address": "570 Hamilton Avenue, Hiwasse, Montana, 1114",
+      "favorites": [
+        {
+          "id": 645
+        },
+        {
+          "id": 835
+        },
+        {
+          "id": 481
+        }
+      ],
+      "badges": [
+        {
+          "id": 51
+        },
+        {
+          "id": 95
+        },
+        {
+          "id": 77
+        }
+      ]
+    },
+    {
+      "userId": "dc9ef845-f223-4ec8-91b4-921bfa90c737",
+      "isActive": false,
+      "age": 21,
+      "picture": "https://randomuser.me/api/portraits/men/95.jpg",
+      "name": "Beth Morin",
+      "email": "bethmorin@typhonica.com",
+      "address": "180 Post Court, Detroit, Florida, 708",
+      "favorites": [
+        {
+          "id": 586
+        },
+        {
+          "id": 929
+        },
+        {
+          "id": 110
+        }
+      ],
+      "badges": [
+        {
+          "id": 92
+        },
+        {
+          "id": 40
+        },
+        {
+          "id": 25
+        }
+      ]
+    },
+    {
+      "userId": "9a1fd869-8cbf-40bb-89e1-f6404f55f8b0",
+      "isActive": false,
+      "age": 20,
+      "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+      "name": "Camacho Case",
+      "email": "camachocase@typhonica.com",
+      "address": "439 Lawrence Street, Bonanza, Kentucky, 7203",
+      "favorites": [
+        {
+          "id": 39
+        },
+        {
+          "id": 379
+        },
+        {
+          "id": 888
+        }
+      ],
+      "badges": [
+        {
+          "id": 43
+        },
+        {
+          "id": 48
+        },
+        {
+          "id": 52
+        }
+      ]
+    },
+    {
+      "userId": "f65545c0-b246-447c-b912-46d3f5aa8ab6",
+      "isActive": false,
+      "age": 22,
+      "picture": "https://randomuser.me/api/portraits/men/10.jpg",
+      "name": "Lacey Guthrie",
+      "email": "laceyguthrie@typhonica.com",
+      "address": "155 Bayview Avenue, Thatcher, Louisiana, 8375",
+      "favorites": [
+        {
+          "id": 994
+        },
+        {
+          "id": 806
+        },
+        {
+          "id": 153
+        }
+      ],
+      "badges": [
+        {
+          "id": 32
+        },
+        {
+          "id": 52
+        },
+        {
+          "id": 10
+        }
+      ]
+    },
+    {
+      "userId": "065dd8e8-50ab-4f7a-8e1f-994ab4ed5300",
+      "isActive": false,
+      "age": 27,
+      "picture": "https://randomuser.me/api/portraits/men/91.jpg",
+      "name": "Marina Cochran",
+      "email": "marinacochran@typhonica.com",
+      "address": "443 Hinsdale Street, Grapeview, Alabama, 8995",
+      "favorites": [
+        {
+          "id": 286
+        },
+        {
+          "id": 789
+        },
+        {
+          "id": 810
+        }
+      ],
+      "badges": [
+        {
+          "id": 45
+        },
+        {
+          "id": 97
+        },
+        {
+          "id": 83
+        }
+      ]
+    },
+    {
+      "userId": "ce82421c-e6d4-472f-8080-360ff7984b70",
+      "isActive": true,
+      "age": 47,
+      "picture": "https://randomuser.me/api/portraits/men/65.jpg",
+      "name": "Lila Mcconnell",
+      "email": "lilamcconnell@typhonica.com",
+      "address": "940 Orange Street, Salvo, Ohio, 5195",
+      "favorites": [
+        {
+          "id": 80
+        },
+        {
+          "id": 874
+        },
+        {
+          "id": 854
+        }
+      ],
+      "badges": [
+        {
+          "id": 70
+        },
+        {
+          "id": 67
+        },
+        {
+          "id": 38
+        }
+      ]
+    },
+    {
+      "userId": "653299d9-a061-47d8-8ccd-62681cb26947",
+      "isActive": true,
+      "age": 20,
+      "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+      "name": "Marcy Calderon",
+      "email": "marcycalderon@typhonica.com",
+      "address": "101 Gerritsen Avenue, Balm, Virginia, 6767",
+      "favorites": [
+        {
+          "id": 590
+        },
+        {
+          "id": 166
+        },
+        {
+          "id": 745
+        }
+      ],
+      "badges": [
+        {
+          "id": 38
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 60
+        }
+      ]
+    },
+    {
+      "userId": "cee6ed42-749a-4a92-bd5b-edbb780117d1",
+      "isActive": true,
+      "age": 23,
+      "picture": "https://randomuser.me/api/portraits/women/83.jpg",
+      "name": "Rosales Diaz",
+      "email": "rosalesdiaz@typhonica.com",
+      "address": "359 Clifford Place, Glidden, Wisconsin, 7706",
+      "favorites": [
+        {
+          "id": 933
+        },
+        {
+          "id": 244
+        },
+        {
+          "id": 575
+        }
+      ],
+      "badges": [
+        {
+          "id": 72
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 96
+        }
+      ]
+    },
+    {
+      "userId": "866c78fa-a62d-40ba-bf91-d3c281ba3cbd",
+      "isActive": true,
+      "age": 33,
+      "picture": "https://randomuser.me/api/portraits/women/15.jpg",
+      "name": "Katy Lee",
+      "email": "katylee@typhonica.com",
+      "address": "492 Celeste Court, Brandywine, Colorado, 1811",
+      "favorites": [
+        {
+          "id": 771
+        },
+        {
+          "id": 340
+        },
+        {
+          "id": 978
+        }
+      ],
+      "badges": [
+        {
+          "id": 79
+        },
+        {
+          "id": 59
+        },
+        {
+          "id": 39
+        }
+      ]
+    },
+    {
+      "userId": "501a931d-f553-40d5-ab3f-9676e036afba",
+      "isActive": false,
+      "age": 58,
+      "picture": "https://randomuser.me/api/portraits/women/89.jpg",
+      "name": "Francis Holman",
+      "email": "francisholman@typhonica.com",
+      "address": "658 Doone Court, Cornucopia, Marshall Islands, 6165",
+      "favorites": [
+        {
+          "id": 388
+        },
+        {
+          "id": 522
+        },
+        {
+          "id": 557
+        }
+      ],
+      "badges": [
+        {
+          "id": 43
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 24
+        }
+      ]
+    },
+    {
+      "userId": "135f9d82-feea-4258-b4a4-73311cf58a9a",
+      "isActive": true,
+      "age": 24,
+      "picture": "https://randomuser.me/api/portraits/women/61.jpg",
+      "name": "Jenkins Houston",
+      "email": "jenkinshouston@typhonica.com",
+      "address": "144 Russell Street, Lewis, Oregon, 1368",
+      "favorites": [
+        {
+          "id": 659
+        },
+        {
+          "id": 257
+        },
+        {
+          "id": 689
+        }
+      ],
+      "badges": [
+        {
+          "id": 71
+        },
+        {
+          "id": 67
+        },
+        {
+          "id": 86
+        }
+      ]
+    },
+    {
+      "userId": "a33765ad-d048-48e6-a0b1-a3cec469c84c",
+      "isActive": false,
+      "age": 29,
+      "picture": "https://randomuser.me/api/portraits/men/27.jpg",
+      "name": "Mcclain Wheeler",
+      "email": "mcclainwheeler@typhonica.com",
+      "address": "511 Clark Street, Hilltop, Virgin Islands, 2121",
+      "favorites": [
+        {
+          "id": 941
+        },
+        {
+          "id": 824
+        },
+        {
+          "id": 729
+        }
+      ],
+      "badges": [
+        {
+          "id": 70
+        },
+        {
+          "id": 87
+        },
+        {
+          "id": 53
+        }
+      ]
+    },
+    {
+      "userId": "d423e87d-5432-4fba-a22b-14f2374fe6e5",
+      "isActive": true,
+      "age": 60,
+      "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+      "name": "Figueroa Soto",
+      "email": "figueroasoto@typhonica.com",
+      "address": "150 Ross Street, Magnolia, Missouri, 1298",
+      "favorites": [
+        {
+          "id": 231
+        },
+        {
+          "id": 984
+        },
+        {
+          "id": 771
+        }
+      ],
+      "badges": [
+        {
+          "id": 5
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 40
+        }
+      ]
+    },
+    {
+      "userId": "fd97847d-9f77-400e-9131-a1be1eae52b5",
+      "isActive": true,
+      "age": 56,
+      "picture": "https://randomuser.me/api/portraits/men/15.jpg",
+      "name": "Arnold James",
+      "email": "arnoldjames@typhonica.com",
+      "address": "993 Preston Court, Katonah, District Of Columbia, 7851",
+      "favorites": [
+        {
+          "id": 239
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 218
+        }
+      ],
+      "badges": [
+        {
+          "id": 22
+        },
+        {
+          "id": 40
+        },
+        {
+          "id": 74
+        }
+      ]
+    },
+    {
+      "userId": "8dbb53df-a71f-42f1-a084-cfa9bc57de72",
+      "isActive": true,
+      "age": 47,
+      "picture": "https://randomuser.me/api/portraits/women/83.jpg",
+      "name": "Tanya Harris",
+      "email": "tanyaharris@typhonica.com",
+      "address": "922 Danforth Street, Whitehaven, Arkansas, 7450",
+      "favorites": [
+        {
+          "id": 806
+        },
+        {
+          "id": 750
+        },
+        {
+          "id": 971
+        }
+      ],
+      "badges": [
+        {
+          "id": 5
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 100
+        }
+      ]
+    },
+    {
+      "userId": "4cf8e723-c531-44d2-b7c2-e69d18aaf760",
+      "isActive": true,
+      "age": 57,
+      "picture": "https://randomuser.me/api/portraits/women/93.jpg",
+      "name": "Velma Dillon",
+      "email": "velmadillon@typhonica.com",
+      "address": "973 Dekalb Avenue, Reinerton, Kansas, 7672",
+      "favorites": [
+        {
+          "id": 171
+        },
+        {
+          "id": 332
+        },
+        {
+          "id": 550
+        }
+      ],
+      "badges": [
+        {
+          "id": 31
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 88
+        }
+      ]
+    },
+    {
+      "userId": "dda675d7-0a8c-43c8-b0bc-7ef3c9d5b93a",
+      "isActive": false,
+      "age": 43,
+      "picture": "https://randomuser.me/api/portraits/women/1.jpg",
+      "name": "Effie Witt",
+      "email": "effiewitt@typhonica.com",
+      "address": "938 Wolf Place, Yardville, Connecticut, 2725",
+      "favorites": [
+        {
+          "id": 194
+        },
+        {
+          "id": 393
+        },
+        {
+          "id": 89
+        }
+      ],
+      "badges": [
+        {
+          "id": 4
+        },
+        {
+          "id": 35
+        },
+        {
+          "id": 9
+        }
+      ]
+    },
+    {
+      "userId": "3e881d86-1dd5-4165-b333-367e555d4493",
+      "isActive": false,
+      "age": 35,
+      "picture": "https://randomuser.me/api/portraits/women/56.jpg",
+      "name": "Bobbi Coffey",
+      "email": "bobbicoffey@typhonica.com",
+      "address": "726 Norfolk Street, Advance, Hawaii, 6642",
+      "favorites": [
+        {
+          "id": 115
+        },
+        {
+          "id": 844
+        },
+        {
+          "id": 392
+        }
+      ],
+      "badges": [
+        {
+          "id": 32
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 81
+        }
+      ]
+    },
+    {
+      "userId": "57b9bced-68b3-47bf-a0b5-cc501ee96af2",
+      "isActive": true,
+      "age": 35,
+      "picture": "https://randomuser.me/api/portraits/women/37.jpg",
+      "name": "Villarreal Riddle",
+      "email": "villarrealriddle@typhonica.com",
+      "address": "446 Vandam Street, Falmouth, South Carolina, 9898",
+      "favorites": [
+        {
+          "id": 191
+        },
+        {
+          "id": 888
+        },
+        {
+          "id": 350
+        }
+      ],
+      "badges": [
+        {
+          "id": 36
+        },
+        {
+          "id": 67
+        },
+        {
+          "id": 36
+        }
+      ]
+    },
+    {
+      "userId": "a917cdce-acf8-4355-b364-cb01fb34da0a",
+      "isActive": false,
+      "age": 27,
+      "picture": "https://randomuser.me/api/portraits/women/71.jpg",
+      "name": "Kristy Carney",
+      "email": "kristycarney@typhonica.com",
+      "address": "939 Wilson Street, Hannasville, Federated States Of Micronesia, 6780",
+      "favorites": [
+        {
+          "id": 420
+        },
+        {
+          "id": 899
+        },
+        {
+          "id": 747
+        }
+      ],
+      "badges": [
+        {
+          "id": 79
+        },
+        {
+          "id": 61
+        },
+        {
+          "id": 34
+        }
+      ]
+    },
+    {
+      "userId": "408e9d48-21e4-410d-9357-d362ee97b0bf",
+      "isActive": false,
+      "age": 45,
+      "picture": "https://randomuser.me/api/portraits/women/94.jpg",
+      "name": "Mills Bean",
+      "email": "millsbean@typhonica.com",
+      "address": "633 Mermaid Avenue, Darrtown, Oklahoma, 6876",
+      "favorites": [
+        {
+          "id": 65
+        },
+        {
+          "id": 680
+        },
+        {
+          "id": 416
+        }
+      ],
+      "badges": [
+        {
+          "id": 19
+        },
+        {
+          "id": 58
+        },
+        {
+          "id": 77
+        }
+      ]
+    },
+    {
+      "userId": "3db574ea-14a6-489c-900f-ad7d785b4279",
+      "isActive": false,
+      "age": 44,
+      "picture": "https://randomuser.me/api/portraits/men/21.jpg",
+      "name": "Lindsay Lang",
+      "email": "lindsaylang@typhonica.com",
+      "address": "964 Overbaugh Place, Grazierville, New Mexico, 5395",
+      "favorites": [
+        {
+          "id": 621
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 389
+        }
+      ],
+      "badges": [
+        {
+          "id": 3
+        },
+        {
+          "id": 54
+        },
+        {
+          "id": 52
+        }
+      ]
+    },
+    {
+      "userId": "e8617be4-5d83-4d11-85c1-96befff7966f",
+      "isActive": true,
+      "age": 34,
+      "picture": "https://randomuser.me/api/portraits/men/99.jpg",
+      "name": "Laurie Young",
+      "email": "laurieyoung@typhonica.com",
+      "address": "421 Hemlock Street, Berwind, Maryland, 7878",
+      "favorites": [
+        {
+          "id": 187
+        },
+        {
+          "id": 949
+        },
+        {
+          "id": 751
+        }
+      ],
+      "badges": [
+        {
+          "id": 5
+        },
+        {
+          "id": 26
+        },
+        {
+          "id": 51
+        }
+      ]
+    },
+    {
+      "userId": "5f3ad954-4c37-41db-ad7f-4c4ed0e61b42",
+      "isActive": false,
+      "age": 57,
+      "picture": "https://randomuser.me/api/portraits/men/63.jpg",
+      "name": "Kim Henry",
+      "email": "kimhenry@typhonica.com",
+      "address": "261 Jackson Street, Maybell, Nebraska, 4001",
+      "favorites": [
+        {
+          "id": 239
+        },
+        {
+          "id": 662
+        },
+        {
+          "id": 927
+        }
+      ],
+      "badges": [
+        {
+          "id": 76
+        },
+        {
+          "id": 26
+        },
+        {
+          "id": 96
+        }
+      ]
+    },
+    {
+      "userId": "bd23af59-9781-4f6d-a517-d5ee1a3fa1e7",
+      "isActive": false,
+      "age": 58,
+      "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+      "name": "Cecilia Buchanan",
+      "email": "ceciliabuchanan@typhonica.com",
+      "address": "667 Vandalia Avenue, Cornfields, Pennsylvania, 3200",
+      "favorites": [
+        {
+          "id": 179
+        },
+        {
+          "id": 192
+        },
+        {
+          "id": 757
+        }
+      ],
+      "badges": [
+        {
+          "id": 69
+        },
+        {
+          "id": 81
+        },
+        {
+          "id": 78
+        }
+      ]
+    },
+    {
+      "userId": "d23ff06e-a2e5-4b91-b68b-210e6accc776",
+      "isActive": false,
+      "age": 43,
+      "picture": "https://randomuser.me/api/portraits/men/39.jpg",
+      "name": "Vicky Strong",
+      "email": "vickystrong@typhonica.com",
+      "address": "552 Howard Place, Ypsilanti, Delaware, 7528",
+      "favorites": [
+        {
+          "id": 90
+        },
+        {
+          "id": 81
+        },
+        {
+          "id": 517
+        }
+      ],
+      "badges": [
+        {
+          "id": 32
+        },
+        {
+          "id": 41
+        },
+        {
+          "id": 46
+        }
+      ]
+    },
+    {
+      "userId": "29ff70fd-b253-427b-9b5b-28a8e5419a83",
+      "isActive": true,
+      "age": 29,
+      "picture": "https://randomuser.me/api/portraits/men/17.jpg",
+      "name": "Casey Herrera",
+      "email": "caseyherrera@typhonica.com",
+      "address": "278 Hale Avenue, Durham, Michigan, 7139",
+      "favorites": [
+        {
+          "id": 360
+        },
+        {
+          "id": 711
+        },
+        {
+          "id": 388
+        }
+      ],
+      "badges": [
+        {
+          "id": 17
+        },
+        {
+          "id": 50
+        },
+        {
+          "id": 94
+        }
+      ]
+    },
+    {
+      "userId": "6d0ba0da-17c2-4a12-82d6-1c905b4d72d0",
+      "isActive": true,
+      "age": 37,
+      "picture": "https://randomuser.me/api/portraits/men/74.jpg",
+      "name": "Shelly Mcdonald",
+      "email": "shellymcdonald@typhonica.com",
+      "address": "203 Vine Street, Lopezo, Wyoming, 9179",
+      "favorites": [
+        {
+          "id": 989
+        },
+        {
+          "id": 929
+        },
+        {
+          "id": 216
+        }
+      ],
+      "badges": [
+        {
+          "id": 10
+        },
+        {
+          "id": 21
+        },
+        {
+          "id": 27
+        }
+      ]
+    },
+    {
+      "userId": "724db1cd-57fd-4385-9fdd-0554e972f4a2",
+      "isActive": true,
+      "age": 19,
+      "picture": "https://randomuser.me/api/portraits/men/34.jpg",
+      "name": "Britney Carson",
+      "email": "britneycarson@typhonica.com",
+      "address": "781 Columbia Place, Bennett, Alaska, 1989",
+      "favorites": [
+        {
+          "id": 687
+        },
+        {
+          "id": 412
+        },
+        {
+          "id": 110
+        }
+      ],
+      "badges": [
+        {
+          "id": 35
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 82
+        }
+      ]
+    },
+    {
+      "userId": "baf8139a-bebe-474f-bb9a-8eeed041045b",
+      "isActive": false,
+      "age": 39,
+      "picture": "https://randomuser.me/api/portraits/women/36.jpg",
+      "name": "Claire Wong",
+      "email": "clairewong@typhonica.com",
+      "address": "256 Hudson Avenue, Leroy, New York, 2731",
+      "favorites": [
+        {
+          "id": 130
+        },
+        {
+          "id": 886
+        },
+        {
+          "id": 917
+        }
+      ],
+      "badges": [
+        {
+          "id": 87
+        },
+        {
+          "id": 61
+        },
+        {
+          "id": 58
+        }
+      ]
+    },
+    {
+      "userId": "ba81feb9-6210-487d-a2ec-ed7e058c6ce6",
+      "isActive": true,
+      "age": 30,
+      "picture": "https://randomuser.me/api/portraits/men/93.jpg",
+      "name": "Underwood Rush",
+      "email": "underwoodrush@typhonica.com",
+      "address": "284 Ocean Court, Bend, Mississippi, 189",
+      "favorites": [
+        {
+          "id": 775
+        },
+        {
+          "id": 140
+        },
+        {
+          "id": 1
+        }
+      ],
+      "badges": [
+        {
+          "id": 18
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 80
+        }
+      ]
+    },
+    {
+      "userId": "e02d7a34-2367-43b9-8437-60727390dce7",
+      "isActive": true,
+      "age": 48,
+      "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+      "name": "Mandy Watkins",
+      "email": "mandywatkins@typhonica.com",
+      "address": "681 Matthews Place, Vaughn, New Jersey, 9753",
+      "favorites": [
+        {
+          "id": 251
+        },
+        {
+          "id": 524
+        },
+        {
+          "id": 883
+        }
+      ],
+      "badges": [
+        {
+          "id": 21
+        },
+        {
+          "id": 63
+        },
+        {
+          "id": 85
+        }
+      ]
+    },
+    {
+      "userId": "f09aaf71-731a-4574-864e-36d1f025ddc4",
+      "isActive": true,
+      "age": 24,
+      "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+      "name": "Valarie Campbell",
+      "email": "valariecampbell@typhonica.com",
+      "address": "315 Gerry Street, Belvoir, Georgia, 4145",
+      "favorites": [
+        {
+          "id": 715
+        },
+        {
+          "id": 616
+        },
+        {
+          "id": 579
+        }
+      ],
+      "badges": [
+        {
+          "id": 26
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 72
+        }
+      ]
+    },
+    {
+      "userId": "d2418710-37f2-4611-9ea3-4048370c130e",
+      "isActive": true,
+      "age": 24,
+      "picture": "https://randomuser.me/api/portraits/men/99.jpg",
+      "name": "May Alford",
+      "email": "mayalford@typhonica.com",
+      "address": "224 Bragg Street, Singer, Tennessee, 3700",
+      "favorites": [
+        {
+          "id": 698
+        },
+        {
+          "id": 111
+        },
+        {
+          "id": 822
+        }
+      ],
+      "badges": [
+        {
+          "id": 23
+        },
+        {
+          "id": 68
+        },
+        {
+          "id": 41
+        }
+      ]
+    },
+    {
+      "userId": "09a7f76a-0a0d-43d2-b3ca-1f6d191ca244",
+      "isActive": false,
+      "age": 34,
+      "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+      "name": "Mccoy Orr",
+      "email": "mccoyorr@typhonica.com",
+      "address": "792 Maujer Street, Greensburg, Arizona, 6430",
+      "favorites": [
+        {
+          "id": 376
+        },
+        {
+          "id": 966
+        },
+        {
+          "id": 686
+        }
+      ],
+      "badges": [
+        {
+          "id": 93
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 56
+        }
+      ]
+    },
+    {
+      "userId": "3298fd57-5497-48e5-a775-65c9a83d8475",
+      "isActive": false,
+      "age": 57,
+      "picture": "https://randomuser.me/api/portraits/men/57.jpg",
+      "name": "Tyson Christensen",
+      "email": "tysonchristensen@typhonica.com",
+      "address": "224 Aurelia Court, Fannett, Northern Mariana Islands, 7171",
+      "favorites": [
+        {
+          "id": 664
+        },
+        {
+          "id": 29
+        },
+        {
+          "id": 970
+        }
+      ],
+      "badges": [
+        {
+          "id": 9
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 14
+        }
+      ]
+    },
+    {
+      "userId": "4a3b7583-ace8-4607-b50c-1ea47a70b178",
+      "isActive": false,
+      "age": 28,
+      "picture": "https://randomuser.me/api/portraits/women/89.jpg",
+      "name": "Clayton Hines",
+      "email": "claytonhines@typhonica.com",
+      "address": "539 Ridgecrest Terrace, Groton, North Carolina, 2277",
+      "favorites": [
+        {
+          "id": 662
+        },
+        {
+          "id": 998
+        },
+        {
+          "id": 972
+        }
+      ],
+      "badges": [
+        {
+          "id": 14
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 75
+        }
+      ]
+    },
+    {
+      "userId": "1fe879b5-74fc-4cb2-9dcd-ac13a1173703",
+      "isActive": false,
+      "age": 41,
+      "picture": "https://randomuser.me/api/portraits/women/9.jpg",
+      "name": "Sheree Lewis",
+      "email": "shereelewis@typhonica.com",
+      "address": "140 Thames Street, Coventry, Guam, 5015",
+      "favorites": [
+        {
+          "id": 986
+        },
+        {
+          "id": 781
+        },
+        {
+          "id": 669
+        }
+      ],
+      "badges": [
+        {
+          "id": 91
+        },
+        {
+          "id": 15
+        },
+        {
+          "id": 47
+        }
+      ]
+    },
+    {
+      "userId": "e38673ad-34cd-47ea-ad35-074bca0b8caf",
+      "isActive": false,
+      "age": 27,
+      "picture": "https://randomuser.me/api/portraits/men/34.jpg",
+      "name": "Rosemary Eaton",
+      "email": "rosemaryeaton@typhonica.com",
+      "address": "202 Devoe Street, Rosine, American Samoa, 3108",
+      "favorites": [
+        {
+          "id": 681
+        },
+        {
+          "id": 172
+        },
+        {
+          "id": 981
+        }
+      ],
+      "badges": [
+        {
+          "id": 4
+        },
+        {
+          "id": 18
+        },
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "userId": "84139faf-7b11-44f7-a3ea-9ddc851c24ff",
+      "isActive": false,
+      "age": 27,
+      "picture": "https://randomuser.me/api/portraits/women/50.jpg",
+      "name": "Le Powell",
+      "email": "lepowell@typhonica.com",
+      "address": "985 Cooper Street, Nogal, South Dakota, 6237",
+      "favorites": [
+        {
+          "id": 367
+        },
+        {
+          "id": 844
+        },
+        {
+          "id": 232
+        }
+      ],
+      "badges": [
+        {
+          "id": 74
+        },
+        {
+          "id": 36
+        },
+        {
+          "id": 26
+        }
+      ]
+    },
+    {
+      "userId": "dd9f1867-f171-431d-9c3f-f2fc2e5125ee",
+      "isActive": false,
+      "age": 40,
+      "picture": "https://randomuser.me/api/portraits/men/85.jpg",
+      "name": "Nadine Atkins",
+      "email": "nadineatkins@typhonica.com",
+      "address": "386 Chester Street, Vicksburg, Texas, 5136",
+      "favorites": [
+        {
+          "id": 750
+        },
+        {
+          "id": 810
+        },
+        {
+          "id": 953
+        }
+      ],
+      "badges": [
+        {
+          "id": 57
+        },
+        {
+          "id": 52
+        },
+        {
+          "id": 17
+        }
+      ]
+    },
+    {
+      "userId": "086213a6-3524-4c77-b5f3-5cf99bba6218",
+      "isActive": true,
+      "age": 45,
+      "picture": "https://randomuser.me/api/portraits/men/4.jpg",
+      "name": "Alisa Morales",
+      "email": "alisamorales@typhonica.com",
+      "address": "472 Ditmars Street, Brookfield, Indiana, 1675",
+      "favorites": [
+        {
+          "id": 258
+        },
+        {
+          "id": 853
+        },
+        {
+          "id": 727
+        }
+      ],
+      "badges": [
+        {
+          "id": 36
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 21
+        }
+      ]
+    },
+    {
+      "userId": "b7cfeef1-0753-4e41-b3dc-ddcd11e87139",
+      "isActive": true,
+      "age": 47,
+      "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+      "name": "Guerrero Hoffman",
+      "email": "guerrerohoffman@typhonica.com",
+      "address": "196 Gelston Avenue, Cascades, Rhode Island, 7820",
+      "favorites": [
+        {
+          "id": 144
+        },
+        {
+          "id": 959
+        },
+        {
+          "id": 549
+        }
+      ],
+      "badges": [
+        {
+          "id": 27
+        },
+        {
+          "id": 38
+        },
+        {
+          "id": 77
+        }
+      ]
+    },
+    {
+      "userId": "1d59086c-d6a4-409c-98ab-b38e2c6d9129",
+      "isActive": false,
+      "age": 52,
+      "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+      "name": "Theresa Workman",
+      "email": "theresaworkman@typhonica.com",
+      "address": "590 Crawford Avenue, Reno, Iowa, 8631",
+      "favorites": [
+        {
+          "id": 135
+        },
+        {
+          "id": 360
+        },
+        {
+          "id": 851
+        }
+      ],
+      "badges": [
+        {
+          "id": 30
+        },
+        {
+          "id": 43
+        },
+        {
+          "id": 3
+        }
+      ]
+    },
+    {
+      "userId": "3d66db04-628c-4268-9133-457384293d7c",
+      "isActive": true,
+      "age": 51,
+      "picture": "https://randomuser.me/api/portraits/women/99.jpg",
+      "name": "Meadows Keith",
+      "email": "meadowskeith@typhonica.com",
+      "address": "217 Withers Street, Gratton, Massachusetts, 6753",
+      "favorites": [
+        {
+          "id": 933
+        },
+        {
+          "id": 419
+        },
+        {
+          "id": 706
+        }
+      ],
+      "badges": [
+        {
+          "id": 7
+        },
+        {
+          "id": 64
+        },
+        {
+          "id": 53
+        }
+      ]
+    },
+    {
+      "userId": "943f6323-c004-4c24-859f-4b02a60bd3b7",
+      "isActive": true,
+      "age": 35,
+      "picture": "https://randomuser.me/api/portraits/men/20.jpg",
+      "name": "Glass House",
+      "email": "glasshouse@typhonica.com",
+      "address": "113 Bills Place, Roosevelt, Maine, 199",
+      "favorites": [
+        {
+          "id": 134
+        },
+        {
+          "id": 578
+        },
+        {
+          "id": 7
+        }
+      ],
+      "badges": [
+        {
+          "id": 56
+        },
+        {
+          "id": 49
+        },
+        {
+          "id": 17
+        }
+      ]
+    },
+    {
+      "userId": "9c6efc67-e676-4214-a71e-2790349df90b",
+      "isActive": false,
+      "age": 31,
+      "picture": "https://randomuser.me/api/portraits/men/91.jpg",
+      "name": "Cole Mcmillan",
+      "email": "colemcmillan@typhonica.com",
+      "address": "885 Crystal Street, Frystown, Puerto Rico, 1572",
+      "favorites": [
+        {
+          "id": 741
+        },
+        {
+          "id": 453
+        },
+        {
+          "id": 953
+        }
+      ],
+      "badges": [
+        {
+          "id": 48
+        },
+        {
+          "id": 80
+        },
+        {
+          "id": 85
+        }
+      ]
+    },
+    {
+      "userId": "d72ee985-814e-42e7-abf1-f1fe8430785c",
+      "isActive": false,
+      "age": 31,
+      "picture": "https://randomuser.me/api/portraits/women/96.jpg",
+      "name": "Alyce Sellers",
+      "email": "alycesellers@typhonica.com",
+      "address": "263 Adler Place, Dunlo, Nevada, 4016",
+      "favorites": [
+        {
+          "id": 945
+        },
+        {
+          "id": 265
+        },
+        {
+          "id": 306
+        }
+      ],
+      "badges": [
+        {
+          "id": 14
+        },
+        {
+          "id": 96
+        },
+        {
+          "id": 62
+        }
+      ]
+    },
+    {
+      "userId": "f503e8c3-dff8-434a-9921-24fd433c484f",
+      "isActive": false,
+      "age": 41,
+      "picture": "https://randomuser.me/api/portraits/men/35.jpg",
+      "name": "Dawson Glenn",
+      "email": "dawsonglenn@typhonica.com",
+      "address": "937 Richmond Street, Kylertown, Minnesota, 1834",
+      "favorites": [
+        {
+          "id": 948
+        },
+        {
+          "id": 363
+        },
+        {
+          "id": 883
+        }
+      ],
+      "badges": [
+        {
+          "id": 100
+        },
+        {
+          "id": 45
+        },
+        {
+          "id": 23
+        }
+      ]
+    },
+    {
+      "userId": "95b71ecb-564e-498b-8b05-39316b498936",
+      "isActive": false,
+      "age": 33,
+      "picture": "https://randomuser.me/api/portraits/women/20.jpg",
+      "name": "Rosalinda Peters",
+      "email": "rosalindapeters@typhonica.com",
+      "address": "365 Woods Place, Lynn, Vermont, 7598",
+      "favorites": [
+        {
+          "id": 271
+        },
+        {
+          "id": 582
+        },
+        {
+          "id": 899
+        }
+      ],
+      "badges": [
+        {
+          "id": 13
+        },
+        {
+          "id": 47
+        },
+        {
+          "id": 55
+        }
+      ]
+    },
+    {
+      "userId": "a3f4427f-acb4-4d1e-94cc-57cb685514d7",
+      "isActive": false,
+      "age": 60,
+      "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+      "name": "Nola Yang",
+      "email": "nolayang@typhonica.com",
+      "address": "778 Hanson Place, Boonville, Utah, 5155",
+      "favorites": [
+        {
+          "id": 445
+        },
+        {
+          "id": 320
+        },
+        {
+          "id": 865
+        }
+      ],
+      "badges": [
+        {
+          "id": 16
+        },
+        {
+          "id": 33
+        },
+        {
+          "id": 38
+        }
+      ]
+    }
+  ]

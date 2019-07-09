@@ -1,0 +1,122 @@
+# serverless.yml
+
+service: street-tagged-server
+
+plugins:
+  - serverless-offline
+  - serverless-dynamodb-local
+  - serverless-domain-manager
+  
+custom:
+  customDomain:
+    domainName: api-dev.streettagged.com
+    createRoute53Record: true
+    certificateName: "*.streettagged.com"
+    basePath: ''
+    stage: ${self:provider.stage}
+
+  streetArtTableName: 'streetart-${self:provider.stage}'
+  dynamodb:
+    stages:
+      - dev
+    start:
+      migrate: true
+      seed: true
+    seed:
+      test:
+        sources:
+          - table: ${self:custom.streetArtTableName}
+            sources: [./test/fake-streetart-locations.json]
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource:
+        - { "Fn::GetAtt": ["StreetArtDynamoDBTable", "Arn" ] }
+  environment:
+    ART_TABLE: ${self:custom.streetArtTableName}
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+  getArt:
+    handler: index.handler
+    events:
+      - http: 'GET /art/{proxy+}'
+  
+  createArt:
+    handler: index.handler
+    events:
+      - http: 'POST /art'
+    authorizer:
+        type: COGNITO_USER_POOLS
+        authorizerId:
+          Ref: ApiGatewayAuthorizer
+
+resources:
+  Resources:
+    StreetArtDynamoDBTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: artId
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: artId
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:custom.streetArtTableName}
+
+    CognitoUserPool:
+      Type: "AWS::Cognito::UserPool"
+      Properties:
+        MfaConfiguration: OFF
+        UserPoolName: regular-user-pool-${self:provider.stage}
+        UsernameAttributes:
+          - email
+        Policies:
+          PasswordPolicy:
+            MinimumLength: 6
+            RequireLowercase: False
+            RequireNumbers: True
+            RequireSymbols: False
+            RequireUppercase: True
+
+    CognitoUserPoolClient:
+      Type: "AWS::Cognito::UserPoolClient"
+      Properties:
+        ClientName: regular-user-pool-client-${self:provider.stage}
+        GenerateSecret: False
+        UserPoolId:
+          Ref: CognitoUserPool
+
+    ApiGatewayAuthorizer:
+      DependsOn:
+        - ApiGatewayRestApi
+      Type: AWS::ApiGateway::Authorizer
+      Properties:
+        Name: cognito-authorizer
+        IdentitySource: method.request.header.Authorization
+        RestApiId:
+          Ref: ApiGatewayRestApi
+        Type: COGNITO_USER_POOLS
+        ProviderARNs:
+          - Fn::GetAtt: [CognitoUserPool, Arn]
