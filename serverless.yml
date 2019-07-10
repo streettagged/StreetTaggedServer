@@ -14,8 +14,8 @@ custom:
     certificateName: "*.streettagged.com"
     basePath: ''
     stage: ${self:provider.stage}
-
   streetArtTableName: 'streetart-${self:provider.stage}'
+
   dynamodb:
     stages:
       - dev
