@@ -9,7 +9,6 @@ const uuid = require('uuid')
 const cors = require('cors')
 
 const ART_TABLE = process.env.ART_TABLE;
-const USERS_TABLE = process.env.USERS_TABLE;
 const IS_OFFLINE = process.env.IS_OFFLINE;
 
 let dynamoDb;
@@ -31,6 +30,8 @@ app.get('/', function (req, res) {
 
 // Get Street Art endpoint
 app.get('/art/:artId', function (req, res) {
+  res.header("Access-Control-Allow-Origin", "*");
+
   const params = {
     TableName: ART_TABLE,
     Key: {
@@ -44,9 +45,7 @@ app.get('/art/:artId', function (req, res) {
       res.status(400).json({ error: 'Could not get art' });
     }
     if (result.Item) {
-      res.header("Access-Control-Allow-Origin", "*");
-      console.log (result)
-      res.json(result);
+       res.json(result);
     } else {
       res.status(404).json({ error: "Art not found" });
     }
@@ -59,11 +58,6 @@ app.post('/art', function (req, res) {
 
   console.log(req.body)
   const { isActive, isFeatured, picture, name, artist, address, about, registered, coordinates, tags, category } = req.body;
-  if (typeof artId !== 'string') {
-    res.status(400).json({ error: '"artId" must be a string' });
-  } else if (typeof name !== 'string') {
-    res.status(400).json({ error: '"name" must be a string' });
-  }
 
   const params = {
     TableName: ART_TABLE,
@@ -88,8 +82,6 @@ app.post('/art', function (req, res) {
       console.log(error);
       res.status(400).json({ error: 'Could not create art' });
     }
-    console.log('hey hey;');
-    console.log(coordinates);
     res.json(params.Item);
   });
 })
