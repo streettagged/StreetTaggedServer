@@ -6,7 +6,7 @@ plugins:
   - serverless-offline
   - serverless-dynamodb-local
   - serverless-domain-manager
-  
+
 custom:
   customDomain:
     domainName: api-dev.streettagged.com
@@ -58,7 +58,7 @@ functions:
     events:
       - http: 'GET /art/{proxy+}'
         cors: true
-  
+
   createArt:
     handler: index.handler
     events:
@@ -67,7 +67,7 @@ functions:
     authorizer:
         type: COGNITO_USER_POOLS
         authorizerId:
-          Ref: ApiGatewayAuthorizer
+            Ref: ApiGatewayAuthorizer
 
 resources:
   Resources:
