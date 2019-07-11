@@ -10,6 +10,26 @@ const STATUS_BAD_REQUEST = 400;
 artController.getArt = async (req, res) => {
   try {
     const params = {
+      TableName: process.env.ART_TABLE
+    };
+    const results = await dynamoDB().scan(params).promise();
+    if (results.Items) {
+      const { Items, Count } = results;
+      res.status(STATUS_OK);
+      res.json({ count: Count, artWorks: Items});
+    } else {
+      res.status(STATUS_BAD_REQUEST);
+      res.send();
+    }
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+};
+
+artController.getArtByID = async (req, res) => {
+  try {
+    const params = {
       TableName: process.env.ART_TABLE,
       Key: {
         artId: req.params.artId,
