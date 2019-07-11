@@ -53,10 +53,17 @@ functions:
     events:
       - http: ANY /
       - http: 'ANY {proxy+}'
+
   getArt:
     handler: index.handler
     events:
       - http: 'GET /art/{proxy+}'
+        cors: true
+        
+  getArtAll:
+    handler: index.handler
+    events:
+      - http: 'GET /art'
         cors: true
 
   createArt:
