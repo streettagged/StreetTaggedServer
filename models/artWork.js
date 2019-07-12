@@ -24,7 +24,10 @@ const ArtSchema = new Schema({
   artist: String,
   address: String,
   about: String,
-  tags: Array,
+  tags: {
+    type: [String],
+    index: true
+  },
   location: {
     type: pointSchema,
     required: false
@@ -35,6 +38,10 @@ const ArtSchema = new Schema({
 ArtSchema.index({
   location: '2dsphere'
 });
+
+ArtSchema.index({
+  'tags': 1
+})
 
 const ArtWork = mongoose.models.ArtWork || mongoose.model('ArtWork', ArtSchema);
 

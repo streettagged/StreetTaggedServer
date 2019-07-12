@@ -46,6 +46,7 @@ provider:
         - { "Fn::GetAtt": ["StreetArtDynamoDBTable", "Arn" ] }
   environment:
     ART_TABLE: ${self:custom.streetArtTableName}
+    MONGO_DB: mongodb+srv://streettagged:XrdG9JQShFmAy4rd@streettagged-z3s5t.mongodb.net/streettagged?retryWrites=true&w=majority
 
 functions:
   app:
@@ -64,6 +65,12 @@ functions:
     handler: index.handler
     events:
       - http: 'GET /art'
+        cors: true
+
+  searchArt:
+    handler: index.handler
+    events:
+      - http: 'POST /search/art'
         cors: true
 
   createArt:
