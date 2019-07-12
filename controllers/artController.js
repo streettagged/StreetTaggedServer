@@ -55,16 +55,19 @@ artController.getArtByID = async (req, res) => {
 artController.postArt = async (req, res) => {
   try {
     const {
-      isActive,
-      isFeatured,
+      isActive = true,
+      isFeatured = true,
       picture,
-      name,
-      artist,
-      address,
-      about,
-      coordinates,
-      tags,
-      category
+      name = '',
+      artist = '',
+      address = '',
+      about = '',
+      coordinates = {
+        'latitude': 0,
+	      'longitude': 0,
+      },
+      tags = [],
+      category = ''
     } = req.body;
 
     const art = await ArtWork.create({
