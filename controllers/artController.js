@@ -1,26 +1,62 @@
-const uuid = require('uuid');
+const uuidv4 = require('uuid/v4');
 
-const { dynamoDB: { dynamoDB } } = require('./../database');
+const { ArtWork } = require('./../models');
 
 const artController = {};
 
 const STATUS_OK = 200;
 const STATUS_BAD_REQUEST = 400;
 
+artController.searchArt = async (req, res) => {
+  try {
+    const {
+      latitude = null,
+      longitude = null,
+      maxDistance = null, 
+      tags = []
+    } = req.body;
+
+    let artWorks = [];
+    let queries = [];
+
+    if (latitude && longitude && maxDistance) {
+      queries.push({
+        location: {
+          $near: { $geometry: {
+                type: 'Point',
+                coordinates: [longitude, latitude]
+                },
+                $maxDistance: maxDistance
+          }
+        }
+      })
+    }
+
+    if (tags.length > 0) {
+      queries.push({
+        tags: { $in: tags }
+      });
+    }
+
+    if (queries.length > 0) {
+      artWorks = await ArtWork.find({
+        $and: queries
+      });
+    }
+
+    res.status(STATUS_OK);
+    res.json({ artWorks });
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+};
+
 artController.getArt = async (req, res) => {
   try {
-    const params = {
-      TableName: process.env.ART_TABLE
-    };
-    const results = await dynamoDB().scan(params).promise();
-    if (results.Items) {
-      const { Items, Count } = results;
-      res.status(STATUS_OK);
-      res.json({ count: Count, artWorks: Items});
-    } else {
-      res.status(STATUS_BAD_REQUEST);
-      res.send();
-    }
+    const artWorks = await ArtWork.find({ });
+    res.status(STATUS_OK);
+    res.json({ artWorks });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
@@ -29,21 +65,10 @@ artController.getArt = async (req, res) => {
 
 artController.getArtByID = async (req, res) => {
   try {
-    const params = {
-      TableName: process.env.ART_TABLE,
-      Key: {
-        artId: req.params.artId,
-      },
-    }
-    const results = await dynamoDB().get(params).promise();
-    if (results.Item) {
-      const { Item } = results;
-      res.status(STATUS_OK);
-      res.json(Item);
-    } else {
-      res.status(STATUS_BAD_REQUEST);
-      res.json({ error: "Art not found" });
-    }
+    const { artId } = req.params;
+    const artWork = await ArtWork.findOne({ artId });
+    res.status(STATUS_OK);
+    res.json({ artWork });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
@@ -53,34 +78,39 @@ artController.getArtByID = async (req, res) => {
 artController.postArt = async (req, res) => {
   try {
     const {
-      isActive, isFeatured, picture,
-      name, artist, address, about,
-      registered, coordinates, tags,
-      category
+      isActive = true,
+      isFeatured = true,
+      picture,
+      name = '',
+      artist = '',
+      address = '',
+      about = '',
+      coordinates = {
+        'latitude': 0,
+	      'longitude': 0,
+      },
+      tags = [],
+      category = ''
     } = req.body;
 
-    const params = {
-      TableName: process.env.ART_TABLE,
-      Item: {
-        artId: uuid.v1(),
-        isActive: isActive,
-        isFeatured: isFeatured,
-        picture: picture,
-        name: name,
-        artist: artist,
-        address: address,
-        about: about,
-        registered: registered,
-        coordinates: coordinates,
-        tags,
-        category
+    const art = await ArtWork.create({
+      artId: uuidv4(),
+      isActive,
+      isFeatured,
+      picture,
+      name,
+      artist,
+      address,
+      about,
+      tags,
+      category,
+      location: {
+        type: 'Point',
+        coordinates: [coordinates.longitude, coordinates.latitude]
       },
-    };
-
-    await dynamoDB().put(params).promise();
-
+    });
     res.status(STATUS_OK);
-    res.json(params.Item);
+    res.json({ art });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });

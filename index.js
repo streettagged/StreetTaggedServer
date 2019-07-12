@@ -3,16 +3,18 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const AWS = require('aws-sdk');
 const cors = require('cors');
-
-const app = express();
-
 const {
   mainRoute,
   artRoute
 } = require('./routes');
 
-//app.options('*', cors());
+const { mongoDB } = require('./database');
+
+const app = express();
+
 app.use(bodyParser.json({ }));
+
+connectToDatabase();
 
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
