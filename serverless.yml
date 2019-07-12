@@ -21,7 +21,7 @@ custom:
       - dev
     start:
       migrate: true
-      seed: true
+      seed: false
     seed:
       test:
         sources:
@@ -59,7 +59,7 @@ functions:
     events:
       - http: 'GET /art/{proxy+}'
         cors: true
-        
+
   getArtAll:
     handler: index.handler
     events:
