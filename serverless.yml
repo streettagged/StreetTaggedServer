@@ -46,7 +46,7 @@ provider:
         - { "Fn::GetAtt": ["StreetArtDynamoDBTable", "Arn" ] }
   environment:
     ART_TABLE: ${self:custom.streetArtTableName}
-    MONGO_DB: mongodb+srv://streettagged:XrdG9JQShFmAy4rd@streettagged-z3s5t.mongodb.net/streettagged?retryWrites=true&w=majority
+    MONGO_DB: ${ssm:MONGO_DB}
 
 functions:
   app:
