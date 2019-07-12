@@ -9,18 +9,41 @@ const STATUS_BAD_REQUEST = 400;
 
 artController.searchArt = async (req, res) => {
   try {
-    const { latitude, longitude, maxDistance } = req.body;
-    const artWorks = await ArtWork.find({
-      location: {
+    const {
+      latitude = null,
+      longitude = null,
+      maxDistance = null, 
+      tags = []
+    } = req.body;
+
+    let artWorks = [];
+    let queries = [];
+
+    if (latitude && longitude && maxDistance) {
+      queries.push({
+        location: {
           $near: { $geometry: {
                 type: 'Point',
                 coordinates: [longitude, latitude]
                 },
                 $maxDistance: maxDistance
           }
-      }
-    });
-    console.log(artWorks);
+        }
+      })
+    }
+
+    if (tags.length > 0) {
+      queries.push({
+        tags: { $in: tags }
+      });
+    }
+
+    if (queries.length > 0) {
+      artWorks = await ArtWork.find({
+        $and: queries
+      });
+    }
+
     res.status(STATUS_OK);
     res.json({ artWorks });
   } catch (e) {
