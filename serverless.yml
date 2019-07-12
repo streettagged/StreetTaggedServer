@@ -71,10 +71,10 @@ functions:
     events:
       - http: 'POST /art'
         cors: true
-    authorizer:
-        type: COGNITO_USER_POOLS
-        authorizerId:
-            Ref: ApiGatewayAuthorizer
+    #authorizer:
+    #    type: COGNITO_USER_POOLS
+    #    authorizerId:
+    #        Ref: ApiGatewayAuthorizer
 
 resources:
   Resources:
