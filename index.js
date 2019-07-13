@@ -9,6 +9,7 @@ const {
 } = require('./routes');
 
 const { mongoDB } = require('./database');
+const { auth } = require('./middleware');
 
 const app = express();
 
@@ -22,6 +23,8 @@ app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Headers', 'Authorization, x-amz-date, Content-Type, X-Amz-Security-Token');
     next();
 });
+
+app.use(auth);
 
 mainRoute(app);
 
