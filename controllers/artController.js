@@ -54,7 +54,7 @@ artController.searchArt = async (req, res) => {
 
 artController.getArt = async (req, res) => {
   try {
-    const artWorks = await ArtWork.find({ });
+    const artWorks = await ArtWork.find({ }).sort({ _id: -1 });
     res.status(STATUS_OK);
     res.json({ artWorks });
   } catch (e) {
