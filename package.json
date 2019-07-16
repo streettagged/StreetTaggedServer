@@ -20,7 +20,6 @@
   "devDependencies": {
     "aws-sdk": "^2.489.0",
     "serverless-domain-manager": "^3.2.6",
-    "serverless-dynamodb-local": "^0.2.38",
     "serverless-offline": "^5.7.2"
   }
 }

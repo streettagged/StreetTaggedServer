@@ -4,7 +4,6 @@ service: street-tagged-server
 
 plugins:
   - serverless-offline
-  - serverless-dynamodb-local
   - serverless-domain-manager
 
 custom:
@@ -16,34 +15,12 @@ custom:
     stage: ${self:provider.stage}
   streetArtTableName: 'streetart-${self:provider.stage}'
 
-  dynamodb:
-    stages:
-      - dev
-    start:
-      migrate: true
-      seed: false
-    seed:
-      test:
-        sources:
-          - table: ${self:custom.streetArtTableName}
-            sources: [./test/fake-streetart-locations.json]
-
+ 
 provider:
   name: aws
   runtime: nodejs8.10
   stage: dev
   region: us-east-1
-  iamRoleStatements:
-    - Effect: Allow
-      Action:
-        - dynamodb:Query
-        - dynamodb:Scan
-        - dynamodb:GetItem
-        - dynamodb:PutItem
-        - dynamodb:UpdateItem
-        - dynamodb:DeleteItem
-      Resource:
-        - { "Fn::GetAtt": ["StreetArtDynamoDBTable", "Arn" ] }
   environment:
     ART_TABLE: ${self:custom.streetArtTableName}
     MONGO_DB: ${ssm:MONGO_DB}
@@ -85,22 +62,6 @@ functions:
 
 resources:
   Resources:
-    StreetArtDynamoDBTable:
-      Type: 'AWS::DynamoDB::Table'
-      Properties:
-        AttributeDefinitions:
-          -
-            AttributeName: artId
-            AttributeType: S
-        KeySchema:
-          -
-            AttributeName: artId
-            KeyType: HASH
-        ProvisionedThroughput:
-          ReadCapacityUnits: 1
-          WriteCapacityUnits: 1
-        TableName: ${self:custom.streetArtTableName}
-
     CognitoUserPool:
       Type: "AWS::Cognito::UserPool"
       Properties:
