@@ -47,6 +47,8 @@ provider:
   environment:
     ART_TABLE: ${self:custom.streetArtTableName}
     MONGO_DB: ${ssm:MONGO_DB}
+    REGION: us-east-1
+    USER_GROUP: us-east-1_OvHRINlq8
 
 functions:
   app:
@@ -66,6 +68,10 @@ functions:
     events:
       - http: 'GET /art'
         cors: true
+    authorizer:
+        type: COGNITO_USER_POOLS
+        authorizerId:
+            Ref: ApiGatewayAuthorizer
 
   searchArt:
     handler: index.handler
@@ -77,6 +83,16 @@ functions:
     handler: index.handler
     events:
       - http: 'POST /art'
+        cors: true
+    authorizer:
+        type: COGNITO_USER_POOLS
+        authorizerId:
+            Ref: ApiGatewayAuthorizer
+
+  pingAuth:
+    handler: index.handler
+    events:
+      - http: 'GET /ping'
         cors: true
     authorizer:
         type: COGNITO_USER_POOLS
