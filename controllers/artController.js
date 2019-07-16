@@ -12,7 +12,7 @@ artController.searchArt = async (req, res) => {
     const {
       latitude = null,
       longitude = null,
-      maxDistance = null, 
+      maxDistance = null,
       tags = []
     } = req.body;
 
@@ -77,6 +77,7 @@ artController.getArtByID = async (req, res) => {
 
 artController.postArt = async (req, res) => {
   try {
+    const { sub } = req.user;
     const {
       isActive = true,
       isFeatured = true,
@@ -95,6 +96,7 @@ artController.postArt = async (req, res) => {
 
     const art = await ArtWork.create({
       artId: uuidv4(),
+      userId: sub,
       isActive,
       isFeatured,
       picture,
