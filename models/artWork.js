@@ -18,6 +18,7 @@ const pointSchema = new Schema({
 const ArtSchema = new Schema({
   artId: String,
   userId: String,
+  username: String,
   isActive: Boolean,
   isFeatured: Boolean,
   picture: String,

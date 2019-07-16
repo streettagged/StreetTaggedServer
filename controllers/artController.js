@@ -77,7 +77,7 @@ artController.getArtByID = async (req, res) => {
 
 artController.postArt = async (req, res) => {
   try {
-    const { sub } = req.user;
+    const { sub, username } = req.user;
     const {
       isActive = true,
       isFeatured = true,
@@ -97,6 +97,7 @@ artController.postArt = async (req, res) => {
     const art = await ArtWork.create({
       artId: uuidv4(),
       userId: sub,
+      username,
       isActive,
       isFeatured,
       picture,
