@@ -16,6 +16,7 @@ custom:
     domainName:  ${self:custom.domain.${opt:stage}}
     stage: ${opt:stage}
     createRoute53Record: true
+    certificateName: "*.streettagged.com"
 
 provider:
   name: aws
