@@ -48,7 +48,7 @@ provider:
     ART_TABLE: ${self:custom.streetArtTableName}
     MONGO_DB: ${ssm:MONGO_DB}
     REGION: us-east-1
-    USER_GROUP: us-east-1_zlJ4M8wON
+    USER_GROUP: us-east-1_FJaKcw4bh
 
 functions:
   app:
