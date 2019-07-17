@@ -5,7 +5,8 @@ const AWS = require('aws-sdk');
 const cors = require('cors');
 const {
   mainRoute,
-  artRoute
+  artRoute,
+  favoriteRoute
 } = require('./routes');
 
 const { mongoDB } = require('./database');
@@ -29,5 +30,7 @@ app.use(auth);
 mainRoute(app);
 
 artRoute(app);
+
+favoriteRoute(app);
 
 module.exports.handler = serverless(app);
