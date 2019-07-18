@@ -29,4 +29,23 @@ favoriteController.createFavorite = async (req, res) => {
   }
 };
 
+favoriteController.deleteFavorite = async (req, res) => {
+  try {
+    const { sub, username } = req.user;
+    const { artId } = req.body;
+
+    const favObj = await Favorite.findOne({ userId: sub, artId });
+
+    if (favObj) {
+      await favObj.remove();
+    }
+
+    res.status(STATUS_OK);
+    res.send();
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+};
+
 module.exports = favoriteController;
