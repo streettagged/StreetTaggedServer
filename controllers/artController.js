@@ -15,34 +15,68 @@ artController.searchArt = async (req, res) => {
       maxDistance = null,
       tags = []
     } = req.body;
+    const { sub, username } = req.user;
 
     let artWorks = [];
     let queries = [];
 
     if (latitude && longitude && maxDistance) {
       queries.push({
-        location: {
-          $near: { $geometry: {
-                type: 'Point',
-                coordinates: [longitude, latitude]
-                },
-                $maxDistance: maxDistance
-          }
+        '$geoNear': {
+          includeLocs: 'location',
+          distanceField: 'distance',
+          near: {
+            type: 'Point', coordinates: [longitude, latitude]
+          },
+          maxDistance: maxDistance,
+          spherical: true
         }
-      })
+      });
     }
 
     if (tags.length > 0) {
       queries.push({
-        tags: { $in: tags }
+        '$match': {
+          tags: { $in: tags }
+        }
       });
     }
 
-    if (queries.length > 0) {
-      artWorks = await ArtWork.find({
-        $and: queries
-      });
-    }
+    artWorks = await ArtWork.aggregate([
+      ... queries,
+      {
+        '$lookup': {
+           from: 'favorites',
+           localField: 'artId',
+           foreignField: 'artId',
+           as: 'favorites'
+        }
+      }, {
+        '$addFields': { favIds:
+            {
+              '$map':
+                 {
+                   input: "$favorites",
+                   as: "fav",
+                   in: '$$fav.userId'
+                 }
+            }
+        }
+      }, {
+        '$addFields': {
+          isFavorited: {
+            "$in": [ sub, "$favIds" ]
+          }
+        }
+      }, {
+        '$project': {
+          '_id': 0,
+          '__v': 0,
+          'favIds': 0,
+          'favorites': 0
+        }
+      }
+    ]);
 
     res.status(STATUS_OK);
     res.json({ artWorks });

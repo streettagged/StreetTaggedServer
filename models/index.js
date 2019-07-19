@@ -1,5 +1,7 @@
 const { ArtWork } = require('./artWork');
+const { Favorite } = require('./favorite');
 
 module.exports = {
-  ArtWork
+  ArtWork,
+  Favorite
 };
