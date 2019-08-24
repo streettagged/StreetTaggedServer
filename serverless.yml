@@ -77,6 +77,18 @@ functions:
         authorizerId:
             Ref: ApiGatewayAuthorizer
 
+  createFavorite:
+    handler: index.handler
+    events:
+      - http: 'POST /favorite'
+        cors: true
+
+  deleteFavorite:
+    handler: index.handler
+    events:
+      - http: 'DELETE /favorite'
+        cors: true
+
 resources:
   Resources:
     CognitoUserPool:
