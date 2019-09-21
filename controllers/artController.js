@@ -244,4 +244,15 @@ artController.postArt = async (req, res) => {
   }
 };
 
+artController.getModelData = async (req, res) => {
+  try {
+    const artWork = await ArtWork.find({ isActive: true }).select('tags picture');
+    res.status(STATUS_OK);
+    res.json({ artWork });
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+};
+
 module.exports = artController;

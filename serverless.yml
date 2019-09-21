@@ -66,6 +66,12 @@ functions:
       - http: 'PUT /image/review'
         cors: true
 
+  getModelData:
+    handler: index.handler
+    events:
+      - http: 'PUT /image/data'
+        cors: true
+
   getArtAll:
     handler: index.handler
     events:

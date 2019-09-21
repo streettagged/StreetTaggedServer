@@ -21,4 +21,6 @@ module.exports = (app) => {
   app.get('/image/review', artController.getArtForReview);
 
   app.put('/image/review', artController.getArtReviewUpdate);
+
+  app.get('/image/data', artController.getModelData);
 };
