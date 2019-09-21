@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const AWS = require('aws-sdk');
 const cors = require('cors');
+
 const {
   mainRoute,
   artRoute,
@@ -14,7 +15,8 @@ const { auth } = require('./middleware');
 
 const app = express();
 
-app.use(bodyParser.json({ }));
+app.use(bodyParser.json({ limit: '10mb', extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 connectToDatabase();
 

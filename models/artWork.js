@@ -43,7 +43,15 @@ ArtSchema.index({
 
 ArtSchema.index({
   'tags': 1
-})
+});
+
+ArtSchema.index({
+  'isActive': 1
+});
+
+ArtSchema.index({
+  'createdAt': 1
+});
 
 const ArtWork = mongoose.models.ArtWork || mongoose.model('ArtWork', ArtSchema);
 

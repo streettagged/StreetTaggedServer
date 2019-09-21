@@ -1,11 +1,18 @@
 # serverless.yml
 
+Globals:
+    Api:
+        BinaryMediaTypes:
+            - "*~1*"
+
 service: street-tagged-server
 
 plugins:
   - serverless-offline
   - serverless-dynamodb-local
   - serverless-domain-manager
+  - serverless-apigw-binary
+  - serverless-apigwy-binary
 
 custom:
   domain:
@@ -17,6 +24,9 @@ custom:
     stage: ${opt:stage}
     createRoute53Record: true
     certificateName: "*.streettagged.com"
+  apigwBinary:
+    types:     
+      - 'multipart/form-data'
 
 provider:
   name: aws
@@ -27,6 +37,9 @@ provider:
     MONGO_DB: ${ssm:MONGO_DB_${opt:stage}}
     REGION: us-east-1
     USER_GROUP: ${ssm:Cognito_${opt:stage}}
+    S3_AWS_ACCESS_KEY: ${ssm:S3_AWS_ACCESS_KEY_${opt:stage}}
+    S3_AWS_SECRET_ACCESS_KEY: ${ssm:S3_AWS_SECRET_ACCESS_KEY_${opt:stage}}
+    S3_BUCKET_PATH: ${ssm:S3_BUCKET_PATH_${opt:stage}}
 
 functions:
   app:
@@ -41,6 +54,18 @@ functions:
       - http: 'GET /art/{proxy+}'
         cors: true
 
+  getArtForReview:
+    handler: index.handler
+    events:
+      - http: 'GET /image/review'
+        cors: true
+      
+  getArtReviewUpdate:
+    handler: index.handler
+    events:
+      - http: 'PUT /image/review'
+        cors: true
+
   getArtAll:
     handler: index.handler
     events:
@@ -50,6 +75,12 @@ functions:
         type: COGNITO_USER_POOLS
         authorizerId:
             Ref: ApiGatewayAuthorizer
+
+  uploadImage:
+    handler: index.handler
+    events:
+      - http: 'POST /image'
+        cors: true
 
   searchArt:
     handler: index.handler

@@ -7,18 +7,71 @@ const artController = {};
 const STATUS_OK = 200;
 const STATUS_BAD_REQUEST = 400;
 
+const fs = require('fs');
+const AWS = require('aws-sdk');
+const mime = require('mime-types');
+
+const DEFAULT_PAGE_NUMBER = 1;
+const PAGINATION_PAGE_LIMIT = 10;
+
+const s3 = new AWS.S3({
+    accessKeyId: process.env.S3_AWS_ACCESS_KEY,
+    secretAccessKey: process.env.S3_AWS_SECRET_ACCESS_KEY
+});
+
+artController.uploadArt = async (req, res) => {
+  try {
+    console.log(req.user);
+    if (req.user) {
+      const file = req.file;
+      const { sub } = req.user;
+      const fileName = sub + '-' + uuidv4() + '.' + mime.extension(req.body.mimetype);
+      let buff = Buffer.from(req.body.data, 'base64');  
+
+      const params = {
+        Bucket: process.env.S3_BUCKET_PATH, 
+        Key: fileName,
+        Body: buff,
+        ACL: 'public-read',
+      };
+
+      var s3 = new AWS.S3();
+      s3.upload(params ,function (err, data) {
+        if (err) throw err;
+        res.status(STATUS_OK);
+        res.json({ data });
+      });
+    } else {
+      console.log(req);
+      console.log(req.body);
+      res.status(STATUS_OK);
+      res.json({ });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error });
+  }
+};
+
 artController.searchArt = async (req, res) => {
   try {
     const {
       latitude = null,
       longitude = null,
       maxDistance = null,
-      tags = []
+      tags = [],
+      pageNumber = DEFAULT_PAGE_NUMBER, 
+      pageLimit = PAGINATION_PAGE_LIMIT
     } = req.body;
     const { sub, username } = req.user;
 
     let artWorks = [];
-    let queries = [];
+    let queries = [{
+      '$match': {
+        isActive: true
+      }
+    }];
 
     if (latitude && longitude && maxDistance) {
       queries.push({
@@ -75,11 +128,25 @@ artController.searchArt = async (req, res) => {
           'favIds': 0,
           'favorites': 0
         }
+      }, { 
+        '$sort': { 
+          'createdAt': -1 
+        } 
+      },{
+        '$skip': pageLimit * (pageNumber - 1)
+      },
+      {
+        '$limit': +pageLimit
       }
     ]);
 
     res.status(STATUS_OK);
-    res.json({ artWorks });
+    res.json({ 
+      artWorks,
+      count: artWorks.length,
+      pageNumber,
+      pageLimit: +pageLimit
+    });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
@@ -91,6 +158,29 @@ artController.getArt = async (req, res) => {
     const artWorks = await ArtWork.find({ }).sort({ _id: -1 });
     res.status(STATUS_OK);
     res.json({ artWorks });
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+};
+
+artController.getArtForReview = async (req, res) => {
+  try {
+    const artWork = await ArtWork.findOne({ isActive: false });
+    res.status(STATUS_OK);
+    res.json({ artWork: artWork ? artWork : [] });
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+};
+
+artController.getArtReviewUpdate = async (req, res) => {
+  try {
+    const { artId, isValid } = req.body;
+    await ArtWork.updateOne({ artId }, { isActive: isValid });
+    res.status(STATUS_OK);
+    res.send();
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
@@ -113,7 +203,7 @@ artController.postArt = async (req, res) => {
   try {
     const { sub, username } = req.user;
     const {
-      isActive = true,
+      isActive = false,
       isFeatured = true,
       picture,
       name = '',
