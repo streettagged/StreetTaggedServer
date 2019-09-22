@@ -8,19 +8,19 @@ var upload = multer({
 });
 
 module.exports = (app) => {
-  app.post('/image', artController.uploadArt);
+  app.get('/items', artController.getItem);
 
-  app.get('/art', artController.getArt);
+  app.get('/items/:itemId', artController.getItemByID);
 
-  app.get('/art/:artId', artController.getArtByID);
+  app.post('/items', artController.postItem);
 
-  app.post('/art', artController.postArt);
+  app.post('/items/search', artController.searchItem);
 
-  app.post('/search/art', artController.searchArt);
+  app.post('/images', artController.uploadItem);
 
-  app.get('/image/review', artController.getArtForReview);
+  app.get('/images/review', artController.getItemForReview);
 
-  app.put('/image/review', artController.getArtReviewUpdate);
+  app.put('/images/review', artController.getItemReviewUpdate);
 
-  app.get('/image/data', artController.getModelData);
+  app.get('/images/data', artController.getModelData);
 };

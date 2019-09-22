@@ -19,7 +19,7 @@ const s3 = new AWS.S3({
     secretAccessKey: process.env.S3_AWS_SECRET_ACCESS_KEY
 });
 
-artController.uploadArt = async (req, res) => {
+artController.uploadItem = async (req, res) => {
   try {
     if (req.user) {
       const file = req.file;
@@ -53,7 +53,7 @@ artController.uploadArt = async (req, res) => {
   }
 };
 
-artController.searchArt = async (req, res) => {
+artController.searchItem = async (req, res) => {
   try {
     const {
       latitude = null,
@@ -65,7 +65,7 @@ artController.searchArt = async (req, res) => {
     } = req.body;
     const { sub, username } = req.user;
 
-    let artWorks = [];
+    let items = [];
     let queries = [{
       '$match': {
         isActive: true
@@ -94,7 +94,7 @@ artController.searchArt = async (req, res) => {
       });
     }
 
-    artWorks = await ArtWork.aggregate([
+    items = await ArtWork.aggregate([
       ... queries,
       {
         '$lookup': {
@@ -141,8 +141,8 @@ artController.searchArt = async (req, res) => {
 
     res.status(STATUS_OK);
     res.json({ 
-      artWorks,
-      count: artWorks.length,
+      items,
+      count: items.length,
       pageNumber,
       pageLimit: +pageLimit
     });
@@ -152,41 +152,39 @@ artController.searchArt = async (req, res) => {
   }
 };
 
-artController.getArt = async (req, res) => {
+artController.getItem = async (req, res) => {
   try {
-    const artWorks = await ArtWork.find({ }).sort({ _id: -1 });
+    const items = await ArtWork.find({ }).sort({ _id: -1 });
     res.status(STATUS_OK);
-    res.json({ artWorks });
+    res.json({ items });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
   }
 };
 
-artController.getArtForReview = async (req, res) => {
+artController.getItemForReview = async (req, res) => {
   try {
-    const artWork = await ArtWork.findOne({ isActive: false, isReviewing: false });
-    if (artWork) {
-      artWork.isReviewing = true;
-      await artWork.save()
+    const item = await ArtWork.findOne({ isActive: false, isReviewing: false });
+    if (item) {
+      item.isReviewing = true;
+      await item.save()
     }
     res.status(STATUS_OK);
-    res.json({ artWork: artWork ? [artWork] : [] });
+    res.json({ item: item ? [item] : [] });
   } catch (e) {
-    console.log(e);
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
   }
 };
 
-artController.getArtReviewUpdate = async (req, res) => {
+artController.getItemReviewUpdate = async (req, res) => {
   try {
-    const { artId, isValid } = req.body;
-    console.log(req.body);
+    const { itemId, isValid } = req.body;
     if (isValid) {
-      await ArtWork.updateOne({ artId }, { isActive: true });
+      await ArtWork.updateOne({ artId: itemId }, { isActive: true });
     } else {
-      await ArtWork.updateOne({ artId }, { isActive: false, isBlocked: true });
+      await ArtWork.updateOne({ artId: itemId }, { isActive: false, isBlocked: true });
     }
     res.status(STATUS_OK);
     res.send();
@@ -196,19 +194,19 @@ artController.getArtReviewUpdate = async (req, res) => {
   }
 };
 
-artController.getArtByID = async (req, res) => {
+artController.getItemByID = async (req, res) => {
   try {
-    const { artId } = req.params;
-    const artWork = await ArtWork.findOne({ artId });
+    const { itemId } = req.params;
+    const item = await ArtWork.findOne({ artId: itemId });
     res.status(STATUS_OK);
-    res.json({ artWork });
+    res.json({ item });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
   }
 };
 
-artController.postArt = async (req, res) => {
+artController.postItem = async (req, res) => {
   try {
     const { sub, username } = req.user;
     const {
@@ -227,7 +225,7 @@ artController.postArt = async (req, res) => {
       category = ''
     } = req.body;
 
-    const art = await ArtWork.create({
+    const item = await ArtWork.create({
       artId: uuidv4(),
       userId: sub,
       username,
@@ -248,7 +246,7 @@ artController.postArt = async (req, res) => {
       isBlocked: false,
     });
     res.status(STATUS_OK);
-    res.json({ art });
+    res.json({ item });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
@@ -257,9 +255,9 @@ artController.postArt = async (req, res) => {
 
 artController.getModelData = async (req, res) => {
   try {
-    const artWork = await ArtWork.find({ isActive: true }).select('tags picture');
+    const item = await ArtWork.find({ isActive: true }).select('tags picture');
     res.status(STATUS_OK);
-    res.json({ artWork });
+    res.json({ item });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
