@@ -51,31 +51,31 @@ functions:
   getArt:
     handler: index.handler
     events:
-      - http: 'GET /art/{proxy+}'
+      - http: 'GET /items/{proxy+}'
         cors: true
 
   getArtForReview:
     handler: index.handler
     events:
-      - http: 'GET /image/review'
+      - http: 'GET /images/review'
         cors: true
       
   getArtReviewUpdate:
     handler: index.handler
     events:
-      - http: 'PUT /image/review'
+      - http: 'PUT /images/review'
         cors: true
 
   getModelData:
     handler: index.handler
     events:
-      - http: 'PUT /image/data'
+      - http: 'PUT /images/data'
         cors: true
 
   getArtAll:
     handler: index.handler
     events:
-      - http: 'GET /art'
+      - http: 'GET /items'
         cors: true
     authorizer:
         type: COGNITO_USER_POOLS
@@ -85,19 +85,19 @@ functions:
   uploadImage:
     handler: index.handler
     events:
-      - http: 'POST /image'
+      - http: 'POST /images'
         cors: true
 
   searchArt:
     handler: index.handler
     events:
-      - http: 'POST /search/art'
+      - http: 'POST /items/search'
         cors: true
 
   createArt:
     handler: index.handler
     events:
-      - http: 'POST /art'
+      - http: 'POST /items'
         cors: true
     authorizer:
         type: COGNITO_USER_POOLS
@@ -117,19 +117,19 @@ functions:
   createFavorite:
     handler: index.handler
     events:
-      - http: 'POST /favorite'
+      - http: 'POST /favorites'
         cors: true
 
   deleteFavorite:
     handler: index.handler
     events:
-      - http: 'DELETE /favorite'
+      - http: 'DELETE /favorites'
         cors: true
 
   getFavorite:
     handler: index.handler
     events:
-      - http: 'GET /favorite'
+      - http: 'GET /favorites'
         cors: true
 
 resources:
