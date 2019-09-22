@@ -34,7 +34,15 @@ const ArtSchema = new Schema({
     type: pointSchema,
     required: false
   },
-  category: String
+  category: String,
+  isReviewing: {
+    type: Boolean,
+    default: false
+  },
+  isBlocked: {
+    type: Boolean,
+    default: false
+  },
 },{ timestamps: true });
 
 ArtSchema.index({

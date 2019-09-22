@@ -166,10 +166,15 @@ artController.getArt = async (req, res) => {
 
 artController.getArtForReview = async (req, res) => {
   try {
-    const artWork = await ArtWork.findOne({ isActive: false });
+    const artWork = await ArtWork.findOne({ isActive: false, isReviewing: false });
+    if (artWork) {
+      artWork.isReviewing = true;
+      await artWork.save()
+    }
     res.status(STATUS_OK);
-    res.json({ artWork: artWork ? artWork : [] });
+    res.json({ artWork: artWork ? [artWork] : [] });
   } catch (e) {
+    console.log(e);
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
   }
@@ -178,7 +183,12 @@ artController.getArtForReview = async (req, res) => {
 artController.getArtReviewUpdate = async (req, res) => {
   try {
     const { artId, isValid } = req.body;
-    await ArtWork.updateOne({ artId }, { isActive: isValid });
+    console.log(req.body);
+    if (isValid) {
+      await ArtWork.updateOne({ artId }, { isActive: true });
+    } else {
+      await ArtWork.updateOne({ artId }, { isActive: false, isBlocked: true });
+    }
     res.status(STATUS_OK);
     res.send();
   } catch (e) {
@@ -235,6 +245,8 @@ artController.postArt = async (req, res) => {
         type: 'Point',
         coordinates: [coordinates.longitude, coordinates.latitude]
       },
+      isReviewing: false,
+      isBlocked: false,
     });
     res.status(STATUS_OK);
     res.json({ art });
