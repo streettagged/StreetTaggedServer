@@ -21,7 +21,6 @@ const s3 = new AWS.S3({
 
 artController.uploadArt = async (req, res) => {
   try {
-    console.log(req.user);
     if (req.user) {
       const file = req.file;
       const { sub } = req.user;

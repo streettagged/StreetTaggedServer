@@ -126,6 +126,12 @@ functions:
       - http: 'DELETE /favorite'
         cors: true
 
+  getFavorite:
+    handler: index.handler
+    events:
+      - http: 'GET /favorite'
+        cors: true
+
 resources:
   Resources:
     CognitoUserPool:
