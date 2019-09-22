@@ -1,9 +1,9 @@
 const { favoriteController } = require('./../controllers');
 
 module.exports = (app) => {
-  app.post('/favorite', favoriteController.createFavorite);
+  app.post('/favorites', favoriteController.createFavorite);
 
-  app.delete('/favorite', favoriteController.deleteFavorite);
+  app.delete('/favorites', favoriteController.deleteFavorite);
 
-  app.get('/favorite', favoriteController.getFavorite);
+  app.get('/favorites', favoriteController.getFavorite);
 };

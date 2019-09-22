@@ -13,14 +13,14 @@ const PAGINATION_PAGE_LIMIT = 10;
 favoriteController.createFavorite = async (req, res) => {
   try {
     const { sub, username } = req.user;
-    const { artId } = req.body;
+    const { itemId } = req.body;
 
     const favId = uuidv4();
 
     await Favorite.create({
       id: favId,
       userId: sub,
-      artId,
+      artId: itemId,
     });
 
     res.status(STATUS_OK_CREATED);
@@ -34,9 +34,9 @@ favoriteController.createFavorite = async (req, res) => {
 favoriteController.deleteFavorite = async (req, res) => {
   try {
     const { sub, username } = req.user;
-    const { artId } = req.body;
+    const { itemId } = req.body;
 
-    const favObj = await Favorite.findOne({ userId: sub, artId });
+    const favObj = await Favorite.findOne({ userId: sub, artId: itemId });
 
     if (favObj) {
       await favObj.remove();
