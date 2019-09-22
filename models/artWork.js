@@ -34,7 +34,15 @@ const ArtSchema = new Schema({
     type: pointSchema,
     required: false
   },
-  category: String
+  category: String,
+  isReviewing: {
+    type: Boolean,
+    default: false
+  },
+  isBlocked: {
+    type: Boolean,
+    default: false
+  },
 },{ timestamps: true });
 
 ArtSchema.index({
@@ -43,7 +51,15 @@ ArtSchema.index({
 
 ArtSchema.index({
   'tags': 1
-})
+});
+
+ArtSchema.index({
+  'isActive': 1
+});
+
+ArtSchema.index({
+  'createdAt': 1
+});
 
 const ArtWork = mongoose.models.ArtWork || mongoose.model('ArtWork', ArtSchema);
 

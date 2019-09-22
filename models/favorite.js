@@ -9,6 +9,10 @@ const FavSchema = new Schema({
   userId: String
 },{ timestamps: true });
 
+FavSchema.index({
+  'createdAt': 1
+});
+
 const Favorite = mongoose.models.Favorite || mongoose.model('Favorite', FavSchema);
 
 module.exports = {

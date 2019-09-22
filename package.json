@@ -13,15 +13,22 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "fs": "0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "jwk-to-pem": "^2.0.1",
+    "mime-types": "^2.1.24",
     "mongoose": "^5.6.4",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
     "node-fetch": "^2.6.0",
     "serverless-http": "^2.0.2",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "aws-sdk": "^2.489.0",
+    "aws-sdk": "^2.532.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-apigwy-binary": "^1.0.0",
     "serverless-domain-manager": "^3.2.6",
     "serverless-dynamodb-local": "^0.2.38",
     "serverless-offline": "^5.7.2"
