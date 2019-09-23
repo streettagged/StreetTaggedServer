@@ -63,14 +63,9 @@ artController.searchItem = async (req, res) => {
       pageNumber = DEFAULT_PAGE_NUMBER, 
       pageLimit = PAGINATION_PAGE_LIMIT
     } = req.body;
-    const { sub, username } = req.user;
 
     let items = [];
-    let queries = [{
-      '$match': {
-        isActive: true
-      }
-    }];
+    let queries = [];
 
     if (latitude && longitude && maxDistance) {
       queries.push({
@@ -86,66 +81,98 @@ artController.searchItem = async (req, res) => {
       });
     }
 
-    if (tags.length > 0) {
+    let user = req.user;
+    if (user) {
+      const { sub, username } = user;
+
+      if (tags.length > 0) {
+        queries.push({
+          '$match': {
+            tags: { $in: tags }
+          }
+        });
+      }
+
       queries.push({
         '$match': {
-          tags: { $in: tags }
+          isActive: true
         }
       });
-    }
 
-    items = await ArtWork.aggregate([
-      ... queries,
-      {
-        '$lookup': {
-           from: 'favorites',
-           localField: 'artId',
-           foreignField: 'artId',
-           as: 'favorites'
-        }
-      }, {
-        '$addFields': { favIds:
-            {
-              '$map':
-                 {
-                   input: "$favorites",
-                   as: "fav",
-                   in: '$$fav.userId'
-                 }
-            }
-        }
-      }, {
-        '$addFields': {
-          isFavorited: {
-            "$in": [ sub, "$favIds" ]
+      items = await ArtWork.aggregate([
+        ... queries,
+        {
+          '$lookup': {
+            from: 'favorites',
+            localField: 'artId',
+            foreignField: 'artId',
+            as: 'favorites'
           }
+        }, {
+          '$addFields': { favIds:
+              {
+                '$map':
+                  {
+                    input: "$favorites",
+                    as: "fav",
+                    in: '$$fav.userId'
+                  }
+              }
+          }
+        }, {
+          '$addFields': {
+            isFavorited: {
+              "$in": [ sub, "$favIds" ]
+            }
+          }
+        }, {
+          '$project': {
+            '_id': 0,
+            '__v': 0,
+            'favIds': 0,
+            'favorites': 0
+          }
+        }, { 
+          '$sort': { 
+            'createdAt': -1 
+          } 
+        },{
+          '$skip': pageLimit * (pageNumber - 1)
+        },
+        {
+          '$limit': +pageLimit
         }
-      }, {
-        '$project': {
-          '_id': 0,
-          '__v': 0,
-          'favIds': 0,
-          'favorites': 0
-        }
-      }, { 
-        '$sort': { 
-          'createdAt': -1 
-        } 
-      },{
-        '$skip': pageLimit * (pageNumber - 1)
-      },
-      {
-        '$limit': +pageLimit
-      }
-    ]);
+      ]);
 
-    res.status(STATUS_OK);
-    res.json({ 
-      items,
-      count: items.length,
-      pageNumber,
-      pageLimit: +pageLimit
-    });
+      res.status(STATUS_OK);
+      res.json({ 
+        items,
+        count: items.length,
+        pageNumber,
+        pageLimit: +pageLimit
+      });
+    } else {
+      if (tags.length > 0) {
+        queries.push({
+          tags: { $in: tags }
+        });
+      }
+
+      queries.push({
+          isActive: true
+      });
+
+      items = await ArtWork.find({ 
+        $and: queries 
+      }).skip(pageLimit * (pageNumber - 1)).limit(+pageLimit);
+      res.status(STATUS_OK);
+      res.json({ 
+        items,
+        count: items.length,
+        pageNumber,
+        pageLimit: +pageLimit
+      });
+    }
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
