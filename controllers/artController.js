@@ -12,7 +12,7 @@ const AWS = require('aws-sdk');
 const mime = require('mime-types');
 
 const DEFAULT_PAGE_NUMBER = 1;
-const PAGINATION_PAGE_LIMIT = 10;
+const PAGINATION_PAGE_LIMIT = 5;
 
 const s3 = new AWS.S3({
     accessKeyId: process.env.S3_AWS_ACCESS_KEY,
@@ -25,10 +25,10 @@ artController.uploadItem = async (req, res) => {
       const file = req.file;
       const { sub } = req.user;
       const fileName = sub + '-' + uuidv4() + '.' + mime.extension(req.body.mimetype);
-      let buff = Buffer.from(req.body.data, 'base64');  
+      let buff = Buffer.from(req.body.data, 'base64');
 
       const params = {
-        Bucket: process.env.S3_BUCKET_PATH, 
+        Bucket: process.env.S3_BUCKET_PATH,
         Key: fileName,
         Body: buff,
         ACL: 'public-read',
@@ -60,7 +60,7 @@ artController.searchItem = async (req, res) => {
       longitude = null,
       maxDistance = null,
       tags = [],
-      pageNumber = DEFAULT_PAGE_NUMBER, 
+      pageNumber = DEFAULT_PAGE_NUMBER,
       pageLimit = PAGINATION_PAGE_LIMIT
     } = req.body;
 
@@ -132,10 +132,10 @@ artController.searchItem = async (req, res) => {
             'favIds': 0,
             'favorites': 0
           }
-        }, { 
-          '$sort': { 
-            'createdAt': -1 
-          } 
+        }, {
+          '$sort': {
+            'createdAt': -1
+          }
         },{
           '$skip': pageLimit * (pageNumber - 1)
         },
@@ -145,7 +145,7 @@ artController.searchItem = async (req, res) => {
       ]);
 
       res.status(STATUS_OK);
-      res.json({ 
+      res.json({
         items,
         count: items.length,
         pageNumber,
@@ -162,11 +162,11 @@ artController.searchItem = async (req, res) => {
           isActive: true
       });
 
-      items = await ArtWork.find({ 
-        $and: queries 
-      }).skip(pageLimit * (pageNumber - 1)).limit(+pageLimit);
+      items = await ArtWork.find({
+        $and: queries
+      }).sort({ createdAt: -1 }).skip(pageLimit * (pageNumber - 1)).limit(+pageLimit);
       res.status(STATUS_OK);
-      res.json({ 
+      res.json({
         items,
         count: items.length,
         pageNumber,
@@ -275,6 +275,7 @@ artController.postItem = async (req, res) => {
     res.status(STATUS_OK);
     res.json({ item });
   } catch (e) {
+    console.log(e);
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
   }

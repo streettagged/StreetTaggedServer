@@ -53,13 +53,13 @@ favoriteController.deleteFavorite = async (req, res) => {
 favoriteController.getFavorite = async (req, res) => {
   try {
     const {
-      pageNumber = DEFAULT_PAGE_NUMBER, 
+      pageNumber = DEFAULT_PAGE_NUMBER,
       pageLimit = PAGINATION_PAGE_LIMIT
     } = req.query;
     const { sub } = req.user;
 
-    const favObjects = await Favorite.find({ 
-      userId: sub 
+    const favObjects = await Favorite.find({
+      userId: sub
     }).skip(pageLimit * (pageNumber - 1)).limit(+pageLimit);
 
     if (favObjects) {
