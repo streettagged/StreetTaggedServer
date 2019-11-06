@@ -18,7 +18,7 @@
     "jsonwebtoken": "^8.5.1",
     "jwk-to-pem": "^2.0.1",
     "mime-types": "^2.1.24",
-    "mongoose": "^5.6.4",
+    "mongoose": "^5.7.5",
     "multer": "^1.4.2",
     "multer-s3": "^2.9.0",
     "node-fetch": "^2.6.0",
