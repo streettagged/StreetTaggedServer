@@ -138,12 +138,12 @@ resources:
       Type: "AWS::Cognito::UserPool"
       Properties:
         MfaConfiguration: OFF
-        UserPoolName: regular-user-pool-${self:provider.stage}
+        UserPoolName: street-art-${self:provider.stage}
         UsernameAttributes:
           - email
         Policies:
           PasswordPolicy:
-            MinimumLength: 6
+            MinimumLength: 8
             RequireLowercase: False
             RequireNumbers: True
             RequireSymbols: False
@@ -152,7 +152,7 @@ resources:
     CognitoUserPoolClient:
       Type: "AWS::Cognito::UserPoolClient"
       Properties:
-        ClientName: regular-user-pool-client-${self:provider.stage}
+        ClientName: street-art-${self:provider.stage}
         GenerateSecret: False
         UserPoolId:
           Ref: CognitoUserPool
