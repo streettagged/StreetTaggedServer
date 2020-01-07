@@ -135,7 +135,7 @@ resources:
       Type: "AWS::Cognito::UserPool"
       Properties:
         MfaConfiguration: OFF
-        UserPoolName: regular-user-pool-${self:provider.stage}
+        UserPoolName: sa${self:provider.stage}
         UsernameAttributes:
           - email
         Policies:
@@ -149,7 +149,7 @@ resources:
     CognitoUserPoolClient:
       Type: "AWS::Cognito::UserPoolClient"
       Properties:
-        ClientName: regular-user-pool-client-${self:provider.stage}
+        ClientName: sa${self:provider.stage}
         GenerateSecret: False
         UserPoolId:
           Ref: CognitoUserPool
