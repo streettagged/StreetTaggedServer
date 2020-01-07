@@ -16,8 +16,6 @@ module.exports = (app) => {
 
   app.post('/items/search', artController.searchItem);
 
-  app.post('/images', artController.uploadItem);
-
   app.get('/images/review', artController.getItemForReview);
 
   app.put('/images/review', artController.getItemReviewUpdate);

@@ -37,9 +37,6 @@ provider:
     MONGO_DB: ${ssm:MONGO_DB_${opt:stage}}
     REGION: us-east-1
     USER_GROUP: ${ssm:Cognito_${opt:stage}}
-    S3_AWS_ACCESS_KEY: ${ssm:S3_AWS_ACCESS_KEY_${opt:stage}}
-    S3_AWS_SECRET_ACCESS_KEY: ${ssm:S3_AWS_SECRET_ACCESS_KEY_${opt:stage}}
-    S3_BUCKET_PATH: ${ssm:S3_BUCKET_PATH_${opt:stage}}
 
 functions:
   app:

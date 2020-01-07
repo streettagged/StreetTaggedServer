@@ -14,45 +14,6 @@ const mime = require('mime-types');
 const DEFAULT_PAGE_NUMBER = 1;
 const PAGINATION_PAGE_LIMIT = 5;
 
-const s3 = new AWS.S3({
-    accessKeyId: process.env.S3_AWS_ACCESS_KEY,
-    secretAccessKey: process.env.S3_AWS_SECRET_ACCESS_KEY
-});
-
-artController.uploadItem = async (req, res) => {
-  try {
-    if (req.user) {
-      const file = req.file;
-      const { sub } = req.user;
-      const fileName = sub + '-' + uuidv4() + '.' + mime.extension(req.body.mimetype);
-      let buff = Buffer.from(req.body.data, 'base64');
-
-      const params = {
-        Bucket: process.env.S3_BUCKET_PATH,
-        Key: fileName,
-        Body: buff,
-        ACL: 'public-read',
-      };
-
-      var s3 = new AWS.S3();
-      s3.upload(params ,function (err, data) {
-        if (err) throw err;
-        res.status(STATUS_OK);
-        res.json({ data });
-      });
-    } else {
-      console.log(req);
-      console.log(req.body);
-      res.status(STATUS_OK);
-      res.json({ });
-    }
-  } catch (error) {
-    console.log(error);
-    res.status(STATUS_BAD_REQUEST);
-    res.json({ error });
-  }
-};
-
 artController.searchItem = async (req, res) => {
   try {
     const {
