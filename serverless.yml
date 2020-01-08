@@ -30,16 +30,13 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   stage: dev
   region: us-east-1
   environment:
     MONGO_DB: ${ssm:MONGO_DB_${opt:stage}}
     REGION: us-east-1
     USER_GROUP: ${ssm:Cognito_${opt:stage}}
-    S3_AWS_ACCESS_KEY: ${ssm:S3_AWS_ACCESS_KEY_${opt:stage}}
-    S3_AWS_SECRET_ACCESS_KEY: ${ssm:S3_AWS_SECRET_ACCESS_KEY_${opt:stage}}
-    S3_BUCKET_PATH: ${ssm:S3_BUCKET_PATH_${opt:stage}}
 
 functions:
   app:
@@ -138,7 +135,7 @@ resources:
       Type: "AWS::Cognito::UserPool"
       Properties:
         MfaConfiguration: OFF
-        UserPoolName: regular-user-pool-${self:provider.stage}
+        UserPoolName: sa${self:provider.stage}
         UsernameAttributes:
           - email
         Policies:
@@ -152,7 +149,7 @@ resources:
     CognitoUserPoolClient:
       Type: "AWS::Cognito::UserPoolClient"
       Properties:
-        ClientName: regular-user-pool-client-${self:provider.stage}
+        ClientName: sa${self:provider.stage}
         GenerateSecret: False
         UserPoolId:
           Ref: CognitoUserPool
