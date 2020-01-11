@@ -272,7 +272,7 @@ artController.postItem = async (req, res) => {
   try {
     const { sub, username } = req.user;
     const {
-      isActive,
+      isActive = false,
       isFeatured = true,
       picture,
       name = '',
