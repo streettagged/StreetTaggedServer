@@ -191,6 +191,7 @@ artController.detectModerationLabels = async (req, res) => {
       res.json({ error: e });
     } else { // successful response
       res.status(STATUS_OK);
+      data = data["ModerationLabels"];
       res.json({ data });
       }               
   });
@@ -271,7 +272,7 @@ artController.postItem = async (req, res) => {
   try {
     const { sub, username } = req.user;
     const {
-      isActive = false,
+      isActive,
       isFeatured = true,
       picture,
       name = '',
