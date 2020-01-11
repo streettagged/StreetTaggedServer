@@ -166,6 +166,79 @@ artController.getItemForReview = async (req, res) => {
   }
 };
 
+artController.detectModerationLabels = async (req, res) => {
+  try {
+    const {
+      bucket,
+      name
+    } = req.body;
+
+    params = {
+      "Image": {
+          "S3Object": {
+              "Bucket": bucket,
+              "Name": name
+          }
+      },
+      MinConfidence: '75'
+    }
+
+  rekognition = new AWS.Rekognition()
+
+  rekognition.detectModerationLabels(params, function(e, data) {
+    if (e) {
+      res.status(STATUS_BAD_REQUEST);
+      res.json({ error: e });
+    } else { // successful response
+      res.status(STATUS_OK);
+      res.json({ data });
+      }               
+  });
+
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+
+};
+
+artController.detectTags = async (req, res) => {
+  try {
+    const {
+      bucket,
+      name
+    } = req.body;
+
+    params = {
+      "Image": {
+          "S3Object": {
+              "Bucket": bucket,
+              "Name": name
+          }
+      },
+      MinConfidence: '75'
+    }
+
+  rekognition = new AWS.Rekognition()
+
+  rekognition.detectLabels(params, function(e, data) {
+    if (e) {
+      res.status(STATUS_BAD_REQUEST);
+      res.json({ error: e });
+    } else { // successful response
+      res.status(STATUS_OK);
+      res.json({ data });
+      }               
+  });
+  
+  } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+
+};
+
+
 artController.getItemReviewUpdate = async (req, res) => {
   try {
     const { itemId, isValid } = req.body;

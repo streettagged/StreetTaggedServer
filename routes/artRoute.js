@@ -12,10 +12,14 @@ module.exports = (app) => {
 
   app.get('/items/:itemId', artController.getItemByID);
 
+  app.post('/tags', artController.detectTags);
+
+  app.post('/tags/moderation', artController.detectModerationLabels);
+
   app.post('/items', artController.postItem);
 
   app.post('/items/search', artController.searchItem);
-
+  
   app.get('/images/review', artController.getItemForReview);
 
   app.put('/images/review', artController.getItemReviewUpdate);
