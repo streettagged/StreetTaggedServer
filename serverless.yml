@@ -131,11 +131,12 @@ functions:
       - http: 'GET /favorites'
         cors: true
 
-  newFeed:
+  newActivity:
     handler: index.handler
     events:
-      - http: 'POST /stream'
+      - http: 'POST /stream/activity/add'
         cors: true
+        
 resources:
   Resources:
     CognitoUserPool:

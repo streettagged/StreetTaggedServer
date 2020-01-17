@@ -1,24 +1,37 @@
 const uuidv4 = require('uuid/v4');
+const getStream = require('getstream')
 
 const STATUS_OK = 200;
 const STATUS_BAD_REQUEST = 400;
 
-const fs = require('fs');
-const AWS = require('aws-sdk');
-const mime = require('mime-types');
 
-const DEFAULT_PAGE_NUMBER = 1;
-const PAGINATION_PAGE_LIMIT = 5;
+const streamController = {};
 
-streamController.newUser = async (req, res) => {
+streamController.newActivity = async (req, res) => {
   try {
-    console.log(req)
-    // Instantiate a feed object server side
-user1 = client.feed('user', '1');
-    // Create a new activity
-activity = { actor: 1, verb: 'tweet', object: 1, foreign_id: 'tweet:1' };
-user1.addActivity(activity);
+    console.log("Calling New Activity endpoint")
+    const {
+      actor,
+      tweet,
+      verb
+    } = req.body;
 
+    params = {
+      "actor": actor, 
+       "tweet": tweet, 
+      "verb": verb, 
+        object: 1
+    }
+    console.log(params)
+    console.log(streamClient)
+    var userFeed = streamClient.feed('user', 'dave', 'KOfHck9zlrO37ggufXkQLb1QC2g');
+  // Add the activity to the feed
+    userFeed.addActivity({
+    actor: 'Dave', 
+    tweet: 'Hello world', 
+    verb: 'tweet', 
+    object: 1
+    });
     res.status(STATUS_OK);
     res.json({ items });
   } catch (e) {
@@ -26,6 +39,5 @@ user1.addActivity(activity);
     res.json({ error: e });
   }
 };
-
 
 module.exports = streamController;
