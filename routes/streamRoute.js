@@ -2,7 +2,6 @@ const { streamController } = require('./../controllers');
 
 module.exports = (app) => {
 
-  app.post('/stream/activity/add', streamController.newActivity);
-
+  app.post('/stream/token', streamController.getToken);
 
 };

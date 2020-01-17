@@ -37,8 +37,9 @@ provider:
     MONGO_DB: ${ssm:MONGO_DB_${opt:stage}}
     REGION: us-east-1
     USER_GROUP: ${ssm:Cognito_${opt:stage}}
-    STREAM_KEY: ${ssm:STREAM_KEY}
-    STREAM_SECRET: ${ssm:STREAM_SECRET}
+    STREAM_KEY: ${ssm:STREAM_KEY_${opt:stage}}
+    STREAM_SECRET: ${ssm:STREAM_SECRET_${opt:stage}}
+    STREAM_APP_ID: ${ssm:STREAM_APP_ID_${opt:stage}}
 
 functions:
   app:
@@ -131,10 +132,10 @@ functions:
       - http: 'GET /favorites'
         cors: true
 
-  newActivity:
+  getStreamToken:
     handler: index.handler
     events:
-      - http: 'POST /stream/activity/add'
+      - http: 'POST /stream/token'
         cors: true
         
 resources:
