@@ -7,10 +7,12 @@ const cors = require('cors');
 const {
   mainRoute,
   artRoute,
-  favoriteRoute
+  favoriteRoute,
+  streamRoute
 } = require('./routes');
 
 const { mongoDB } = require('./database');
+const { getStream } = require('./database');
 const { auth } = require('./middleware');
 
 const app = express();
@@ -34,5 +36,7 @@ mainRoute(app);
 artRoute(app);
 
 favoriteRoute(app);
+
+streamRoute(app);
 
 module.exports.handler = serverless(app);
