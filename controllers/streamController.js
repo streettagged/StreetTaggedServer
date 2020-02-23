@@ -1,14 +1,19 @@
 const uuidv4 = require('uuid/v4');
+const stream = require('getstream');
 
 const streamController = {};
 const STATUS_OK = 200;
 const STATUS_BAD_REQUEST = 400;
 
+const streamClient = stream.connect(
+  process.env.STREAM_KEY,
+  process.env.STREAM_SECRET,
+);
+
 streamController.getToken = async (req, res) => {
   try {
     const {
       userId,
-     
     } = req.body;
     let userToken = streamClient.createUserSessionToken(userId);
     res.status(STATUS_OK);

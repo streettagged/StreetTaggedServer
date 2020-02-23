@@ -1,4 +1,5 @@
 const uuidv4 = require('uuid/v4');
+const stream = require('getstream');
 
 const { ArtWork } = require('./../models');
 
@@ -13,6 +14,25 @@ const mime = require('mime-types');
 
 const DEFAULT_PAGE_NUMBER = 1;
 const PAGINATION_PAGE_LIMIT = 5;
+
+const POST_ACTION = 'post';
+const TAG_SLUG_NAME = 'tag';
+
+const streamClient = stream.connect(
+  process.env.STREAM_KEY,
+  process.env.STREAM_SECRET,
+);
+
+const getTagLinks = (text) => {
+  let tags = [];
+  var regexp = /#(\w+)/g;
+  var match = regexp.exec(text);
+  while (match != null){
+    tags.push(TAG_SLUG_NAME + ':' + match[1]);
+    match = regexp.exec(text)
+  }
+  return tags;
+}
 
 artController.searchItem = async (req, res) => {
   try {
@@ -193,7 +213,7 @@ artController.detectModerationLabels = async (req, res) => {
       res.status(STATUS_OK);
       data = data["ModerationLabels"];
       res.json({ data });
-      }               
+      }
   });
 
   } catch (e) {
@@ -229,9 +249,9 @@ artController.detectTags = async (req, res) => {
     } else { // successful response
       res.status(STATUS_OK);
       res.json({ data });
-      }               
+      }
   });
-  
+
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
@@ -307,6 +327,20 @@ artController.postItem = async (req, res) => {
       isReviewing: false,
       isBlocked: false,
     });
+
+    let timeline = streamClient.feed('timeline', username);
+
+    const gsresult = await timeline.addActivity({
+      'actor': streamClient.user(username).ref(),
+      'time': Date.now(),
+      'verb': POST_ACTION,
+      'object': {
+        'text': about,
+        'image': picture
+      },
+      'to': getTagLinks(about),
+    });
+
     res.status(STATUS_OK);
     res.json({ item });
   } catch (e) {
