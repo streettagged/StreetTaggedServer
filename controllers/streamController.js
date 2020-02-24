@@ -1,6 +1,8 @@
 const uuidv4 = require('uuid/v4');
 const stream = require('getstream');
 
+const { ArtWork } = require('./../models');
+
 const streamController = {};
 const STATUS_OK = 200;
 const STATUS_BAD_REQUEST = 400;
@@ -19,6 +21,18 @@ streamController.getToken = async (req, res) => {
     res.status(STATUS_OK);
     res.json({ userToken });
   } catch (e) {
+    res.status(STATUS_BAD_REQUEST);
+    res.json({ error: e });
+  }
+};
+
+streamController.getTags = async (req, res) => {
+  try {
+    const tags = await ArtWork.find({ isActive: true }).distinct('tags');
+    res.status(STATUS_OK);
+    res.json({ tags  });
+  } catch (e) {
+    console.log(e);
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
   }

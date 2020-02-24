@@ -143,6 +143,12 @@ functions:
         authorizerId:
             Ref: ApiGatewayAuthorizer
 
+  getStreamTags:
+    handler: index.handler
+    events:
+      - http: 'GET /stream/tags'
+        cors: true
+
 resources:
   Resources:
     CognitoUserPool:
