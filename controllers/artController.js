@@ -341,6 +341,18 @@ artController.postItem = async (req, res) => {
       'to': getTagLinks(about),
     });
 
+    const gsresult = await timeline.addActivity({
+      'actor': streamClient.user("global").ref(),
+      'time': Date.now(),
+      'verb': POST_ACTION,
+      'object': {
+        'text': about,
+        'image': picture
+      },
+      'to': getTagLinks(about),
+    });
+
+
     res.status(STATUS_OK);
     res.json({ item });
   } catch (e) {
