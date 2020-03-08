@@ -18,6 +18,8 @@ const PAGINATION_PAGE_LIMIT = 5;
 const POST_ACTION = 'post';
 const TAG_SLUG_NAME = 'tag';
 
+const GET_STREAM_GLOBAL_FEED_NAME = 'global_user';
+
 const streamClient = stream.connect(
   process.env.STREAM_KEY,
   process.env.STREAM_SECRET,
@@ -340,6 +342,20 @@ artController.postItem = async (req, res) => {
       },
       'to': getTagLinks(about),
     });
+
+    try {
+      let global_user_timeline = streamClient.feed('timeline', GET_STREAM_GLOBAL_FEED_NAME);
+
+      const gsresult = await global_user_timeline.addActivity({
+        'actor': streamClient.user(username).ref(),
+        'time': Date.now(),
+        'verb': POST_ACTION,
+        'object': {
+          'text': about,
+          'image': picture
+        }
+      });
+    } catch (e) { }
 
     res.status(STATUS_OK);
     res.json({ item });

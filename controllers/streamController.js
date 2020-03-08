@@ -12,12 +12,16 @@ const streamClient = stream.connect(
   process.env.STREAM_SECRET,
 );
 
+const GET_STREAM_GLOBAL_FEED_NAME = 'global_user';
+
 streamController.getToken = async (req, res) => {
   try {
-    const {
-      userId,
-    } = req.body;
-    let userToken = streamClient.createUserSessionToken(userId);
+    let userToken = '';
+    if (req.body.userId) {
+      userToken = streamClient.createUserSessionToken(req.body.userId);
+    } else {
+      userToken = streamClient.createUserSessionToken(GET_STREAM_GLOBAL_FEED_NAME);
+    }
     res.status(STATUS_OK);
     res.json({ userToken });
   } catch (e) {
