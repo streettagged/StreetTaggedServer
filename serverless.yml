@@ -13,6 +13,7 @@ plugins:
   - serverless-domain-manager
   - serverless-apigw-binary
   - serverless-apigwy-binary
+  - serverless-offline-dotenv
 
 custom:
   domain:
@@ -25,7 +26,7 @@ custom:
     createRoute53Record: true
     certificateName: "*.streettagged.com"
   apigwBinary:
-    types:     
+    types:
       - 'multipart/form-data'
 
 provider:
@@ -59,7 +60,7 @@ functions:
     events:
       - http: 'GET /images/review'
         cors: true
-      
+
   getArtReviewUpdate:
     handler: index.handler
     events:
@@ -137,7 +138,17 @@ functions:
     events:
       - http: 'POST /stream/token'
         cors: true
-        
+    authorizer:
+        type: COGNITO_USER_POOLS
+        authorizerId:
+            Ref: ApiGatewayAuthorizer
+
+  getStreamTags:
+    handler: index.handler
+    events:
+      - http: 'GET /stream/tags'
+        cors: true
+
 resources:
   Resources:
     CognitoUserPool:

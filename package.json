@@ -33,6 +33,7 @@
     "serverless-apigwy-binary": "^1.0.0",
     "serverless-domain-manager": "^3.2.6",
     "serverless-dynamodb-local": "^0.2.38",
-    "serverless-offline": "^5.7.2"
+    "serverless-offline": "^5.7.2",
+    "serverless-offline-dotenv": "0.0.16"
   }
 }
