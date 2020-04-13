@@ -41,15 +41,17 @@ const backfilling = async () => {
       'to': getTagLinks(item.about),
     }
 
-    try {
-      let timeline = streamClient.feed('timeline', item.username);
-      const gsresult = await timeline.addActivity(payload);
-    } catch (e) { }
+    if (item.isActive) {
+      try {
+        let timeline = streamClient.feed('timeline', item.username);
+        const gsresult = await timeline.addActivity(payload);
+      } catch (e) { }
 
-    try {
-      let global_user_timeline = streamClient.feed('timeline', GET_STREAM_GLOBAL_FEED_NAME);
-      const gsresult = await global_user_timeline.addActivity(payload);
-    } catch (e) { }
+      try {
+        let global_user_timeline = streamClient.feed('timeline', GET_STREAM_GLOBAL_FEED_NAME);
+        const gsresult = await global_user_timeline.addActivity(payload);
+      } catch (e) { }
+    }
 
   }
 
