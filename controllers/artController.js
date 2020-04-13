@@ -338,7 +338,8 @@ artController.postItem = async (req, res) => {
       'verb': POST_ACTION,
       'object': {
         'text': about,
-        'image': picture
+        'image': picture,
+        'coordinates': [coordinates.longitude, coordinates.latitude],
       },
       'to': getTagLinks(about),
     });
@@ -352,7 +353,8 @@ artController.postItem = async (req, res) => {
         'verb': POST_ACTION,
         'object': {
           'text': about,
-          'image': picture
+          'image': picture,
+          'coordinates': [coordinates.longitude, coordinates.latitude],
         }
       });
     } catch (e) { }
