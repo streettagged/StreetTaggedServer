@@ -28,25 +28,27 @@ const getTagLinks = (text) => {
 const backfilling = async () => {
   const items = await ArtWork.find({ });
 
-  //const item = items[0];
-  for (item of items) {
+  const item = items[3];
+  //for (item of items) {
 
     if (item.isActive) {
       try {
         let timeline = streamClient.feed('timeline', item.username);
 
         //streamClient.user(item.username).ref()
-
+/*
+{
+  "created_at": item.createdAt,
+  "updated_at": item.createdAt,
+  "id": item.username,
+  "data": {
+    "name": item.username,
+    "profileImage": null
+  }
+}
+*/
         const payload = {
-          'actor': {
-            "created_at": item.createdAt,
-            "updated_at": item.createdAt,
-            "id": item.username,
-            "data": {
-              "name": item.username,
-              "profileImage": null
-            }
-          },
+          'actor': streamClient.user(item.username).ref(),
           'time': item.createdAt,
           'verb': POST_ACTION,
           'object': {
@@ -63,12 +65,12 @@ const backfilling = async () => {
         console.log(e);
       }
 
-      try {
+      /*try {
         let global_user_timeline = streamClient.feed('timeline', GET_STREAM_GLOBAL_FEED_NAME);
         const gsresult = await global_user_timeline.addActivity(payload);
         console.log(gsresult);
-      } catch (e) { }
-    }
+      } catch (e) { }*/
+    //}
 
   }
 
