@@ -28,28 +28,45 @@ const getTagLinks = (text) => {
 const backfilling = async () => {
   const items = await ArtWork.find({ });
 
+  //const item = items[0];
   for (item of items) {
-    const payload = {
-      'actor': streamClient.user(item.username).ref(),
-      'time': item.createdAt,
-      'verb': POST_ACTION,
-      'object': {
-        'text': item.about,
-        'image': item.picture,
-        'coordinates': item.location.coordinates,
-      },
-      'to': getTagLinks(item.about),
-    }
 
     if (item.isActive) {
       try {
         let timeline = streamClient.feed('timeline', item.username);
+
+        //streamClient.user(item.username).ref()
+
+        const payload = {
+          'actor': {
+            "created_at": item.createdAt,
+            "updated_at": item.createdAt,
+            "id": item.username,
+            "data": {
+              "name": item.username,
+              "profileImage": null
+            }
+          },
+          'time': item.createdAt,
+          'verb': POST_ACTION,
+          'object': {
+            'text': item.about,
+            'image': item.picture,
+            'coordinates': item.location.coordinates,
+          },
+          'to': getTagLinks(item.about),
+        }
+
         const gsresult = await timeline.addActivity(payload);
-      } catch (e) { }
+        console.log(gsresult);
+      } catch (e) {
+        console.log(e);
+      }
 
       try {
         let global_user_timeline = streamClient.feed('timeline', GET_STREAM_GLOBAL_FEED_NAME);
         const gsresult = await global_user_timeline.addActivity(payload);
+        console.log(gsresult);
       } catch (e) { }
     }
 
