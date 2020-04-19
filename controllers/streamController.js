@@ -23,7 +23,7 @@ streamController.getToken = async (req, res) => {
       userToken = streamClient.createUserSessionToken(GET_STREAM_GLOBAL_FEED_NAME);
     }
     res.status(STATUS_OK);
-    res.json({ userToken });
+    res.json({ userToken, userId: req.body.userId, key: process.env.STREAM_KEY });
   } catch (e) {
     res.status(STATUS_BAD_REQUEST);
     res.json({ error: e });
