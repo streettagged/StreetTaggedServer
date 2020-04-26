@@ -25,53 +25,52 @@ const getTagLinks = (text) => {
   return tags;
 }
 
+const authUserSessionToken = (username) => {
+  return streamClient.createUserSessionToken(username)
+};
+
 const backfilling = async () => {
   const items = await ArtWork.find({ });
 
-  const item = items[3];
-  //for (item of items) {
+  /*
+  const usernames = items.map(item => item.username);
+  const uniqueUsernames = new Set(usernames);
 
-    if (item.isActive) {
-      try {
-        let timeline = streamClient.feed('timeline', item.username);
+  const authData = {};
 
-        //streamClient.user(item.username).ref()
-/*
-{
-  "created_at": item.createdAt,
-  "updated_at": item.createdAt,
-  "id": item.username,
-  "data": {
-    "name": item.username,
-    "profileImage": null
+  for (u of uniqueUsernames) {
+    authData[u] = authUserSessionToken(u);
   }
-}
-*/
-        const payload = {
-          'actor': streamClient.user(item.username).ref(),
-          'time': item.createdAt,
-          'verb': POST_ACTION,
-          'object': {
-            'text': item.about,
-            'image': item.picture,
-            'coordinates': item.location.coordinates,
-          },
-          'to': getTagLinks(item.about),
-        }
 
-        const gsresult = await timeline.addActivity(payload);
-        console.log(gsresult);
-      } catch (e) {
-        console.log(e);
+  console.log(authData);
+  */
+
+  for (item of items) {
+    if (item.isActive) {
+      const payload = {
+        'actor': streamClient.user(item.username).ref(),
+        'time': item.createdAt,
+        'verb': POST_ACTION,
+        'object': {
+          'text': item.about,
+          'image': item.picture,
+          'coordinates': item.location.coordinates,
+        },
+        'to': getTagLinks(item.about),
       }
 
-      /*try {
+      try {
+        let timeline = streamClient.feed('timeline', item.username);
+        const gsresult = await timeline.addActivity(payload);
+        console.log(gsresult);
+      } catch (e) { }
+
+      try {
         let global_user_timeline = streamClient.feed('timeline', GET_STREAM_GLOBAL_FEED_NAME);
         const gsresult = await global_user_timeline.addActivity(payload);
         console.log(gsresult);
-      } catch (e) { }*/
-    //}
-
+      } catch (e) { }
+    }
   }
 
   console.log("Completed!");
